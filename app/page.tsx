@@ -18,9 +18,11 @@ export default function Home() {
           className="absolute inset-0"
           style={{ background: 'radial-gradient(ellipse 58% 52% at 50% 48%, rgba(13,18,32,0.82) 0%, rgba(13,18,32,0.55) 55%, rgba(13,18,32,0.10) 100%)' }}
         />
-        <div className="relative max-w-4xl mx-auto px-6 text-center py-24">
+        {/* Asymmetric padding lifts the copy cluster ~24px above true centre, so the
+            network visualisation has room to breathe beneath it. */}
+        <div className="relative max-w-4xl mx-auto px-6 text-center pt-20 pb-32">
           <p className="text-[11px] sm:text-xs font-semibold tracking-[0.28em] uppercase text-[var(--color-primary)] mb-7">
-            Enterprise Cloud Communications
+            Global Communications Infrastructure
           </p>
 
           <h1 className="text-4xl sm:text-5xl lg:text-[3.4rem] font-semibold tracking-[-0.02em] leading-[1.12]">
@@ -29,8 +31,8 @@ export default function Home() {
           </h1>
 
           <p className="text-lg sm:text-xl text-white/75 max-w-xl mx-auto mt-7 leading-relaxed">
-            Enterprise voice, SIP, messaging, numbers and custom communications, powered by
-            IPfinity&rsquo;s carrier-operated network across the globe.
+            Voice, messaging, SIP, global numbers and custom communications on
+            IPfinity&rsquo;s carrier-operated network.
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center mt-10">
@@ -48,12 +50,12 @@ export default function Home() {
             </a>
           </div>
 
-          <p className="mt-12 text-[13px] sm:text-sm text-white/55 tracking-wide">
-            Carrier since 2002
-            <span className="mx-2.5 text-white/25" aria-hidden="true">&middot;</span>
-            Numbers in 100+ countries
-            <span className="mx-2.5 text-white/25" aria-hidden="true">&middot;</span>
-            Call delivery to 150+ countries
+          <p className="mt-11 text-sm sm:text-[15px] text-white/80 tracking-wide">
+            Carrier since <span className="font-semibold text-white">2002</span>
+            <span className="mx-3 text-white/30" aria-hidden="true">&middot;</span>
+            Numbers in <span className="font-semibold text-white">100+</span> countries
+            <span className="mx-3 text-white/30" aria-hidden="true">&middot;</span>
+            Call delivery to <span className="font-semibold text-white">150+</span> countries
           </p>
         </div>
       </section>
