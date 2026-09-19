@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Call Queuing in the Cloud: Designing Better Caller Experiences | ipfinity',
-  description: 'Discover how cloud-based call queuing systems transform patient communication, reduce wait frustration, and create seamless healthcare experiences through intelligent design and modern technology.',
-  keywords: 'call queuing, cloud phone systems, patient experience, healthcare communication, caller experience, phone system design, medical office technology',
+  description: 'How cloud-based call queuing changes the way businesses handle inbound calls, reduces the frustration of waiting, and turns the phone into a competitive advantage.',
+  keywords: 'call queuing, cloud phone systems, caller experience, business communication, contact centre, phone system design, cloud IVR',
 }
 
 export default function BlogPost() {
@@ -23,7 +23,7 @@ export default function BlogPost() {
 
           {/* Category */}
           <div className="text-xs uppercase tracking-widest text-white/70 mb-4 text-center">
-            Healthcare Technology
+            Cloud Communications
           </div>
 
           {/* Title */}
@@ -37,7 +37,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>ipfinity Team</span>
           </div>
         </div>
       </section>
@@ -47,28 +47,28 @@ export default function BlogPost() {
         <div className="max-w-3xl mx-auto px-6">
           {/* Opening Hook */}
           <p className="text-[var(--color-ink)] leading-loose text-lg mb-6">
-            We've all been there: calling a healthcare provider, only to be greeted by hold music and an automated voice promising that "your call is important to us." Minutes stretch into what feels like hours. Frustration builds. You wonder if you should hang up and try again, risk losing your place in line, or simply give up altogether. For healthcare practices, these moments represent more than minor inconveniences—they're missed opportunities to provide care, build trust, and demonstrate the patient-centered values at the heart of quality medicine.
+            We&apos;ve all been there: calling a company, only to be met by hold music and an automated voice promising that &quot;your call is important to us.&quot; Minutes stretch into what feels like much longer. Frustration builds. You wonder whether to hang up and try again, risk losing your place in the queue, or simply give up and call a competitor. For a business, these moments are not minor inconveniences. They are lost orders, unresolved support issues, and a first impression that is difficult to undo.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            The evolution of cloud-based communication technology has fundamentally transformed how healthcare practices can manage incoming calls. No longer constrained by the limitations of traditional phone systems, modern call queuing solutions offer intelligent, flexible approaches that prioritize caller experience while optimizing staff efficiency. Understanding how to design and implement these systems effectively can dramatically improve patient satisfaction and operational flow.
+            Cloud-based communication has changed what is possible here. No longer constrained by the limits of on-site hardware, modern call queuing can be intelligent, flexible and built around the caller rather than around the equipment. Understanding how to design and implement these systems well can make a measurable difference to both customer satisfaction and how efficiently your team works.
           </p>
 
           {/* Section 1 */}
           <h2 className="text-3xl text-[var(--color-ink)] mt-12 mb-4 font-light" style={{ fontFamily: 'var(--font-cormorant)' }}>
-            Understanding Call Queuing in Modern Healthcare
+            Understanding Call Queuing in a Modern Business
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Call queuing is the systematic management of incoming phone calls when all available staff members are busy. Rather than receiving busy signals or being dropped from the system, callers are placed in an organized sequence and connected to the next available representative. In cloud-based systems, this process happens through sophisticated software that runs on remote servers, accessible from anywhere with an internet connection.
+            Call queuing is the systematic management of inbound calls when everyone who could take them is busy. Rather than hearing a busy signal or being dropped, callers are held in an ordered sequence and connected to the next available person. In a cloud-based system this happens in software running in the carrier&apos;s network, reachable from anywhere with an internet connection.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Traditional phone systems relied on physical hardware installed at a single location, limiting flexibility and requiring significant upfront investment. Cloud solutions, by contrast, operate through web-based platforms that can scale instantly, integrate with other healthcare software, and provide detailed analytics about call patterns and wait times. For medical practices, this represents not just a technological upgrade but a fundamental shift in how patient communication can be managed and optimized.
+            Traditional phone systems relied on physical hardware in one building, which limited flexibility and required significant upfront investment. Cloud platforms scale on demand, integrate with other business software, and produce detailed statistics on call patterns and wait times. For most organisations this is not just a hardware upgrade but a change in what can be measured and therefore what can be improved.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            The distinction matters because healthcare communication carries unique requirements. HIPAA compliance, emergency call handling, prescription refill requests, appointment scheduling, and clinical triage all demand different approaches. Cloud-based queuing systems can be configured to recognize call types, route appropriately, and ensure that urgent matters receive priority—all while maintaining the security and privacy standards essential to medical practice.
+            Where the queuing runs matters more than it first appears. When the carrier owns the lines, the numbers, the features and the cloud queuing itself, the call detail records and queue statistics come from one source, and a problem with a call can be traced from arrival to hang-up without handing the question to another supplier. Where queuing is bolted on top of somebody else&apos;s network, that trace tends to stop at the boundary.
           </p>
 
           {/* Section 2 */}
@@ -77,21 +77,21 @@ export default function BlogPost() {
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Research in behavioral psychology has consistently demonstrated that the experience of waiting is subjective and heavily influenced by context, information, and perceived fairness. A three-minute wait with no information feels longer than a five-minute wait with clear updates and estimated times. Uncertainty amplifies frustration, while transparency builds patience and trust.
+            Research into queuing has consistently found that the experience of waiting is subjective and heavily shaped by context, information and perceived fairness. A three-minute wait with no information feels longer than a five-minute wait with clear updates. Uncertainty amplifies frustration, while transparency buys patience.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Well-designed call queuing systems leverage these psychological principles. Position announcements ("You are number three in the queue") provide concrete information that helps callers make informed decisions. Estimated wait times set realistic expectations. Callback options respect callers' time by allowing them to maintain their place in line without staying on hold. These features transform the waiting experience from passive frustration to active engagement.
+            Well-designed queues use these principles. Position announcements give callers concrete information they can act on. Estimated wait times set expectations that can be met. Callback options respect the caller&apos;s time by holding their place without holding their phone. Together these turn waiting from passive frustration into something the caller feels in control of.
           </p>
 
           <div className="bg-[var(--color-light)] border-l-4 border-[var(--color-primary)] p-6 my-8">
             <p className="text-[var(--color-ink)] italic text-xl font-light" style={{ fontFamily: 'var(--font-cormorant)' }}>
-              "The quality of the waiting experience often shapes patient perception more powerfully than the actual wait time. A well-designed queue can make five minutes feel efficient; a poorly designed one can make two minutes feel eternal."
+              &quot;The quality of the waiting experience shapes a caller&apos;s perception more powerfully than the actual wait. A well-designed queue can make five minutes feel efficient; a poorly designed one can make two minutes feel eternal.&quot;
             </p>
           </div>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            For healthcare practices, this understanding should inform every aspect of queue design. The hold music or messaging content, the frequency of position updates, the tone and clarity of automated messages—each element contributes to the overall caller experience. Practices that invest thoughtful attention in these details communicate respect for patients' time and demonstrate organizational competence before the conversation even begins.
+            This should inform every part of queue design. The hold music, the content of the messages, how often position is announced, the tone and clarity of the automated prompts, each contributes to the overall impression. A business that puts thought into these details signals respect for the caller&apos;s time and competence in its own operations, before the conversation has even started.
           </p>
 
           {/* Section 3 */}
@@ -100,7 +100,7 @@ export default function BlogPost() {
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Not all cloud-based call queuing systems are created equal. The most effective solutions for healthcare practices incorporate several key features that address both operational needs and patient experience priorities:
+            Not all cloud queuing systems are equal. The most effective share a set of features that address both operational need and caller experience:
           </p>
 
           <div className="my-8 space-y-4">
@@ -112,7 +112,7 @@ export default function BlogPost() {
               </div>
               <div>
                 <strong className="text-[var(--color-ink)]">Intelligent call routing</strong>
-                <p className="text-[var(--color-ink)] leading-loose">Direct callers to appropriate departments or staff based on menu selections, caller ID, or AI-powered intent recognition, reducing transfers and repeat explanations.</p>
+                <p className="text-[var(--color-ink)] leading-loose">Direct callers to the right department or individual based on menu selection, caller ID, the number dialled, or time of day, reducing transfers and the need to explain the same thing twice.</p>
               </div>
             </div>
 
@@ -124,7 +124,7 @@ export default function BlogPost() {
               </div>
               <div>
                 <strong className="text-[var(--color-ink)]">Priority queuing</strong>
-                <p className="text-[var(--color-ink)] leading-loose">Allow urgent calls to move ahead in the sequence while maintaining fairness for routine inquiries, ensuring that clinical needs receive appropriate attention.</p>
+                <p className="text-[var(--color-ink)] leading-loose">Let genuinely urgent calls move ahead in the sequence while keeping the queue fair for routine enquiries, so an outage report is not sitting behind a general question about opening hours.</p>
               </div>
             </div>
 
@@ -136,7 +136,7 @@ export default function BlogPost() {
               </div>
               <div>
                 <strong className="text-[var(--color-ink)]">Callback functionality</strong>
-                <p className="text-[var(--color-ink)] leading-loose">Offer callers the option to receive a return call when their position is reached, respecting their time and reducing abandonment rates.</p>
+                <p className="text-[var(--color-ink)] leading-loose">Offer callers a return call when their position comes up, which respects their time and reduces the number who abandon the queue entirely.</p>
               </div>
             </div>
 
@@ -148,7 +148,7 @@ export default function BlogPost() {
               </div>
               <div>
                 <strong className="text-[var(--color-ink)]">Real-time analytics</strong>
-                <p className="text-[var(--color-ink)] leading-loose">Track call volumes, average wait times, abandonment rates, and peak calling periods to inform staffing decisions and continuous improvement.</p>
+                <p className="text-[var(--color-ink)] leading-loose">Track call volumes, average wait, abandonment and peak periods so staffing decisions are based on what the queue is actually doing rather than on impressions.</p>
               </div>
             </div>
 
@@ -159,8 +159,8 @@ export default function BlogPost() {
                 </svg>
               </div>
               <div>
-                <strong className="text-[var(--color-ink)]">Customizable messaging</strong>
-                <p className="text-[var(--color-ink)] leading-loose">Tailor hold messages with practice-specific information, health tips, or service announcements rather than generic music loops.</p>
+                <strong className="text-[var(--color-ink)]">Customisable messaging</strong>
+                <p className="text-[var(--color-ink)] leading-loose">Use hold time to convey something useful, such as current lead times, self-service options or a service notice, rather than a generic music loop.</p>
               </div>
             </div>
 
@@ -172,38 +172,38 @@ export default function BlogPost() {
               </div>
               <div>
                 <strong className="text-[var(--color-ink)]">Integration capabilities</strong>
-                <p className="text-[var(--color-ink)] leading-loose">Connect with electronic health records, appointment scheduling systems, and patient portals to provide seamless service and reduce duplicate data entry.</p>
+                <p className="text-[var(--color-ink)] leading-loose">Connect to the CRM, ticketing or order system the team already works in, so the person answering has context on screen and nobody is re-keying details that already exist.</p>
               </div>
             </div>
           </div>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            These features work together to create a system that serves both callers and staff effectively. Patients experience reduced frustration and greater convenience. Front-office teams benefit from organized workflow, reduced stress, and the tools needed to provide excellent service even during high-volume periods.
+            These features work together to serve callers and staff at the same time. Customers experience less frustration and more convenience. The people answering benefit from an organised workflow, less stress, and the tools to give good service even when volume spikes.
           </p>
 
           {/* Section 4 */}
           <h2 className="text-3xl text-[var(--color-ink)] mt-12 mb-4 font-light" style={{ fontFamily: 'var(--font-cormorant)' }}>
-            Implementation Strategies for Healthcare Practices
+            Implementation Strategies for Businesses
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Successfully implementing a cloud-based call queuing system requires more than selecting the right technology. Practices must consider workflow integration, staff training, and ongoing optimization to realize the full benefits of modern communication tools.
+            Implementing cloud queuing successfully takes more than choosing the right platform. Workflow, training and ongoing tuning determine whether the investment actually delivers.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Begin by analyzing current call patterns. What times of day see the highest volumes? What types of calls are most common? How long do patients typically wait? This baseline data helps identify pain points and measure improvement after implementation. Many cloud phone providers offer trial periods or analytics tools that can facilitate this assessment.
+            Begin by analysing your current call patterns. Which hours carry the highest volume? Which call types are most common? How long are callers actually waiting, and how many hang up before anyone answers? This baseline identifies the pain points and makes it possible to measure improvement afterwards rather than asserting it.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Next, involve front-office staff in system design decisions. The people who answer phones daily possess invaluable insights about caller needs, common questions, and workflow challenges. Their input ensures that the system configuration supports rather than complicates their work. Staff buy-in during the planning phase translates to smoother adoption and more effective use of advanced features.
+            Next, involve the people who answer the phones in the design decisions. They know what callers ask for, which menu options confuse people, and where the current process wastes time. Their input keeps the configuration aligned with how the work is really done, and their involvement during planning makes adoption considerably smoother.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Craft hold messaging carefully. Avoid overly long menu options that frustrate callers before they reach the queue. Consider including genuinely useful information during wait times: office hours, patient portal instructions, preparation tips for common procedures. Keep the tone warm and professional, avoiding overly clinical language or corporate jargon that creates emotional distance.
+            Craft the messaging carefully. Avoid long menu trees that exhaust callers before they even reach the queue. Consider including genuinely useful information during the wait: current hours, how to reach self-service, or an update on a known issue. Keep the tone warm and plain, and avoid corporate jargon, which reads as distance rather than professionalism.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Test the system from the caller's perspective. Call your own practice during different times of day. Experience the menu options, the hold process, and the transition to speaking with staff. This firsthand testing often reveals friction points that aren't apparent from the administrative interface. Make adjustments based on real-world experience.
+            Then test the system as a caller. Ring your own main number at different times of day. Sit through the menu, the hold, and the handover to a person. This reveals friction that is invisible from the administrative interface, and it is the single cheapest quality check available. Adjust based on what you actually experienced.
           </p>
 
           {/* Section 5 */}
@@ -212,57 +212,57 @@ export default function BlogPost() {
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            The advantage of cloud-based systems extends beyond their functional features to include robust data collection and reporting capabilities. Practices can track metrics that directly correlate with patient satisfaction and operational efficiency, enabling evidence-based refinement over time.
+            The advantage of cloud systems extends beyond their features to the data they produce. Businesses can track measures that correlate directly with customer satisfaction and operating efficiency, which makes refinement a matter of evidence rather than opinion.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Key performance indicators for call queuing include average wait time, abandonment rate (callers who hang up before reaching staff), first-call resolution rate, and callback utilization. Trends in these metrics reveal whether the system is meeting its goals and where adjustments might yield improvement. For instance, high abandonment rates during specific hours might indicate a need for adjusted staffing rather than system reconfiguration.
+            Key indicators for call queuing include average wait time, abandonment rate, first-call resolution and callback take-up. Trends in these figures show whether the system is meeting its goals and where change would help. High abandonment concentrated in particular hours, for example, usually points at staffing rather than at the queue configuration, and reconfiguring the queue would not fix it.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Patient feedback provides equally important qualitative data. Simple post-call surveys, comment cards, or questions during check-in can capture patient perceptions about phone accessibility and service quality. This subjective information often identifies issues that numbers alone might miss—a confusing menu option, an off-putting hold message, or a specific type of inquiry that consistently requires multiple transfers.
+            Customer feedback supplies the qualitative half. A short post-call survey, a question at the end of a support ticket, or simply asking a few regular customers can capture perceptions the numbers miss: a menu option that is worded confusingly, a hold message that grates, or a category of enquiry that reliably needs two transfers before it reaches the right desk.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Regular review sessions with front-office staff create opportunities to discuss what's working and what isn't. These team members interact with the system constantly and often develop informal workarounds or identify inefficiencies that management might not observe. Creating a culture of continuous improvement ensures that the call queuing system evolves with the practice's needs rather than remaining static after initial implementation.
+            Regular review sessions with the front-line team create the space to discuss what is working and what is not. These are the people using the system constantly, and they often develop informal workarounds that quietly reveal a design flaw. A habit of continuous improvement is what keeps the queue matched to the business rather than frozen in the shape it had on day one.
           </p>
 
           {/* Section 6 */}
           <h2 className="text-3xl text-[var(--color-ink)] mt-12 mb-4 font-light" style={{ fontFamily: 'var(--font-cormorant)' }}>
-            The Broader Impact on Patient Experience
+            The Broader Impact on the Customer Experience
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            While call queuing might seem like a narrow operational concern, its impact ripples throughout the entire patient experience. The ease or difficulty of reaching your practice by phone often represents a patient's first substantive interaction with your organization. That initial impression shapes expectations, influences trust, and can determine whether someone continues pursuing care or seeks alternatives.
+            Call queuing can look like a narrow operational concern, but its effect runs through the whole customer relationship. How easily someone can reach you by phone is often their first substantive interaction with your organisation. That impression sets expectations, shapes trust, and can decide whether they continue with you or go elsewhere.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Consider the patient calling with a pressing health concern. Anxiety is already elevated. A smooth, efficient phone experience reassures them that they've chosen a competent, well-organized practice. Conversely, a frustrating calling experience compounds their stress and undermines confidence before clinical care even begins. The emotional state in which patients enter appointments affects communication quality, treatment adherence, and overall satisfaction.
+            Consider the customer calling with an urgent problem: a failed delivery, a system down, a deadline at risk. Their stress level is already high. A smooth, efficient call reassures them that they chose a competent, well-organised supplier. A frustrating one compounds the problem and undermines confidence before anyone has even heard what went wrong.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            For patients managing chronic conditions, accessibility matters enormously. Regular communication with healthcare providers about medication adjustments, symptom changes, or care coordination becomes part of daily life. A phone system that respects their time and makes connection straightforward demonstrates that the practice values their ongoing relationship and recognizes the importance of continuity.
+            For customers with an ongoing service relationship, accessibility matters enormously. Regular contact about orders, changes, scheduling and support becomes part of how the relationship works. A phone system that respects their time and makes reaching the right person straightforward signals that the business values continuity, not just the initial sale.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Cloud-based call queuing also supports equitable access. Patients with limited mobility, transportation challenges, or work schedules that make in-person visits difficult rely heavily on phone communication. Callback options, extended hours made possible by virtual phone systems, and clear routing to appropriate resources ensure that these patients receive care coordination despite barriers that might otherwise interfere.
+            Cloud queuing also supports reach that would otherwise be impractical. Distributed teams, staff working from home, and offices in different regions can all sit behind one set of queues with consistent handling. Global direct dial numbers let a customer in another country ring a local number and land in the same queue as everyone else. For businesses trading across Canada, the US and further afield, that is the difference between being reachable and being technically contactable.
           </p>
 
           {/* Closing */}
           <h2 className="text-3xl text-[var(--color-ink)] mt-12 mb-4 font-light" style={{ fontFamily: 'var(--font-cormorant)' }}>
-            Moving Forward with Patient-Centered Communication
+            Moving Forward with Caller-Centred Communication
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            The transition to cloud-based call queuing represents more than a technology upgrade—it's an investment in patient relationships and operational excellence. By thoughtfully designing systems that prioritize caller experience, integrate seamlessly with existing workflows, and provide actionable data for continuous improvement, healthcare practices can transform one of the most common patient touchpoints into a demonstration of their commitment to quality care.
+            Moving to cloud-based call queuing is more than a technology upgrade. It is an investment in customer relationships and in how well the business runs. By designing queues that put the caller&apos;s needs at the centre, connecting them to the systems the team already uses, and reviewing the data they produce, a business can turn one of its most common customer touchpoints into a genuine strength.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            As communication technology continues evolving, the practices that succeed will be those that view phone systems not as necessary infrastructure but as opportunities to provide service that reflects their clinical values. Every call represents a person seeking help, information, or reassurance. The systems we build to manage those calls should honor that fundamental human need for connection and care.
+            As communication technology continues to develop, the organisations that do well will be the ones that treat the phone system as an opportunity rather than as plumbing. Every call is a person wanting help, information or reassurance. The systems we build to handle those calls should reflect that.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            If your practice is ready to reimagine how you connect with patients, evaluate your current phone system honestly and explore the possibilities that modern cloud technology offers. The investment in better communication infrastructure pays dividends in patient satisfaction, staff efficiency, and the quality of care you're able to provide.
+            If you are ready to rethink how your business handles inbound calls, start by honestly assessing the system you have and calling it yourself. The investment in better communication infrastructure pays back in customer satisfaction, staff efficiency, and the number of calls that end well.
           </p>
         </div>
       </article>
@@ -280,10 +280,10 @@ export default function BlogPost() {
             </div>
             <div>
               <div className="text-[var(--color-ink)] font-semibold mb-1">
-                Written by the ipfinity Clinical Team
+                Written by the ipfinity Team
               </div>
               <div className="text-[var(--color-muted)] text-sm">
-                Board-certified providers specializing in Other Medical
+                An accredited Canadian telecommunications carrier delivering cloud voice since 2002
               </div>
             </div>
           </div>
@@ -304,10 +304,10 @@ export default function BlogPost() {
                 </svg>
               </div>
               <h4 className="text-xl font-light mb-2 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'var(--font-cormorant)' }}>
-                HIPAA-Compliant Phone Systems for Modern Practices
+                Securing Business Voice: What to Ask Your Carrier
               </h4>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Essential security features and compliance considerations when choosing communication technology for healthcare.
+                Security and privacy considerations, from toll fraud controls to how call recordings are stored.
               </p>
             </a>
 
@@ -318,10 +318,10 @@ export default function BlogPost() {
                 </svg>
               </div>
               <h4 className="text-xl font-light mb-2 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'var(--font-cormorant)' }}>
-                Using Data Analytics to Improve Patient Communication
+                Using Call Data to Improve Customer Communication
               </h4>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                How call metrics, patient feedback, and workflow analysis drive continuous improvement in care delivery.
+                How queue statistics, customer feedback and workflow analysis drive continuous improvement.
               </p>
             </a>
 
@@ -332,10 +332,10 @@ export default function BlogPost() {
                 </svg>
               </div>
               <h4 className="text-xl font-light mb-2 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'var(--font-cormorant)' }}>
-                Building Patient Trust Through Accessible Communication
+                Building Customer Trust Through Accessible Communication
               </h4>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Why communication accessibility forms the foundation of therapeutic relationships and treatment success.
+                Why being easy to reach underpins long-term business relationships.
               </p>
             </a>
           </div>

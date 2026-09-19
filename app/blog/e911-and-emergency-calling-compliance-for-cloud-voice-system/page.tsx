@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'E911 and Emergency Calling Compliance for Cloud Voice Systems | ipfinity',
-  description: 'Learn about E911 compliance requirements for cloud-based phone systems, the critical importance of accurate emergency location data, and how to protect your organization and callers.',
-  keywords: 'E911 compliance, emergency calling, cloud voice systems, VoIP emergency services, location accuracy, Ray Baum Act, Kari\'s Law, emergency response',
+  description: 'What emergency calling compliance means for cloud phone systems in Canada and the US, why accurate location data matters, and how to keep your records current across every site.',
+  keywords: 'E911 compliance, emergency calling, cloud voice systems, VoIP emergency services, location accuracy, Ray Baum Act, Kari\'s Law, CRTC 911, emergency response',
 }
 
 export default function BlogPost() {
@@ -23,7 +23,7 @@ export default function BlogPost() {
           
           {/* Category */}
           <div className="text-xs uppercase tracking-widest text-white/70 mb-4 text-center">
-            Technology & Compliance
+            Technology &amp; Compliance
           </div>
           
           {/* Title */}
@@ -37,7 +37,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>By the ipfinity Clinical Team</span>
+            <span>By the IPFINITY Team</span>
           </div>
         </div>
       </section>
@@ -49,13 +49,13 @@ export default function BlogPost() {
           {/* Opening */}
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Imagine this scenario: A patient experiences a medical emergency in your facility. Staff members dial 911 from your cloud-based phone system. But when emergency responders arrive, they go to your corporate headquarters—three miles away—because your VoIP system sent outdated location information. Those critical minutes could mean the difference between life and death.
+              Consider this scenario. Someone is badly injured on the loading dock of your warehouse. A supervisor grabs the nearest desk phone and dials 911. But when the responders arrive, they go to your head office three towns away, because that is the address your voice platform still has on file for that extension. Those minutes are the whole point of the system, and they were lost to a stale database record.
             </p>
             <p className="mb-6">
-              As healthcare organizations and businesses increasingly migrate to cloud voice systems, the stakes for emergency calling compliance have never been higher. E911—Enhanced 911—isn't just a technical requirement. It's a life-saving system that ensures emergency responders can locate callers quickly and accurately, even when calls come from modern VoIP and cloud communication platforms.
+              As more businesses move to cloud voice, emergency calling has quietly become one of the most consequential parts of a phone system to get right. E911, or Enhanced 911, is not simply a technical checkbox. It is the mechanism that lets emergency responders find a caller quickly and accurately, including when the call originates from a VoIP or cloud platform rather than a copper line.
             </p>
             <p>
-              Yet many organizations remain unaware of their legal obligations or the technical complexities involved in maintaining compliant emergency calling capabilities. This gap in understanding can expose your organization to significant liability while putting lives at risk.
+              Many organisations remain unaware of their obligations, or of the technical work involved in keeping emergency calling accurate across multiple sites and remote workers. That gap creates liability for the business and real risk for anyone who has to make the call.
             </p>
           </div>
 
@@ -65,38 +65,41 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              E911 is the enhanced version of the traditional 911 emergency calling system. While basic 911 connects callers to emergency dispatchers, E911 automatically provides the caller's phone number and location information to the Public Safety Answering Point (PSAP). This technology was straightforward with traditional landlines—each phone line corresponded to a fixed physical address.
+              E911 is the enhanced form of the traditional 911 service. Basic 911 connects a caller to an emergency dispatcher. E911 also delivers the caller&apos;s number and location information to the Public Safety Answering Point, or PSAP, that handles the call. With traditional landlines this was straightforward, because each line corresponded to one fixed civic address recorded by the carrier.
             </p>
             <p className="mb-6">
-              Cloud voice systems and VoIP technology fundamentally changed this equation. When phone service travels over the internet rather than dedicated copper lines, location information isn't inherently tied to the connection. A desk phone might be moved between floors, buildings, or even cities without changing its network configuration. Remote workers might use the same system from home offices hundreds of miles away.
+              Cloud voice and VoIP changed that equation completely. When calls travel over the internet rather than a dedicated pair of copper wires, location is no longer inherent to the connection. A desk phone can be unplugged and carried to another floor, another building or another province and still register to the same account. A remote worker can take a softphone anywhere there is a connection.
             </p>
             <p>
-              This flexibility creates tremendous operational advantages but introduces critical safety challenges. Without proper E911 configuration, emergency calls from cloud phone systems may route to the wrong PSAP, provide inaccurate location data, or fail to provide location information at all—potentially delaying emergency response when seconds count.
+              That flexibility is the point of cloud voice, but it creates a safety problem. Without proper configuration, an emergency call from a cloud system can route to the wrong PSAP, present an out-of-date address, or arrive with no usable location at all, and every one of those outcomes adds delay at the worst possible moment.
             </p>
           </div>
 
           {/* Section 2 */}
           <h2 className="text-3xl text-[var(--color-ink)] mt-12 mb-4" style={{ fontFamily: 'Cormorant, serif' }}>
-            Legal Requirements: Kari's Law and Ray Baum's Act
+            Legal Requirements in the US and Canada
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Two federal laws now govern emergency calling from multi-line telephone systems (MLTS), which include most business phone systems, including cloud-based platforms.
+              If your business operates on both sides of the border, you are dealing with two regimes at once, and they do not line up neatly. Start by establishing which of your sites and numbers fall under which.
             </p>
             <p className="mb-6">
-              <strong>Kari's Law</strong>, enacted in 2018 and effective since February 2020, requires that MLTS allow users to dial 911 directly without needing to dial a prefix (like "9") to reach an outside line. The law also mandates that a notification be sent to a central location (such as a front desk or security office) when a 911 call is placed, ensuring that on-site personnel can provide assistance to emergency responders.
+              In the United States, two federal laws govern emergency calling from multi-line telephone systems (MLTS), a category that covers most business phone systems including cloud platforms. <strong>Kari&apos;s Law</strong> requires that users be able to dial 911 directly, without first dialling a prefix such as 9 to reach an outside line. It also requires that a notification be sent to a central point, such as reception or a security desk, when a 911 call is placed, so that on-site staff can meet and direct responders.
             </p>
             <p className="mb-6">
-              <strong>Ray Baum's Act</strong>, also effective since February 2020, requires that MLTS convey "dispatchable location" information with 911 calls. This means more than just a street address—it includes specific details like building numbers, floor levels, room numbers, and office suites that enable first responders to locate the caller quickly within large or complex facilities.
+              <strong>Ray Baum&apos;s Act</strong> requires that an MLTS convey &quot;dispatchable location&quot; information with a 911 call. That means more than a street address. It includes the detail that gets responders to the right part of a large site, such as building, floor, room or suite.
+            </p>
+            <p className="mb-6">
+              In Canada, emergency calling from VoIP is overseen by the CRTC, which requires local VoIP providers to give customers access to 911 service and to tell them plainly how that service differs from a traditional line. Where a VoIP number is used at a fixed, native location, the call can be routed to the PSAP serving that address. Where service is nomadic, or the number is not native to the area it is used in, providers are required to offer at minimum a call-centre-based solution: the call reaches an emergency operator who confirms the caller&apos;s location and transfers them to the correct PSAP. Canada is also moving to Next-Generation 911, which changes how location and other data are carried, and carriers and public safety agencies are working through that transition.
             </p>
             <p>
-              These laws apply to any organization that manages, controls, or operates an MLTS, including healthcare facilities, office buildings, hotels, campuses, and any business using cloud voice systems. Non-compliance can result in significant fines from the FCC, but more importantly, it creates serious safety risks and potential civil liability.
+              The common thread on both sides of the border is that accuracy depends on a registered address being current. These obligations reach any organisation that operates a business phone system, including offices, warehouses, hotels, campuses and multi-tenant buildings. Beyond regulatory exposure, the real risk is an emergency response that arrives at the wrong door.
             </p>
           </div>
 
           {/* Pull Quote */}
           <div className="bg-[var(--color-light)] border-l-4 border-[var(--color-primary)] p-6 my-8 text-[var(--color-ink)] italic text-xl" style={{ fontFamily: 'Cormorant, serif' }}>
-            "Dispatchable location isn't just your street address—it's the specific information that gets first responders to the exact room where help is needed, especially critical in large facilities or multi-tenant buildings."
+            &quot;Dispatchable location is not just your street address. It is the detail that gets first responders to the exact room where help is needed, which matters most in large sites and multi-tenant buildings.&quot;
           </div>
 
           {/* Section 3 */}
@@ -105,19 +108,19 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Implementing compliant E911 with cloud voice systems involves several technical layers that must work together seamlessly:
+              Delivering compliant emergency calling on a cloud voice system means getting several layers to work together:
             </p>
             <p className="mb-6">
-              <strong>Location Database Management:</strong> Your organization must maintain an accurate, current database that maps each phone or device to its precise physical location. When employees move desks, when equipment is relocated, or when remote workers change locations, these databases must be updated immediately.
+              <strong>Location Database Management:</strong> Your organisation has to maintain an accurate, current record mapping each phone, extension and device to its physical location. When people change desks, when equipment is moved between sites, or when a remote worker relocates, those records need updating at the time, not at the next audit.
             </p>
             <p className="mb-6">
-              <strong>Emergency Routing:</strong> The system must route 911 calls to the correct PSAP based on the caller's actual location, not the location associated with your main phone number or corporate headquarters. This is especially complex for organizations with multiple sites or remote workers.
+              <strong>Emergency Routing:</strong> The platform must route the call to the PSAP that serves the caller&apos;s actual location, not the one nearest the main billing address or head office. This is where multi-site organisations and remote workers cause the most trouble.
             </p>
             <p className="mb-6">
-              <strong>Location Conveyance:</strong> The system must transmit dispatchable location information to the PSAP in a format they can use. This often requires coordination with your cloud voice provider and potentially third-party E911 service providers.
+              <strong>Location Conveyance:</strong> The dispatchable location has to reach the PSAP in a form it can use. That requires coordination with your carrier, and sometimes with a specialist emergency services provider, rather than a field typed into a portal and forgotten.
             </p>
             <p>
-              <strong>Notification Systems:</strong> On-site notification systems must alert security, facilities, or designated personnel the instant a 911 call is placed, including the specific location within your facility.
+              <strong>Notification Systems:</strong> On-site notification should alert security, facilities or a designated contact the moment a 911 call is placed, and tell them where in the building it came from, so someone can open the gate and point the responders in the right direction.
             </p>
           </div>
 
@@ -127,10 +130,10 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              One of the most dangerous misconceptions about E911 compliance is assuming that your cloud voice provider handles everything. While reputable providers offer E911 capabilities, the legal responsibility for compliance ultimately rests with your organization—the entity that manages and operates the phone system.
+              One of the more dangerous assumptions about emergency calling is that the carrier takes care of all of it. Carriers provide the emergency calling capability and the connections behind it, but responsibility for the accuracy of your location records sits with the organisation that operates the phone system, because it is the only party that knows where the phones actually are.
             </p>
             <p className="mb-6">
-              Your cloud voice provider typically supplies the technical infrastructure to support E911, including connections to emergency services databases and location information systems. However, your organization must:
+              Your carrier typically supplies the technical infrastructure, including routing to emergency services and the interfaces for registering location information. Your organisation still has to:
             </p>
             <ul className="space-y-3 my-6">
               <li className="flex items-start gap-3">
@@ -143,7 +146,7 @@ export default function BlogPost() {
                 <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                 </svg>
-                <span>Update location records whenever equipment is moved or employees relocate</span>
+                <span>Update location records whenever equipment is moved or staff relocate</span>
               </li>
               <li className="flex items-start gap-3">
                 <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -155,23 +158,23 @@ export default function BlogPost() {
                 <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                 </svg>
-                <span>Ensure that phones can dial 911 directly without prefixes</span>
+                <span>Ensure that every phone can dial 911 directly, with no prefix</span>
               </li>
               <li className="flex items-start gap-3">
                 <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                 </svg>
-                <span>Train staff on emergency calling procedures and system capabilities</span>
+                <span>Train staff on emergency calling procedures and the limits of the system</span>
               </li>
               <li className="flex items-start gap-3">
                 <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                 </svg>
-                <span>Regularly test E911 functionality with local emergency services</span>
+                <span>Review emergency calling configuration whenever sites, numbers or working patterns change</span>
               </li>
             </ul>
             <p>
-              This shared responsibility model means you must have clear agreements with your provider defining who handles what, and you need internal processes to manage your portion of the compliance equation.
+              This shared model means you need a clear agreement with your carrier about who handles what, and an internal process for your half of it. Ask the question directly during procurement: for each of our numbers and sites, how is an emergency call routed, and what address will it present?
             </p>
           </div>
 
@@ -181,25 +184,25 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Achieving and maintaining E911 compliance requires systematic attention across several areas:
+              Getting and staying compliant takes systematic attention in a few areas:
             </p>
             <p className="mb-6">
-              <strong>Conduct a comprehensive audit</strong> of your current phone system. Document every phone location, including desk phones, conference room phones, and softphones on computers or mobile devices. Identify any locations where direct 911 dialing doesn't work or where location information might be inaccurate.
+              <strong>Conduct a full audit</strong> of the phone system. Document every device and where it lives, including desk phones, conference room phones, common-area phones, and softphones on laptops and mobiles. Flag anywhere direct 911 dialling does not work or the registered address looks wrong. Unused and forgotten extensions are worth finding in the same pass.
             </p>
             <p className="mb-6">
-              <strong>Establish clear governance processes</strong> for managing location data. Designate responsibility for updating the E911 database. Create workflows that automatically trigger updates when employees move, when offices are reconfigured, or when equipment is relocated. This is especially critical in healthcare environments where treatment rooms, offices, and care areas frequently change functions.
+              <strong>Establish clear governance</strong> for location data. Name the person responsible for keeping the records current, and build the update into the processes that already exist, such as onboarding, offboarding and office moves. This matters most in buildings that are frequently reconfigured, including warehouses, campuses and shared offices where a room can change function in a weekend.
             </p>
             <p className="mb-6">
-              <strong>Implement and test notification systems.</strong> Ensure that when anyone dials 911 from any phone in your system, appropriate personnel—security, facilities, reception—receive immediate notification with the specific location. Test these notifications regularly and update contact lists when staff changes.
+              <strong>Implement and test notification.</strong> Make sure that when anyone dials 911 from any phone, the right people are alerted immediately with the specific location. Test it on a schedule and update the contact list when staff change, because a notification sent to someone who left last year is no notification at all.
             </p>
             <p className="mb-6">
-              <strong>Develop remote work policies</strong> that address E911 for home-based employees. Remote workers using your cloud phone system need clear guidance on ensuring their home address is accurately registered. Some organizations provide separate E911-capable devices or require employees to use mobile phones for emergencies rather than company VoIP connections.
+              <strong>Develop a policy for remote and hybrid workers.</strong> Staff using a company softphone from home need clear guidance on registering their actual address and updating it if they move. Some organisations decide that personal mobiles are the right tool for emergencies away from company sites, and say so explicitly rather than leaving people to assume.
             </p>
             <p className="mb-6">
-              <strong>Train everyone.</strong> All staff should know that they can dial 911 directly without prefixes. They should understand that on-site personnel will be notified automatically. And they should know how to provide additional verbal location information if needed, especially in large facilities.
+              <strong>Train everyone.</strong> All staff should know they can dial 911 directly with no prefix, that on-site personnel will be notified automatically, and that they should still state their location out loud, especially on a large site or when working remotely.
             </p>
             <p>
-              <strong>Test regularly with local authorities.</strong> Coordinate with your local PSAP to conduct test calls that verify proper routing and location information without overwhelming emergency services. Many jurisdictions have established procedures for system testing.
+              <strong>Verify, and keep verifying.</strong> Coordinate with your carrier, and where appropriate with local emergency services, on how to confirm that routing and location are correct without generating unnecessary emergency calls. Many jurisdictions have established procedures for this kind of testing.
             </p>
           </div>
 
@@ -209,26 +212,26 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              While FCC fines for E911 violations can reach into the hundreds of thousands of dollars, the true cost of non-compliance extends far beyond regulatory penalties.
+              Regulators can impose penalties for emergency calling failures, and in the US the FCC has done so. But the regulatory exposure is not the part that should worry you most.
             </p>
             <p className="mb-6">
-              In a genuine emergency, inaccurate or missing location information can delay first responders by critical minutes. In medical emergencies, strokes, cardiac events, or severe injuries, these delays can result in permanent disability or death. The human cost is immeasurable.
+              In a genuine emergency, missing or wrong location information costs responders minutes. When someone is seriously hurt, or a fire is taking hold, or a person has collapsed, those minutes decide the outcome. No fine measures that.
             </p>
             <p className="mb-6">
-              Organizations also face significant civil liability exposure. If inadequate E911 systems contribute to poor emergency outcomes, your organization could face lawsuits from affected individuals or their families. These cases often hinge on whether the organization exercised reasonable care in implementing and maintaining compliant emergency calling systems.
+              Organisations also carry real civil liability. If an inadequate emergency calling setup contributed to a bad outcome, the organisation can face claims from the people affected or their families, and those cases tend to turn on whether reasonable care was taken to implement and maintain the system properly. A documented audit and a maintained location record are the evidence that it was.
             </p>
             <p>
-              Perhaps most significantly, E911 failures can irreparably damage your organization's reputation and community trust—especially critical for healthcare providers whose core mission centers on protecting health and safety.
+              There is also lasting damage to reputation and to the trust of staff and customers, which falls hardest on organisations that invite the public onto their premises or ask employees to work alone on site.
             </p>
           </div>
 
           {/* Closing */}
           <div className="text-[var(--color-ink)] leading-loose text-base mt-12 pt-8 border-t border-[var(--color-border)]">
             <p className="mb-6">
-              E911 compliance for cloud voice systems is complex, but it's not optional. The technology that gives your organization flexibility, scalability, and cost savings also creates new responsibilities for protecting those who depend on your systems in emergencies.
+              Emergency calling on cloud voice systems is genuinely more complex than it was on a fixed line, but it is not optional. The same flexibility that gives your organisation reach, resilience and lower cost also creates a duty to keep the location records behind it accurate.
             </p>
             <p>
-              If you're uncertain about your current E911 compliance status, or if you're planning a migration to cloud voice systems, now is the time to seek expert guidance. Our team at ipfinity specializes in helping healthcare organizations and businesses navigate the technical and regulatory complexities of modern communication systems while ensuring that life-saving emergency services work flawlessly when they're needed most.
+              If you are unsure how emergency calls are handled on your current system, or you are planning a move to cloud voice, that is the right moment to get it examined. IPFINITY is an accredited carrier, so we can look at how each of your numbers and sites is configured and tell you what an emergency call would actually present today, rather than passing the question to somebody else.
             </p>
           </div>
         </div>
@@ -245,10 +248,10 @@ export default function BlogPost() {
             </div>
             <div>
               <div className="text-[var(--color-ink)] font-semibold text-lg mb-1">
-                Written by the ipfinity Clinical Team
+                Written by the IPFINITY Team
               </div>
               <div className="text-[var(--color-muted)] text-sm">
-                Board-certified providers specializing in Other Medical care, committed to delivering evidence-based insights and expert guidance for your health and well-being.
+                IPFINITY is an accredited telecommunications carrier based in Rockwood, Ontario, delivering cloud voice, fax and messaging to businesses in Canada, the US and beyond since 2002.
               </div>
             </div>
           </div>
@@ -264,25 +267,25 @@ export default function BlogPost() {
           <div className="grid md:grid-cols-3 gap-8">
             
             {/* Article 1 */}
-            <a href="/blog" className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group">
+            <a href="/blog/real-time-communications-security-protecting-voice-and-messa" className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group">
               <div className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] h-48 flex items-center justify-center">
                 <svg className="w-16 h-16 text-white opacity-50" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" />
                 </svg>
               </div>
               <div className="p-6">
-                <div className="text-xs uppercase tracking-wider text-[var(--color-accent)] mb-2">Technology</div>
+                <div className="text-xs uppercase tracking-wider text-[var(--color-accent)] mb-2">Security</div>
                 <h4 className="text-xl text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'Cormorant, serif' }}>
-                  Cloud Communication Security Best Practices
+                  Real-Time Communications Security
                 </h4>
                 <p className="text-[var(--color-muted)] text-sm">
-                  Protect your organization's voice and data systems with comprehensive security strategies.
+                  Protecting voice and messaging infrastructure against fraud, interception and abuse.
                 </p>
               </div>
             </a>
 
             {/* Article 2 */}
-            <a href="/blog" className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group">
+            <a href="/blog/regulatory-compliance-for-business-communications-tcpa-gdpr-" className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group">
               <div className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] h-48 flex items-center justify-center">
                 <svg className="w-16 h-16 text-white opacity-50" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
@@ -291,16 +294,16 @@ export default function BlogPost() {
               <div className="p-6">
                 <div className="text-xs uppercase tracking-wider text-[var(--color-accent)] mb-2">Compliance</div>
                 <h4 className="text-xl text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'Cormorant, serif' }}>
-                  HIPAA Compliance for Modern Communication Systems
+                  Regulatory Compliance for Business Communications
                 </h4>
                 <p className="text-[var(--color-muted)] text-sm">
-                  Ensure your voice and messaging platforms meet healthcare privacy requirements.
+                  The rules that govern how businesses call, message and record across borders.
                 </p>
               </div>
             </a>
 
             {/* Article 3 */}
-            <a href="/blog" className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group">
+            <a href="/blog/number-porting-process-migrating-your-phone-numbers-to-a-new" className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group">
               <div className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] h-48 flex items-center justify-center">
                 <svg className="w-16 h-16 text-white opacity-50" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
@@ -309,10 +312,10 @@ export default function BlogPost() {
               <div className="p-6">
                 <div className="text-xs uppercase tracking-wider text-[var(--color-accent)] mb-2">Planning</div>
                 <h4 className="text-xl text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'Cormorant, serif' }}>
-                  Planning Your Migration to Cloud Voice Systems
+                  Number Porting Process
                 </h4>
                 <p className="text-[var(--color-muted)] text-sm">
-                  A comprehensive guide to transitioning from legacy phone systems to cloud platforms.
+                  Migrating your phone numbers to a new carrier without losing a call or an address record.
                 </p>
               </div>
             </a>
@@ -328,7 +331,7 @@ export default function BlogPost() {
             Ready to Take the Next Step?
           </h2>
           <p className="text-xl mb-8 text-white/90">
-            Our team is here to help you navigate E911 compliance and communication system planning.
+            Our team is here to help you review emergency calling across your sites and plan your voice migration.
           </p>
           <a 
             href="/contact" 

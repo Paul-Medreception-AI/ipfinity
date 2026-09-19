@@ -3,16 +3,23 @@
 @tailwind utilities;
 
 :root {
-  --color-primary: #ff6600;
-  --color-dark: #a64200;
-  --color-light: #ffe8d9;
+  /* Brand orange sampled directly from the "ip" in the IPfinity logo
+     (public/logo.png) — #f16721. The autobuild had guessed #ff6600. */
+  --color-primary: #f16721;
+  --color-dark: #c04e12;
+  --color-light: #fdeee5;
   --color-ink: #1a2030;
-  --color-cream: #fffaf7;
-  --color-muted: #64748b;
-  --color-border: #ffe3e0;
-  --color-accent: #ff6600;
-  --color-accent-dark: #a64200;
+  --color-cream: #fbfaf9;
+  --color-muted: #5a6478;
+  --color-border: #e7e3df;
+  --color-accent: #f16721;
+  --color-accent-dark: #c04e12;
 }
+
+/* The mobile menu uses <details> so it needs no client JS. Hide the default
+   disclosure triangle across browsers. */
+summary::-webkit-details-marker { display: none; }
+summary::marker { content: ''; }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }

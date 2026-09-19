@@ -1,89 +1,116 @@
 import { MetadataRoute } from 'next'
+import { SERVICES } from '@/lib/data/services'
+
+/* Generated from the routes that actually exist in app/.
+   If you add a page, add it here — nothing enumerates the filesystem at build time. */
+
+const BASE = 'https://www.ipfinity.com'
+
+const CORE: [string, number, 'daily' | 'weekly' | 'monthly'][] = [
+  ['', 1.0, 'weekly'],
+  ['/services', 0.9, 'weekly'],
+  ['/solutions', 0.9, 'weekly'],
+  ['/technology', 0.9, 'weekly'],
+  ['/case-studies', 0.85, 'monthly'],
+  ['/compare', 0.8, 'monthly'],
+  ['/locations', 0.8, 'monthly'],
+  ['/about', 0.8, 'monthly'],
+  ['/contact', 0.8, 'monthly'],
+  ['/faq', 0.7, 'monthly'],
+  ['/blog', 0.7, 'weekly'],
+]
+
+const COMPARE = [
+    'cloud-voice-vs-on-premises-pbx',
+    'hybrid-vs-all-ip-telecommunications',
+    'sip-trunking-vs-pri-trunking',
+    'sms-vs-xmpp-messaging',
+    'toll-free-vs-local-numbers',
+]
+
+const LOCATIONS = [
+    'guelph-on',
+    'kitchener-on',
+    'rockwood-on',
+    'toronto-on',
+]
+
+const BLOG = [
+    'advanced-call-analytics-using-communication-data-to-drive-bu',
+    'building-business-continuity-into-your-voice-infrastructure',
+    'calculating-the-true-cost-of-telecommunications-beyond-per-m',
+    'call-queuing-in-the-cloud-designing-better-caller-experience',
+    'cloud-pbx-vs-premises-based-systems-a-technical-comparison',
+    'contact-center-cloud-migration-moving-call-center-operations',
+    'custom-call-routing-strategies-that-improve-customer-experie',
+    'custom-ivr-design-creating-self-service-menus-that-actually-',
+    'e911-and-emergency-calling-compliance-for-cloud-voice-system',
+    'fax-to-email-integration-modernizing-document-workflows-in-r',
+    'how-to-implement-a-hybrid-voice-solution-without-disrupting-',
+    'international-call-routing-optimizing-quality-and-cost-acros',
+    'international-telecommunications-regulations-navigating-coun',
+    'legacy-system-integration-connecting-old-pbx-hardware-to-clo',
+    'multi-channel-communication-strategy-integrating-voice-sms-f',
+    'multi-site-voice-architecture-connecting-distributed-teams-e',
+    'number-porting-process-migrating-your-phone-numbers-to-a-new',
+    'real-time-communications-security-protecting-voice-and-messa',
+    'regulatory-compliance-for-business-communications-tcpa-gdpr-',
+    'scaling-telecommunications-infrastructure-as-your-business-g',
+    'sip-trunking-vs-traditional-pri-which-is-right-for-your-busi',
+    'sla-requirements-for-business-telecommunications-what-uptime',
+    'smartphone-integration-for-business-voice-byod-strategies-th',
+    'sms-business-messaging-compliance-delivery-rates-and-best-pr',
+    'telecom-cost-analysis-auditing-your-current-spending-for-opt',
+    'telecom-infrastructure-for-remote-first-organizations',
+    'telecom-vendor-lock-in-how-to-maintain-flexibility-and-avoid',
+    'telecommunications-bandwidth-requirements-sizing-your-intern',
+    'telecommunications-disaster-recovery-testing-validating-your',
+    'telecommunications-rfp-guide-evaluating-vendors-and-writing-',
+    'the-complete-guide-to-global-did-number-management',
+    'toll-free-number-strategy-800-vs-888-vs-vanity-numbers-for-b',
+    'understanding-carrier-interconnection-how-global-voice-netwo',
+    'unified-communications-roi-measuring-the-business-impact-of-',
+    'voice-application-apis-automating-your-communication-workflo',
+    'voice-codec-selection-balancing-audio-quality-and-bandwidth-',
+    'voice-quality-optimization-troubleshooting-jitter-latency-an',
+    'voice-traffic-analysis-identifying-patterns-that-drive-infra',
+    'voicemail-to-email-transcription-accuracy-privacy-and-produc',
+    'xmpp-messaging-for-enterprise-when-to-choose-xmpp-over-other',
+]
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://www.ipfinity.com'
   const now = new Date()
 
-  const corePages = [
-    { url: base, priority: 1.0, changeFrequency: 'daily' as const },
-    { url: `${base}/services`, priority: 0.9, changeFrequency: 'weekly' as const },
-    { url: `${base}/about`, priority: 0.8, changeFrequency: 'monthly' as const },
-    { url: `${base}/contact`, priority: 0.8, changeFrequency: 'monthly' as const },
-    { url: `${base}/blog`, priority: 0.7, changeFrequency: 'weekly' as const },
-  ].map(p => ({ ...p, lastModified: now }))
-
-  const servicePages = [
-    { url: `${base}/services/sip-pri-trunking`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/services/global-did-numbers`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/services/custom-voice-applications`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/services/business-messaging`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/services/hybrid-solutions`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now },
-    { url: `${base}/services/disaster-recovery`, priority: 0.85, changeFrequency: 'weekly' as const, lastModified: now }
+  return [
+    ...CORE.map(([path, priority, changeFrequency]) => ({
+      url: `${BASE}${path}`,
+      priority,
+      changeFrequency,
+      lastModified: now,
+    })),
+    ...SERVICES.map((s) => ({
+      url: `${BASE}/services/${s.slug}`,
+      priority: 0.85,
+      changeFrequency: 'weekly' as const,
+      lastModified: now,
+    })),
+    ...COMPARE.map((slug) => ({
+      url: `${BASE}/compare/${slug}`,
+      priority: 0.75,
+      changeFrequency: 'monthly' as const,
+      lastModified: now,
+    })),
+    ...LOCATIONS.map((slug) => ({
+      url: `${BASE}/locations/${slug}`,
+      priority: 0.75,
+      changeFrequency: 'monthly' as const,
+      lastModified: now,
+    })),
+    ...BLOG.map((slug) => ({
+      url: `${BASE}/blog/${slug}`,
+      priority: 0.6,
+      changeFrequency: 'monthly' as const,
+      lastModified: now,
+    })),
   ]
-
-  const conditionPages = [
-  ]
-
-  const blogPages = [
-    { url: `${base}/blog/sip-trunking-vs-traditional-pri-which-is-right-for-your-busi`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/how-to-implement-a-hybrid-voice-solution-without-disrupting-`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/the-complete-guide-to-global-did-number-management`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/custom-call-routing-strategies-that-improve-customer-experie`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/building-business-continuity-into-your-voice-infrastructure`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/understanding-carrier-interconnection-how-global-voice-netwo`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/fax-to-email-integration-modernizing-document-workflows-in-r`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/sms-business-messaging-compliance-delivery-rates-and-best-pr`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/voice-application-apis-automating-your-communication-workflo`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/calculating-the-true-cost-of-telecommunications-beyond-per-m`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/multi-site-voice-architecture-connecting-distributed-teams-e`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/voicemail-to-email-transcription-accuracy-privacy-and-produc`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/call-queuing-in-the-cloud-designing-better-caller-experience`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/smartphone-integration-for-business-voice-byod-strategies-th`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/telecom-infrastructure-for-remote-first-organizations`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/e911-and-emergency-calling-compliance-for-cloud-voice-system`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/number-porting-process-migrating-your-phone-numbers-to-a-new`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/voice-quality-optimization-troubleshooting-jitter-latency-an`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/scaling-telecommunications-infrastructure-as-your-business-g`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/xmpp-messaging-for-enterprise-when-to-choose-xmpp-over-other`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/international-call-routing-optimizing-quality-and-cost-acros`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/cloud-pbx-vs-premises-based-systems-a-technical-comparison`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/toll-free-number-strategy-800-vs-888-vs-vanity-numbers-for-b`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/telecom-vendor-lock-in-how-to-maintain-flexibility-and-avoid`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/real-time-communications-security-protecting-voice-and-messa`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/custom-ivr-design-creating-self-service-menus-that-actually-`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/telecommunications-bandwidth-requirements-sizing-your-intern`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/multi-channel-communication-strategy-integrating-voice-sms-f`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/legacy-system-integration-connecting-old-pbx-hardware-to-clo`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/telecom-cost-analysis-auditing-your-current-spending-for-opt`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/advanced-call-analytics-using-communication-data-to-drive-bu`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/regulatory-compliance-for-business-communications-tcpa-gdpr-`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/telecommunications-rfp-guide-evaluating-vendors-and-writing-`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/voice-codec-selection-balancing-audio-quality-and-bandwidth-`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/contact-center-cloud-migration-moving-call-center-operations`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/sla-requirements-for-business-telecommunications-what-uptime`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/unified-communications-roi-measuring-the-business-impact-of-`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/international-telecommunications-regulations-navigating-coun`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/voice-traffic-analysis-identifying-patterns-that-drive-infra`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/blog/telecommunications-disaster-recovery-testing-validating-your`, priority: 0.7, changeFrequency: 'monthly' as const, lastModified: now }
-  ]
-
-  const comparePages = [
-    { url: `${base}/compare/sip-trunking-vs-pri-trunking`, priority: 0.75, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/compare/cloud-voice-vs-on-premises-pbx`, priority: 0.75, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/compare/hybrid-vs-all-ip-telecommunications`, priority: 0.75, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/compare/toll-free-vs-local-numbers`, priority: 0.75, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/compare/sms-vs-xmpp-messaging`, priority: 0.75, changeFrequency: 'monthly' as const, lastModified: now }
-  ]
-
-  const locationPages = [
-    { url: `${base}/locations/rockwood-on`, priority: 0.8, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/locations/guelph-on`, priority: 0.8, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/locations/toronto-on`, priority: 0.8, changeFrequency: 'monthly' as const, lastModified: now },
-    { url: `${base}/locations/kitchener-on`, priority: 0.8, changeFrequency: 'monthly' as const, lastModified: now }
-  ]
-
-  const priorRecoveryPages = [
-  ]
-
-  return [...corePages, ...servicePages, ...conditionPages, ...blogPages, ...comparePages, ...locationPages, ...priorRecoveryPages]
 }

@@ -37,7 +37,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>ipfinity Team</span>
           </div>
         </div>
       </section>
@@ -48,10 +48,10 @@ export default function BlogPost() {
           {/* Opening Hook */}
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              In an increasingly connected world, businesses and healthcare organizations rely on seamless international communication to serve patients, partners, and teams across continents. Yet behind every crystal-clear international call lies a complex network of routing decisions that can mean the difference between flawless connectivity and frustrating dropped calls—not to mention significant cost variations that can impact your bottom line.
+              In an increasingly connected world, businesses rely on international communication to reach customers, suppliers, partners and their own staff across continents. Behind every clear international call sits a complex set of routing decisions that can mean the difference between a dependable connection and a dropped one, along with cost variations that land straight on your telecom bill.
             </p>
             <p className="mb-6">
-              Whether you're a medical practice coordinating with international specialists, a telehealth provider serving patients abroad, or an organization managing global operations, understanding international call routing is essential for maintaining quality while controlling costs. The right routing strategy doesn't just save money—it ensures reliable, high-quality connections when they matter most.
+              Whether you run a support desk taking calls from abroad, a sales team working several time zones, or a business with branches in more than one country, understanding international call routing is essential to holding quality while controlling cost. The right routing strategy does more than save money. It makes the connection dependable at the moments that matter most.
             </p>
           </div>
 
@@ -80,13 +80,13 @@ export default function BlogPost() {
               International calling presents a fundamental tension between quality and cost. Premium routes through Tier 1 carriers with direct connections typically deliver superior voice quality with minimal latency and packet loss, but command higher per-minute rates. Budget routes may pass through multiple intermediary carriers, increasing potential points of failure and degradation while reducing costs.
             </p>
             <p className="mb-6">
-              For medical and healthcare applications, this equation takes on added significance. A dropped connection during a patient consultation or garbled audio during a critical medical discussion isn't just an inconvenience—it can compromise care quality and patient safety. Organizations must carefully balance cost optimization with reliability requirements specific to their use cases.
+              The right balance depends on what the traffic is carrying. A dropped connection on a sales call, or garbled audio during a support escalation, is not merely an inconvenience: it costs you the conversation and sometimes the customer. Internal chatter between offices can usually tolerate a cheaper route; revenue-bearing and customer-facing calls generally cannot. Decide the tolerance per traffic type rather than setting one rule for everything.
             </p>
           </div>
 
           {/* Pull Quote */}
           <blockquote className="bg-[var(--color-light)] border-l-4 border-[var(--color-primary)] p-6 my-8 text-[var(--color-ink)] italic text-xl" style={{fontFamily: 'var(--font-cormorant)'}}>
-            "The cheapest international route isn't always the most expensive in the long run—poor call quality leads to repeated calls, frustrated patients, and potential miscommunication that can cost far more than premium routing."
+            &quot;The cheapest international route is rarely the cheapest in the long run. Poor call quality means repeated calls, frustrated customers and miscommunication that costs far more than premium routing ever would.&quot;
           </blockquote>
 
           {/* Section 3 */}
@@ -186,7 +186,7 @@ export default function BlogPost() {
               International call routing exists within a complex regulatory landscape that varies significantly by country. Organizations must navigate telecommunications regulations, data sovereignty laws, and industry-specific compliance requirements that can restrict routing options or mandate specific technical implementations.
             </p>
             <p className="mb-6">
-              For healthcare organizations, HIPAA compliance in the United States requires specific safeguards for protected health information (PHI), including voice communications. When routing international calls involving patient data, organizations must ensure end-to-end encryption and verify that all carriers and intermediaries maintain appropriate business associate agreements and security standards.
+              Data protection obligations travel with the call. A Canadian business remains accountable under PIPEDA for the personal information it handles, including what is said, recorded or logged during a call, and that accountability does not end at the border when a route passes through a third-party carrier. Before committing to a route, establish where calls, recordings and call detail records are stored, who is able to reach them, and what encryption is applied in transit.
             </p>
             <p className="mb-6">
               Many countries impose telecommunications licensing requirements on carriers operating within their borders. Some nations restrict VoIP services entirely or require calls to route through government-approved gateways. Understanding these regulatory constraints is essential for maintaining compliant international communications.
@@ -198,17 +198,17 @@ export default function BlogPost() {
 
           {/* Section 6 */}
           <h2 className="text-3xl text-[var(--color-ink)] mt-12 mb-4" style={{fontFamily: 'var(--font-cormorant)'}}>
-            Practical Implementation for Healthcare Organizations
+            Practical Implementation for Multi-Site Businesses
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Healthcare organizations face unique challenges in international call routing due to the critical nature of medical communications and stringent compliance requirements. Implementing an effective strategy requires careful planning and ongoing management.
+              Businesses with staff, sites or customers in more than one country face the hardest version of this problem, because a single policy has to hold up across very different networks and regulators. An effective strategy takes planning up front and active management afterwards.
             </p>
             <p className="mb-6">
-              Begin by conducting a thorough assessment of your international calling patterns. Identify high-volume destinations, critical communication paths (such as specialist consultations or international patient coordination), and peak usage periods. This analysis informs routing priorities and helps justify investments in premium routes where quality is paramount.
+              Begin by assessing your international calling patterns. Identify high-volume destinations, the paths carrying your most important traffic (a head-office bridge, a support queue, a supplier in another region) and your peak periods. A carrier that owns its own call detail records can produce that analysis from real traffic rather than estimating it. The result tells you where to prioritize routing and where a premium route is worth paying for.
             </p>
             <p className="mb-6">
-              Partner with telecommunications providers that understand healthcare requirements and can provide compliant, HIPAA-eligible services. Ensure Service Level Agreements (SLAs) include specific quality metrics like maximum latency, jitter, and packet loss thresholds, with financial penalties for non-compliance.
+              Work with a carrier that operates the route rather than reselling someone else, so a quality problem can be traced instead of passed along. Ask which countries it can provide numbers in, so customers abroad dial a local number rather than an international one. Confirm that the service agreement names the quality measures you actually care about, such as latency, jitter and packet loss, and not availability alone.
             </p>
             <p className="mb-6">
               Implement comprehensive monitoring and alerting systems that track call quality metrics in real-time. Automated alerts can notify technical teams when quality degrades below acceptable thresholds, enabling rapid response before widespread user impact occurs.
@@ -221,10 +221,10 @@ export default function BlogPost() {
           {/* Closing */}
           <div className="text-[var(--color-ink)] leading-loose text-base mt-12 pt-8 border-t border-[var(--color-border)]">
             <p className="mb-6">
-              International call routing represents a critical infrastructure component for organizations operating in our globalized world. While the technical complexity can seem daunting, a strategic approach focused on quality optimization, cost management, and regulatory compliance creates reliable cross-border communications that support effective patient care and organizational operations.
+              International call routing represents a critical infrastructure component for organizations operating in our globalized world. While the technical complexity can seem daunting, a strategic approach built on quality, cost management and regulatory compliance creates cross-border communications your customers and your own teams can rely on.
             </p>
             <p className="mb-6">
-              If your organization is struggling with international call quality, experiencing unpredictable costs, or seeking to optimize your global communications infrastructure, professional guidance can make a significant difference. The right routing strategy doesn't just improve call quality—it enhances patient experience, supports clinical workflows, and delivers measurable cost savings.
+              If your organization is struggling with international call quality, experiencing unpredictable costs, or seeking to optimize your global communications infrastructure, professional guidance can make a significant difference. The right routing strategy does more than improve call quality. It improves the experience customers have when they call you, supports the way your teams actually work, and reduces what you spend.
             </p>
           </div>
         </div>
@@ -240,8 +240,8 @@ export default function BlogPost() {
               </svg>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-2">Written by the ipfinity Clinical Team</h3>
-              <p className="text-[var(--color-muted)] leading-relaxed">Board-certified providers specializing in Other Medical</p>
+              <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-2">Written by the ipfinity Team</h3>
+              <p className="text-[var(--color-muted)] leading-relaxed">An accredited Canadian telecommunications carrier, delivering cloud voice since 2002</p>
             </div>
           </div>
         </div>
@@ -264,9 +264,9 @@ export default function BlogPost() {
               <div className="p-6">
                 <div className="text-xs uppercase tracking-wider text-[var(--color-muted)] mb-2">Technology</div>
                 <h4 className="text-xl text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" style={{fontFamily: 'var(--font-cormorant)'}}>
-                  VoIP Quality Metrics: Understanding What Matters for Clinical Communications
+                  VoIP Quality Metrics: Understanding What Matters for Business Communications
                 </h4>
-                <p className="text-[var(--color-muted)] text-sm">Learn how to measure and optimize voice quality for healthcare settings.</p>
+                <p className="text-[var(--color-muted)] text-sm">Learn how to measure and optimize voice quality across your network and your carrier routes.</p>
               </div>
             </a>
 
@@ -280,9 +280,9 @@ export default function BlogPost() {
               <div className="p-6">
                 <div className="text-xs uppercase tracking-wider text-[var(--color-muted)] mb-2">Compliance</div>
                 <h4 className="text-xl text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" style={{fontFamily: 'var(--font-cormorant)'}}>
-                  HIPAA-Compliant International Communications: Essential Guidelines
+                  Protecting Customer Communications Across Borders
                 </h4>
-                <p className="text-[var(--color-muted)] text-sm">Navigate regulatory requirements for secure cross-border patient communications.</p>
+                <p className="text-[var(--color-muted)] text-sm">Navigate the regulatory requirements behind secure cross-border customer communications.</p>
               </div>
             </a>
 

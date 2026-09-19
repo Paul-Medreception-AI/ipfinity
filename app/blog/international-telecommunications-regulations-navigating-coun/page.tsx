@@ -36,7 +36,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>ipfinity Team</span>
           </div>
         </div>
       </section>
@@ -114,7 +114,7 @@ export default function BlogPost() {
               <strong>Asia-Pacific:</strong> This diverse region demonstrates wide regulatory variation, from highly liberalized markets like Singapore and Hong Kong to more controlled environments in countries like China and Vietnam. Many nations in this region have implemented or are considering data localization requirements and maintain significant government oversight of telecommunications infrastructure.
             </p>
             <p className="mb-6">
-              <strong>Americas:</strong> North American markets are relatively liberalized with established regulatory frameworks, though privacy regulations are evolving rapidly. Latin American countries show considerable diversity in regulatory maturity and market openness. The United States takes a more market-driven approach compared to the comprehensive regulatory frameworks common in Europe.
+              <strong>Americas:</strong> North American markets are relatively liberalized with established regulatory frameworks, though privacy regulations are evolving rapidly. In Canada, the Canadian Radio-television and Telecommunications Commission (CRTC) oversees the sector, while federal privacy obligations for commercial organizations sit under PIPEDA. Latin American countries show considerable diversity in regulatory maturity and market openness. The United States takes a more market-driven approach compared to the comprehensive regulatory frameworks common in Europe.
             </p>
             <p className="mb-6">
               <strong>Africa and Middle East:</strong> Many countries in these regions are modernizing their telecommunications regulations to support infrastructure development and digital transformation. However, regulatory capacity and enforcement vary significantly, and some markets maintain restrictive licensing regimes or substantial government involvement in the sector.
@@ -247,10 +247,10 @@ export default function BlogPost() {
           </div>
           <div>
             <div className="font-semibold text-[var(--color-ink)] text-lg mb-1">
-              Written by the ipfinity Clinical Team
+              Written by the ipfinity Team
             </div>
             <div className="text-[var(--color-muted)] text-sm">
-              Board-certified providers specializing in Other Medical
+              An accredited Canadian telecommunications carrier, delivering cloud voice since 2002
             </div>
           </div>
         </div>

@@ -37,7 +37,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>The ipfinity Team</span>
           </div>
         </div>
       </section>
@@ -104,7 +104,7 @@ export default function BlogPost() {
             Effective scaling requires strategic thinking rather than piecemeal additions. The most successful approaches balance immediate needs with long-term vision, creating infrastructure that grows alongside your business.
           </p>
           <p className="mb-4">
-            Cloud-based solutions have revolutionized telecommunications scalability. Unlike premise-based systems with fixed capacities, cloud platforms scale elastically—adding users, features, and capacity as needed without hardware purchases or installation delays. This pay-as-you-grow model aligns costs directly with business growth while eliminating the risk of over-provisioning or running out of capacity.
+            Cloud-based solutions changed what scaling telecommunications involves. Unlike premise-based systems with fixed capacities, cloud platforms scale elastically—adding users, features, and capacity as needed without hardware purchases or installation delays. This pay-as-you-grow model aligns costs directly with business growth while eliminating the risk of over-provisioning or running out of capacity.
           </p>
           <p className="mb-4">
             Unified communications platforms consolidate voice, video, messaging, and collaboration tools into integrated systems that scale cohesively. Rather than managing separate systems for each communication channel—each with its own scaling challenges—unified platforms provide consistent experiences and centralized management regardless of size.
@@ -230,8 +230,8 @@ export default function BlogPost() {
               </svg>
             </div>
             <div>
-              <h3 className="text-xl font-medium text-[var(--color-ink)] mb-2">Written by the ipfinity Clinical Team</h3>
-              <p className="text-[var(--color-muted)] leading-relaxed">Board-certified providers specializing in Other Medical</p>
+              <h3 className="text-xl font-medium text-[var(--color-ink)] mb-2">Written by the ipfinity Team</h3>
+              <p className="text-[var(--color-muted)] leading-relaxed">Cloud voice specialists at ipfinity, an accredited Canadian telecommunications carrier serving business customers since 2002.</p>
             </div>
           </div>
         </div>

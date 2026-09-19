@@ -38,7 +38,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>The ipfinity Team</span>
           </div>
         </div>
       </section>
@@ -50,10 +50,10 @@ export default function BlogPost() {
           {/* Opening Hook */}
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8 animate-fade-up">
             <p className="mb-6">
-              Every day, billions of phone calls traverse the globe—connecting families across continents, enabling critical business transactions, and delivering emergency services when they matter most. Yet most people never stop to consider the invisible infrastructure that makes these conversations possible. Behind every international call lies a complex web of carrier interconnections, routing protocols, and peering agreements that seamlessly bridge networks operated by hundreds of different telecommunications companies.
+              Every day, billions of phone calls traverse the globe—connecting families across continents, enabling critical business transactions, and delivering emergency services when they matter most. Yet most people never stop to consider the invisible infrastructure that makes these conversations possible. Behind every international call lies a complex web of carrier interconnections, routing protocols, and peering agreements that bridge networks operated by hundreds of different telecommunications companies.
             </p>
             <p className="mb-6">
-              Understanding how carrier interconnection works isn't just a technical curiosity—it's essential knowledge for healthcare providers, businesses, and anyone who relies on voice communication to reach patients, customers, or loved ones across network boundaries. Whether you're making a local call or connecting with someone halfway around the world, carrier interconnection is the invisible foundation that makes it all work.
+              Understanding how carrier interconnection works is not a technical curiosity. It is useful knowledge for any business that depends on voice to reach customers, suppliers and its own staff across network boundaries, and it is what separates a carrier who can explain a bad call from a reseller who can only pass the question along. Whether you are making a local call or connecting with someone on the other side of the world, carrier interconnection is the foundation underneath it.
             </p>
           </div>
 
@@ -96,7 +96,7 @@ export default function BlogPost() {
           {/* Pull Quote */}
           <div className="bg-[var(--color-light)] border-l-4 border-[var(--color-primary)] p-6 my-8 animate-fade-up">
             <p className="text-[var(--color-ink)] italic text-xl font-serif">
-              "Behind every seamless phone call lies a sophisticated ecosystem of carrier partnerships, routing intelligence, and real-time negotiation that happens in milliseconds—invisible to users but essential to global connectivity."
+              &quot;Behind every call that simply works lies an ecosystem of carrier partnerships, routing intelligence, and real-time negotiation that happens in milliseconds—invisible to the people talking, and essential to the fact that they can.&quot;
             </p>
           </div>
 
@@ -124,14 +124,14 @@ export default function BlogPost() {
           {/* Section 4 */}
           <section className="animate-fade-up">
             <h2 className="font-serif text-3xl text-[var(--color-ink)] mt-12 mb-4">
-              Why Interconnection Quality Matters for Healthcare and Business
+              Why Interconnection Quality Matters to Your Business
             </h2>
             <div className="text-[var(--color-ink)] leading-loose text-base mb-6">
               <p className="mb-6">
-                For healthcare providers serving patients in Rockwood and beyond, the quality of carrier interconnection directly impacts patient care. Telemedicine consultations, appointment reminders, and critical care coordination all depend on reliable voice connections that traverse multiple carrier networks. Poor interconnection quality can result in dropped calls, audio degradation, and delays that compromise the patient experience.
+                For a business serving customers in Rockwood and beyond, the quality of carrier interconnection shows up directly in the customer experience. Sales calls, service bookings, supplier coordination and out-of-hours support all depend on voice connections that cross several carrier networks before they reach the other end. Poor interconnection quality turns into dropped calls, clipped or echoing audio, and the long silence after dialling that makes a caller hang up and try a competitor.
               </p>
               <p className="mb-6">
-                The same principles apply to any organization that relies on voice communication. Call centers, emergency services, and customer support operations all need consistent, high-quality connections across carrier boundaries. Understanding the interconnection landscape helps organizations make informed decisions about carrier selection, routing strategies, and backup plans for critical communications.
+                The stakes rise with call volume and with distance. Call centres, dispatch operations, distributed teams and customer support desks all need consistent connections across carrier boundaries, and they notice the difference first. Understanding the interconnection landscape helps an organization make informed decisions about carrier selection, routing strategies, and what happens when a primary path fails.
               </p>
               <p className="mb-6">
                 Several factors influence interconnection quality: the number of intermediary carriers in the call path (more hops generally mean more potential points of failure), the capacity of interconnection links (congestion causes call blocking and quality degradation), and the technical capabilities of interconnecting equipment (older TDM switches may introduce latency compared to modern SIP-based systems).
@@ -164,7 +164,7 @@ export default function BlogPost() {
             </h2>
             <div className="text-[var(--color-ink)] leading-loose text-base mb-6">
               <p className="mb-6">
-                Understanding carrier interconnection empowers healthcare providers, businesses, and organizations to make better decisions about their telecommunications infrastructure. Here are essential factors to consider:
+                Understanding carrier interconnection puts a business in a better position to judge its telecommunications infrastructure, and its carrier. Here are the factors worth raising:
               </p>
               <ul className="space-y-4 my-8">
                 <li className="flex gap-3 items-start">
@@ -205,13 +205,13 @@ export default function BlogPost() {
           <section className="animate-fade-up">
             <div className="text-[var(--color-ink)] leading-loose text-base mb-6 mt-12">
               <p className="mb-6">
-                Carrier interconnection represents one of the most critical yet least understood aspects of modern telecommunications. As healthcare providers, businesses, and individuals increasingly rely on voice communications to bridge distances and enable real-time collaboration, the quality and reliability of carrier interconnections become paramount.
+                Carrier interconnection is one of the most important and least understood parts of modern telecommunications. As businesses lean harder on voice to bridge distance and keep distributed teams working together, the quality and reliability of those interconnections stop being an abstraction.
               </p>
               <p className="mb-6">
-                By understanding how carriers connect their networks, the different types of interconnection arrangements, and the factors that influence call quality, organizations can make more informed decisions about their telecommunications infrastructure. Whether you're choosing a carrier for a new clinic in Rockwood, evaluating telemedicine platforms, or simply trying to understand why some calls sound better than others, knowledge of carrier interconnection provides valuable insight into the invisible infrastructure that powers global voice communications.
+                By understanding how carriers connect their networks, the different types of interconnection arrangements, and the factors that influence call quality, an organization can ask better questions of its suppliers. Whether you are choosing a carrier for a new branch office in Rockwood, weighing a move from PRI to SIP trunking, or simply trying to work out why some calls sound better than others, knowing how interconnection works gives you a view into infrastructure that is otherwise invisible.
               </p>
               <p>
-                If your organization is experiencing voice quality issues, evaluating telecommunications providers, or planning to implement voice-dependent services like telemedicine, consider consulting with telecommunications experts who can assess your specific interconnection needs and recommend solutions that ensure reliable, high-quality voice communications for your patients, customers, and stakeholders.
+                If your organization is living with voice quality problems, comparing telecommunications providers, or planning something that depends on voice holding up, it is worth talking to a carrier rather than a middleman. ipfinity owns its lines, features and cloud queuing end to end, which means the call detail records and queue statistics behind a complaint are ours to pull up and go through with you.
               </p>
             </div>
           </section>
@@ -230,10 +230,10 @@ export default function BlogPost() {
             </div>
             <div>
               <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-2">
-                Written by the ipfinity Clinical Team
+                Written by the ipfinity Team
               </h3>
               <p className="text-[var(--color-muted)] text-sm">
-                Board-certified providers specializing in Other Medical
+                Accredited Canadian telecommunications carrier. Cloud voice since 2002.
               </p>
             </div>
           </div>
@@ -269,10 +269,10 @@ export default function BlogPost() {
                 </svg>
               </div>
               <h4 className="font-serif text-xl text-[var(--color-ink)] mb-3 group-hover:text-[var(--color-primary)] transition-colors">
-                Ensuring Call Quality: Best Practices for Healthcare Providers
+                Ensuring Call Quality: Best Practices for Busy Contact Centres
               </h4>
               <p className="text-[var(--color-muted)] text-sm">
-                Learn how to maintain excellent voice quality for telemedicine and patient communications.
+                How to hold voice quality steady when call volume, remote agents and shared internet are all in play.
               </p>
             </a>
 
@@ -286,7 +286,7 @@ export default function BlogPost() {
                 VoIP vs. Traditional Phone Systems: What You Need to Know
               </h4>
               <p className="text-[var(--color-muted)] text-sm">
-                Compare modern IP-based voice systems with traditional telephony for your practice.
+                Compare modern IP-based voice systems with traditional telephony for your business.
               </p>
             </a>
 
@@ -298,10 +298,10 @@ export default function BlogPost() {
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white text-center">
         <div className="max-w-4xl mx-auto px-6 animate-fade-up">
           <h2 className="font-serif text-4xl font-light mb-4">
-            Ready to Take the Next Step?
+            Calls Not Sounding Right?
           </h2>
           <p className="text-xl text-white/90 mb-8">
-            Our team is here to help.
+            Talk to a carrier who can pull the call records and tell you what happened.
           </p>
           <a 
             href="/contact" 

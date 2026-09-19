@@ -37,7 +37,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>8 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>The ipfinity Team</span>
           </div>
         </div>
       </section>
@@ -48,7 +48,7 @@ export default function BlogPost() {
           {/* Opening */}
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              In today's rapidly evolving digital landscape, choosing the right telecommunications provider can mean the difference between seamless operations and costly service disruptions. Whether you're upgrading outdated systems, consolidating vendors, or implementing new technologies, a well-crafted Request for Proposal (RFP) serves as your roadmap to finding the ideal telecommunications partner. Yet many organizations struggle with this critical process, often resulting in incomplete responses, mismatched solutions, or buyer's remorse after implementation.
+              Choosing the right telecommunications provider can mean the difference between a network your staff never think about and one that interrupts their day. Whether you are replacing an ageing phone system, consolidating vendors after an acquisition, or moving voice to the cloud, a well-crafted Request for Proposal (RFP) is your roadmap to finding the right carrier. Yet many organizations struggle with this process, and end up with incomplete responses, mismatched solutions, or regret once the contract is signed.
             </p>
             <p>
               A strategic telecommunications RFP does more than gather pricing information—it establishes clear expectations, enables meaningful vendor comparisons, and lays the foundation for a successful long-term partnership. This comprehensive guide will walk you through creating an effective telecommunications RFP that attracts quality vendors and delivers the competitive intelligence you need to make confident decisions.
@@ -205,7 +205,7 @@ export default function BlogPost() {
               A well-executed telecommunications RFP process requires significant investment of time and resources, but the payoff—a vendor partnership that supports your operations reliably for years to come—makes that investment worthwhile. By crafting clear requirements, structuring an effective evaluation process, and avoiding common pitfalls, you position your organization to make confident decisions that deliver lasting value.
             </p>
             <p>
-              Whether you're navigating your first telecommunications RFP or refining your procurement approach, expert guidance can help you avoid costly mistakes and negotiate optimal terms. The ipfinity team brings extensive experience helping organizations evaluate complex technology decisions and implement solutions that support their unique operational requirements.
+              Whether you are running your first telecommunications RFP or refining an established procurement approach, a carrier who will answer plainly is worth more than one who answers at length. ipfinity has delivered cloud voice as an accredited Canadian carrier since 2002, and is happy to be held to the same questions we would expect any serious respondent to answer about network, support and scope.
             </p>
           </div>
         </div>
@@ -222,10 +222,10 @@ export default function BlogPost() {
             </div>
             <div>
               <h3 className="font-['Cormorant'] text-2xl text-[var(--color-ink)] mb-2">
-                Written by the ipfinity Clinical Team
+                Written by the ipfinity Team
               </h3>
               <p className="text-[var(--color-muted)] text-sm">
-                Board-certified providers specializing in Other Medical
+                Accredited Canadian telecommunications carrier. Cloud voice since 2002.
               </p>
             </div>
           </div>
@@ -262,10 +262,10 @@ export default function BlogPost() {
                 </svg>
               </div>
               <h4 className="font-['Cormorant'] text-xl text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors">
-                Network Security Best Practices for Healthcare Organizations
+                Network Security Best Practices for Business Voice
               </h4>
               <p className="text-[var(--color-muted)] text-sm">
-                Protect patient data and ensure compliance with comprehensive network security strategies.
+                Practical controls that protect voice traffic, SIP trunks and customer call records.
               </p>
             </a>
 
@@ -291,10 +291,10 @@ export default function BlogPost() {
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-['Cormorant'] text-4xl font-light mb-4">
-            Ready to Take the Next Step?
+            Putting a Telecom RFP Together?
           </h2>
           <p className="text-xl text-white/90 mb-8">
-            Our team is here to help.
+            Talk to an accredited Canadian carrier about scope, channels and requirements.
           </p>
           <a
             href="/contact"

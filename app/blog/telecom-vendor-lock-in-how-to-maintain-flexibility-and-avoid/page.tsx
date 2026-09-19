@@ -37,7 +37,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>By Dr. ipfinity Team</span>
+            <span>By the IPFINITY Team</span>
           </div>
         </div>
       </section>
@@ -48,7 +48,7 @@ export default function BlogPost() {
           {/* Opening */}
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Your organization's telecommunications infrastructure is the backbone of daily operations—connecting teams, enabling patient care, and supporting critical business functions. Yet for many healthcare organizations and businesses, what begins as a practical vendor relationship can evolve into something far more constraining: vendor lock-in. This situation, where switching providers becomes prohibitively expensive or technically complex, can limit your flexibility, inflate costs, and restrict your ability to adapt to changing needs.
+              Your organization&apos;s telecommunications infrastructure is the backbone of daily operations: it connects your teams, carries every customer call, and underpins the systems the business runs on. Yet what begins as a practical carrier relationship can evolve into something far more constraining: vendor lock-in. This situation, where switching providers becomes prohibitively expensive or technically complex, can limit your flexibility, inflate costs, and restrict your ability to adapt as the business changes.
             </p>
             <p className="mb-6">
               Understanding vendor lock-in isn't just about avoiding a bad contract—it's about maintaining strategic control over your communications infrastructure and ensuring your technology serves your mission, not the other way around. Whether you're evaluating a new telecom provider or reassessing your current arrangements, the decisions you make today will shape your operational flexibility for years to come.
@@ -64,7 +64,7 @@ export default function BlogPost() {
               Vendor lock-in occurs when an organization becomes so dependent on a particular vendor's products, services, or infrastructure that switching to an alternative becomes impractical or economically unfeasible. In telecommunications, this dependency can manifest in several ways: proprietary hardware that only works with one provider's network, long-term contracts with punitive early termination fees, custom integrations that don't transfer to other systems, or specialized technical configurations that require vendor-specific expertise.
             </p>
             <p className="mb-6">
-              The healthcare sector is particularly vulnerable to vendor lock-in due to strict regulatory requirements, the need for HIPAA-compliant communications, and the mission-critical nature of phone systems and patient communication channels. When your emergency department relies on a specific phone system or your telehealth platform is deeply integrated with proprietary infrastructure, the barriers to switching providers multiply exponentially.
+              Some businesses are more exposed than others. An operation whose published number is effectively its front door, a call centre with routing and queue logic built up over years, or a multi-site business where each branch was connected at a different time and under a different agreement, all accumulate dependencies faster than they realise. When a proprietary system holds your call flows, your recordings and your reporting, the barriers to moving multiply well beyond the cost of the service itself.
             </p>
             <p className="mb-6">
               Lock-in isn't always malicious—sometimes it's simply the result of natural business evolution and technical decisions made over time. However, the consequences are real: reduced negotiating power with your current vendor, inability to take advantage of better pricing or features from competitors, and constrained capacity to respond to changing organizational needs or technological advances.
@@ -102,7 +102,7 @@ export default function BlogPost() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <p><strong>Custom integrations and APIs:</strong> Vendor-specific integrations with your EMR, scheduling systems, or business applications that don't easily translate to other platforms.</p>
+                <p><strong>Custom integrations and APIs:</strong> Vendor-specific integrations with your CRM, ticketing, or line-of-business applications that don&apos;t easily translate to another platform.</p>
               </div>
               <div className="flex gap-4 items-start">
                 <div className="flex-shrink-0 mt-1">
@@ -151,7 +151,7 @@ export default function BlogPost() {
               <strong>Prioritize open standards and interoperability.</strong> When evaluating systems, favor technologies built on industry-standard protocols like SIP (Session Initiation Protocol) for voice communications. Standards-based systems generally offer greater flexibility to switch providers or integrate with different platforms. Ask prospective vendors explicitly about standards compliance and compatibility with competitor systems.
             </p>
             <p className="mb-6">
-              <strong>Own your equipment when practical.</strong> While hosted and managed services have advantages, owning key infrastructure components—particularly those with long useful lives—can reduce dependency. When vendor-supplied equipment is necessary, negotiate clear terms around equipment ownership at contract end and ensure hardware can function with other service providers.
+              <strong>Own your equipment when practical.</strong> While hosted and managed services have advantages, owning key infrastructure components, particularly those with long useful lives, reduces dependency. Handsets are the clearest example: a phone that speaks standard SIP can be re-registered to another carrier, while a locked handset becomes scrap the day you leave. IPFINITY certifies Snom, Grandstream and Yealink endpoints, and the Snom units carry an unusual three-year warranty, which matters when the hardware is expected to outlast the contract it arrived with. When carrier-supplied equipment is necessary, negotiate clear terms around ownership at contract end.
             </p>
             <p className="mb-6">
               <strong>Negotiate shorter contract terms with defined exit processes.</strong> While longer contracts may offer better pricing, they also increase lock-in risk. Consider 1-2 year agreements with clear renewal terms rather than 3-5 year commitments. Ensure contracts explicitly define the process, timeline, and support for transitioning to another provider, including number porting procedures and data export requirements.
@@ -263,7 +263,7 @@ export default function BlogPost() {
               Ultimately, avoiding vendor lock-in is about maintaining strategic options and ensuring your telecommunications infrastructure serves your organization's mission rather than constraining it. This doesn't mean avoiding strong vendor relationships—partnerships with skilled, reliable providers deliver enormous value. Rather, it means structuring those relationships to preserve your flexibility and negotiating power.
             </p>
             <p className="mb-6">
-              Approach telecommunications decisions with the same diligence you'd apply to any significant infrastructure investment. Involve stakeholders from IT, operations, finance, and clinical departments in evaluation processes. Consider both immediate functionality and long-term strategic flexibility. Document your requirements and decision rationale, and plan for eventual transitions even when you don't anticipate needing them.
+              Approach telecommunications decisions with the same diligence you&apos;d apply to any significant infrastructure investment. Involve stakeholders from IT, operations and finance, along with the teams who actually spend their day on the phone and will notice a change long before a report does. Consider both immediate functionality and long-term flexibility. Document your requirements and the reasoning behind each decision, and plan for an eventual transition even when you don&apos;t anticipate needing one.
             </p>
             <p className="mb-6">
               The telecommunications landscape continues evolving rapidly, with new technologies, delivery models, and competitive entrants regularly disrupting established patterns. Organizations that maintain flexibility are best positioned to adapt to these changes, take advantage of innovations, and ensure their communications infrastructure continues supporting rather than limiting their capabilities.
@@ -294,9 +294,9 @@ export default function BlogPost() {
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-2">Written by the ipfinity Clinical Team</h3>
+              <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-2">Written by the IPFINITY Team</h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Board-certified providers specializing in Other Medical, delivering evidence-based information and compassionate care guidance for the Rockwood community.
+                An accredited Canadian telecommunications carrier based in Rockwood, Ontario, delivering cloud voice, fax and global numbering since 2002.
               </p>
             </div>
           </div>
@@ -320,10 +320,10 @@ export default function BlogPost() {
               <div className="p-6">
                 <div className="text-xs uppercase tracking-wider text-[var(--color-accent)] mb-2">Technology</div>
                 <h4 className="text-xl font-light text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'var(--font-cormorant)' }}>
-                  Understanding SIP Trunking for Healthcare Organizations
+                  Understanding SIP Trunking for Business
                 </h4>
                 <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                  Learn how SIP trunking can modernize your telecommunications infrastructure while reducing costs and increasing flexibility.
+                  How SIP trunking modernises your telecommunications infrastructure while reducing cost and increasing flexibility.
                 </p>
               </div>
             </a>
@@ -338,10 +338,10 @@ export default function BlogPost() {
               <div className="p-6">
                 <div className="text-xs uppercase tracking-wider text-[var(--color-accent)] mb-2">Compliance</div>
                 <h4 className="text-xl font-light text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'var(--font-cormorant)' }}>
-                  HIPAA Compliance in Telecommunications Systems
+                  Privacy and Your Phone System Under PIPEDA
                 </h4>
                 <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                  Essential considerations for ensuring your phone and communication systems meet healthcare privacy requirements.
+                  What Canadian privacy law means for call recording, retention and who can reach your communications data.
                 </p>
               </div>
             </a>

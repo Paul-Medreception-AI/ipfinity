@@ -3,13 +3,13 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Voice Codec Selection: Balancing Audio Quality and Bandwidth Consumption | ipfinity',
   description: 'Learn how to choose the right voice codec for your VoIP system. Understand the trade-offs between audio quality and bandwidth consumption to optimize your communication infrastructure.',
-  keywords: 'voice codec, audio quality, bandwidth consumption, VoIP, codec selection, G.711, G.729, Opus, communication quality, Rockwood',
+  keywords: 'voice codec, audio quality, bandwidth consumption, VoIP, codec selection, G.711, G.729, Opus, business telephony, SIP trunking, Rockwood',
 }
 
 export default function BlogPost() {
   return (
     <main className="min-h-screen bg-white">
-      
+
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white">
         <div className="max-w-4xl mx-auto px-6">
@@ -21,24 +21,24 @@ export default function BlogPost() {
             <span className="mx-2">›</span>
             <span>Article</span>
           </div>
-          
+
           {/* Category */}
           <div className="text-xs uppercase tracking-widest text-white/70 mb-4 text-center">
-            Technology & Healthcare
+            Voice Technology
           </div>
-          
+
           {/* Title */}
           <h1 className="text-5xl font-light leading-tight text-center mb-8" style={{ fontFamily: 'Cormorant, serif' }}>
             Voice Codec Selection: Balancing Audio Quality and Bandwidth Consumption
           </h1>
-          
+
           {/* Meta */}
           <div className="flex items-center justify-center gap-6 text-sm text-white/80">
             <span>Published January 2025</span>
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>The IPFINITY Team</span>
           </div>
         </div>
       </section>
@@ -46,14 +46,14 @@ export default function BlogPost() {
       {/* Article Body */}
       <article className="bg-white py-20">
         <div className="max-w-3xl mx-auto px-6">
-          
+
           {/* Opening */}
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              In today's interconnected world, clear communication isn't just a convenience—it's a necessity. Whether you're a healthcare provider conducting telehealth consultations in Rockwood, a business coordinating remote teams, or an organization managing customer service lines, the quality of your voice communications can directly impact outcomes, patient satisfaction, and operational efficiency. At the heart of every voice call lies a critical decision that most users never see: which codec will transform analog sound waves into digital data and back again.
+              Clear speech on a business line is not a nicety. Whether you are running a sales desk, coordinating crews across several sites, or keeping a distributed team reachable on one number, the quality of your voice calls shows up directly in orders taken correctly, jobs dispatched to the right address, and customers who do not have to ring back. At the heart of every one of those calls sits a decision most users never see: which codec turns sound into digital packets, and back again at the far end.
             </p>
             <p className="mb-6">
-              Voice codecs are the invisible architects of every conversation you have over the internet. They compress audio signals to fit through digital pipes, then reconstruct them on the other end—ideally preserving every nuance of tone, inflection, and meaning. But here's the challenge: higher audio quality typically demands more bandwidth, while lower bandwidth consumption often means sacrificing clarity. Finding the right balance isn't just a technical decision; it's about ensuring that critical information gets through clearly, whether that's a medical diagnosis, a business negotiation, or a moment of human connection.
+              Voice codecs are the invisible architects of every conversation carried over IP. They compress audio to fit through digital pipes and reconstruct it on arrival, ideally preserving the tone and inflection that carry half the meaning. The difficulty is the trade-off: higher audio quality generally demands more bandwidth, while lower bandwidth usually costs you clarity. Finding the right balance is not only a technical decision. It determines whether a purchase order number, a service address or a name gets through first time.
             </p>
           </div>
 
@@ -63,13 +63,13 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              A voice codec (coder-decoder) is a sophisticated algorithm that compresses audio data for transmission and decompresses it for playback. Think of it as a translator that converts the rich complexity of human speech into efficient digital packets, then faithfully reconstructs that speech at the destination. Different codecs use various compression techniques, trading off between three key factors: audio quality, bandwidth requirements, and computational processing power.
+              A voice codec (coder-decoder) is an algorithm that compresses audio data for transmission and decompresses it for playback. Think of it as a translator that converts the complexity of human speech into efficient digital packets, then reconstructs that speech at the destination. Different codecs use different compression techniques, trading off between three factors: audio quality, bandwidth requirements, and the processing power needed at each end.
             </p>
             <p className="mb-6">
-              The codec landscape includes dozens of options, each optimized for specific scenarios. G.711, for instance, offers excellent quality with minimal processing but consumes 64 kbps of bandwidth per call. G.729 compresses audio down to just 8 kbps, making it ideal for bandwidth-constrained environments, but requires more processing power and sacrifices some audio fidelity. Modern codecs like Opus adapt dynamically to network conditions, offering the best of both worlds when properly implemented.
+              The codec landscape includes dozens of options, each suited to particular conditions. G.711 offers excellent quality with minimal processing but consumes 64 kbps per call. G.729 compresses audio down to roughly 8 kbps, which makes it useful where bandwidth is tight, at the cost of more processing and some audio fidelity. Modern codecs such as Opus adapt to network conditions as the call runs, and offer the best of both when they are implemented properly.
             </p>
             <p className="mb-6">
-              For healthcare organizations in Rockwood and beyond, codec selection becomes particularly critical. A garbled medication name or misheard dosage could have serious consequences. Yet many practices operate with limited internet bandwidth, especially in rural areas or when supporting multiple simultaneous telehealth sessions. Understanding these trade-offs enables informed decisions that prioritize both quality and practicality.
+              For businesses in Rockwood and across Ontario, codec selection matters more than it looks. A garbled part number or a digit dropped from a delivery address turns into a wasted trip. Yet plenty of sites run on limited upstream bandwidth, particularly in rural areas or where a single connection has to carry several simultaneous calls alongside everything else the business does online. Understanding these trade-offs is what makes the decision an informed one rather than a default.
             </p>
           </div>
 
@@ -79,19 +79,19 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Audio quality in voice communications is typically measured using the Mean Opinion Score (MOS), a scale from 1 (unacceptable) to 5 (excellent). G.711, the gold standard for quality, typically achieves MOS scores around 4.4—nearly indistinguishable from uncompressed audio. However, its 64 kbps bandwidth requirement means that just 15 simultaneous calls would consume nearly 1 Mbps of bandwidth in each direction.
+              Audio quality in voice communications is typically measured using the Mean Opinion Score (MOS), a scale from 1 (unacceptable) to 5 (excellent). G.711, the long-standing benchmark for quality, typically achieves MOS scores around 4.4 — close to indistinguishable from uncompressed audio. However, its 64 kbps requirement means that just 15 simultaneous calls consume nearly 1 Mbps of bandwidth in each direction.
             </p>
             <p className="mb-6">
-              Moving down the spectrum, G.729 achieves MOS scores around 3.9—still quite good—while using only 8 kbps per call. This eight-fold reduction in bandwidth means you could support 120 simultaneous calls with the same bandwidth that carries 15 G.711 calls. For many applications, this quality is more than sufficient; listeners generally don't notice the difference in routine conversations.
+              Moving down the spectrum, G.729 achieves MOS scores around 3.9 — still perfectly usable — while using only 8 kbps per call. That eight-fold reduction in bandwidth means you could support 120 simultaneous calls in the capacity that carries 15 G.711 calls. For many purposes this quality is more than sufficient; most listeners do not notice the difference in routine conversation.
             </p>
             <p className="mb-6">
-              But context matters enormously. In scenarios where every word must be crystal clear—emergency dispatch, medical consultations discussing complex terminology, or legal proceedings—the extra quality of G.711 may be non-negotiable. In contrast, internal team calls, general inquiries, or routine check-ins might work perfectly well with more compressed codecs, freeing up bandwidth for when quality truly matters.
+              But context matters enormously. Where every word has to be right the first time — emergency and dispatch calls, any call where part numbers, account references or addresses are read aloud, legal proceedings — the extra headroom of G.711 may be non-negotiable. Internal team calls, general enquiries and routine check-ins, by contrast, usually work well on a more compressed codec, freeing capacity for the calls where quality genuinely counts.
             </p>
           </div>
 
           {/* Pull Quote */}
           <blockquote className="bg-[var(--color-light)] border-l-4 border-[var(--color-primary)] p-6 my-8 text-[var(--color-ink)] italic text-xl" style={{ fontFamily: 'Cormorant, serif' }}>
-            "The best codec isn't the one with the highest quality or the lowest bandwidth—it's the one that delivers adequate clarity for your specific use case while working within your infrastructure constraints."
+            &quot;The best codec is not the one with the highest quality or the lowest bandwidth. It is the one that delivers adequate clarity for your specific use case while working within your infrastructure constraints.&quot;
           </blockquote>
 
           {/* Section 3 */}
@@ -100,13 +100,13 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Bandwidth isn't just about the raw speed of your internet connection—it's about consistent, reliable capacity during peak usage. A practice with a 100 Mbps internet connection might assume they have plenty of capacity, but when you factor in electronic health records, video consultations, staff web browsing, and cloud-based applications all competing for bandwidth, those voice calls need to be efficient.
+              Bandwidth is not just the headline speed of your internet connection. It is the consistent, reliable capacity available during your busiest hour. A business with a 100 Mbps connection might assume it has room to spare, but once cloud applications, video meetings, backups, large file transfers and general web browsing are all competing for the same pipe, voice calls need to be efficient to survive.
             </p>
             <p className="mb-6">
-              Each codec consumes bandwidth bidirectionally. That G.711 call at 64 kbps actually requires 128 kbps of total bandwidth (64 up, 64 down). Multiply this across multiple simultaneous calls during busy periods, and bandwidth consumption becomes substantial. Additionally, VoIP calls require consistent, low-latency bandwidth. A brief spike in network traffic that wouldn't affect email or web browsing can cause jitter, packet loss, and dropped audio in real-time voice calls.
+              Each codec consumes bandwidth in both directions. That G.711 call at 64 kbps actually requires 128 kbps in total, 64 up and 64 down. Multiply that across the simultaneous calls you run at peak and the consumption becomes substantial. VoIP calls also need that bandwidth to be consistent and low-latency. A brief spike in network traffic that would not trouble email or web browsing can produce jitter, packet loss and dropped audio on a live call.
             </p>
             <p className="mb-6">
-              Many organizations benefit from implementing Quality of Service (QoS) policies that prioritize voice traffic over less time-sensitive data. However, even with QoS, selecting appropriate codecs remains crucial. A well-chosen codec can mean the difference between a system that scales gracefully during busy periods and one that degrades noticeably when multiple calls overlap.
+              Most organisations benefit from Quality of Service (QoS) policies that prioritise voice traffic over less time-sensitive data. This is precisely why IPFINITY ships the Nightingale, our own small appliance that sits behind the modem and enforces voice priority, pre-programmed and plug-and-play alongside the phones — because in practice very few businesses segregate their networks themselves. Even with QoS in place, choosing an appropriate codec still matters. It is the difference between a system that degrades gracefully when the network is busy and one that falls apart.
             </p>
           </div>
 
@@ -116,13 +116,13 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              The codec landscape has evolved significantly in recent years. Opus, developed by the Internet Engineering Task Force, represents a new generation of adaptive codecs. It can scale from 6 kbps to 510 kbps, adjusting quality dynamically based on available bandwidth and audio content. When network conditions are excellent, Opus delivers superb quality; when congestion occurs, it gracefully reduces quality rather than dropping the call entirely.
+              The codec landscape has changed considerably in recent years. Opus, developed through the Internet Engineering Task Force, represents a generation of adaptive codecs. It scales from 6 kbps to 510 kbps, adjusting quality dynamically to the bandwidth available and the audio it is carrying. Where network conditions are good, Opus delivers excellent quality; where congestion appears, it reduces quality gradually rather than dropping the call.
             </p>
             <p className="mb-6">
-              This adaptability makes Opus particularly attractive for organizations with variable network conditions or diverse use cases. A single codec can handle everything from bandwidth-constrained rural connections to high-quality conference calls, automatically optimizing for each scenario. Many modern VoIP platforms now support codec selection policies that can assign different codecs based on factors like call type, user location, or time of day.
+              That adaptability makes Opus attractive for organisations with variable network conditions or a wide mix of call types. A single codec can handle everything from a constrained rural connection to a high-quality conference call, optimising for each case without anyone touching a setting. Many platforms now support codec selection policies that apply different codecs based on call type, user location or time of day.
             </p>
             <p className="mb-6">
-              For healthcare providers implementing telehealth solutions, this flexibility proves invaluable. Patient calls from areas with poor connectivity can use aggressive compression to maintain connection, while internal consultations between providers on robust networks can leverage higher quality codecs. The system adapts to serve each user's needs without manual intervention.
+              For businesses supporting remote and hybrid staff, that flexibility proves genuinely useful. A team member working from a poor connection can use aggressive compression and keep the call up, while calls between offices on solid connections run at higher quality. The system adapts to each user without manual intervention or a support ticket.
             </p>
           </div>
 
@@ -132,9 +132,9 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Choosing the right codec strategy requires assessing your specific needs, infrastructure, and use cases. Here's a practical framework for making these decisions:
+              Choosing the right codec strategy requires assessing your specific needs, infrastructure, and use cases. Here&apos;s a practical framework for making these decisions:
             </p>
-            
+
             <div className="my-8 space-y-4">
               <div className="flex gap-3 items-start">
                 <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -142,20 +142,20 @@ export default function BlogPost() {
                 </svg>
                 <div>
                   <strong className="text-[var(--color-ink)]">Assess your bandwidth capacity:</strong>
-                  <span className="text-[var(--color-ink)]"> Conduct tests during peak usage periods to understand real-world available bandwidth, not just the theoretical maximum your ISP provides.</span>
+                  <span className="text-[var(--color-ink)]"> Test during your peak hour to understand the bandwidth you actually have, not the theoretical maximum on your ISP&apos;s contract.</span>
                 </div>
               </div>
-              
+
               <div className="flex gap-3 items-start">
                 <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                 </svg>
                 <div>
-                  <strong className="text-[var(--color-ink)]">Prioritize quality for critical communications:</strong>
-                  <span className="text-[var(--color-ink)]"> Use G.711 or Opus at higher bitrates for medical consultations, emergency calls, or any scenario where clarity is paramount.</span>
+                  <strong className="text-[var(--color-ink)]">Prioritise quality for critical communications:</strong>
+                  <span className="text-[var(--color-ink)]"> Use G.711 or Opus at higher bitrates for emergency and dispatch lines, order desks, and any call where digits and addresses are read aloud.</span>
                 </div>
               </div>
-              
+
               <div className="flex gap-3 items-start">
                 <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
@@ -165,17 +165,17 @@ export default function BlogPost() {
                   <span className="text-[var(--color-ink)]"> Opus provides excellent quality when conditions allow while maintaining connections when bandwidth becomes constrained.</span>
                 </div>
               </div>
-              
+
               <div className="flex gap-3 items-start">
                 <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                 </svg>
                 <div>
                   <strong className="text-[var(--color-ink)]">Test with real users:</strong>
-                  <span className="text-[var(--color-ink)]"> Technical specifications don't always predict subjective experience. Have actual users evaluate call quality in their typical work environments.</span>
+                  <span className="text-[var(--color-ink)]"> Technical specifications don&apos;t always predict subjective experience. Have actual users evaluate call quality in their typical work environments.</span>
                 </div>
               </div>
-              
+
               <div className="flex gap-3 items-start">
                 <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
@@ -185,7 +185,7 @@ export default function BlogPost() {
                   <span className="text-[var(--color-ink)]"> Proper network configuration can make a moderate-quality codec perform better than a high-quality codec on a poorly managed network.</span>
                 </div>
               </div>
-              
+
               <div className="flex gap-3 items-start">
                 <svg className="w-6 h-6 text-[var(--color-accent)] flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
@@ -200,27 +200,27 @@ export default function BlogPost() {
 
           {/* Section 6 */}
           <h2 className="text-3xl text-[var(--color-ink)] mt-12 mb-4" style={{ fontFamily: 'Cormorant, serif' }}>
-            Implementation Strategies for Healthcare Organizations
+            Implementation Strategies for Multi-Site Businesses
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              For healthcare providers in Rockwood and similar communities, implementing voice communication systems requires balancing clinical needs, regulatory requirements, and practical constraints. HIPAA compliance necessitates encrypted communications, which adds overhead to bandwidth consumption regardless of codec choice. This makes efficient codec selection even more important.
+              For organisations running several sites, implementing voice communication systems means balancing operational needs, privacy obligations and practical constraints. Encrypting call traffic — sensible in itself, and relevant to your obligations under PIPEDA where calls carry customer information — adds overhead to bandwidth consumption regardless of which codec you choose. That makes efficient codec selection more important, not less.
             </p>
             <p className="mb-6">
-              A tiered approach often works well: deploy G.711 for provider-to-provider consultations and patient-facing telehealth appointments where diagnostic clarity matters most. Use G.729 or Opus at moderate bitrates for administrative calls, appointment reminders, and general inquiries. This strategy ensures critical communications receive priority while maximizing the number of simultaneous calls your infrastructure can support.
+              A tiered approach usually works well. Deploy G.711 on customer-facing lines and the desks where orders and addresses are taken, where clarity matters most. Use G.729 or Opus at moderate bitrates for internal calls between colleagues, administrative calls, outbound reminders and general enquiries. That strategy gives priority to the calls that earn money while maximising the number of simultaneous calls your connection can carry.
             </p>
             <p className="mb-6">
-              Many practices benefit from partnering with VoIP providers who understand healthcare-specific requirements. These providers can configure systems with appropriate codec defaults, implement failover strategies when bandwidth becomes constrained, and provide analytics showing call quality metrics across different scenarios. This data-driven approach enables continuous optimization as usage patterns evolve.
+              It also helps to work with a carrier that owns the whole path rather than reselling somebody else&apos;s. IPFINITY runs its own lines, handsets and cloud queuing end to end, which means we can set sensible codec defaults, configure failover for when a connection degrades, and show you call quality across your own call records rather than asking you to take it on faith. That is what lets you keep tuning the configuration as your usage changes.
             </p>
           </div>
 
           {/* Closing */}
           <div className="text-[var(--color-ink)] leading-loose text-base mt-12 mb-8">
             <p className="mb-6">
-              Voice codec selection represents a critical but often overlooked aspect of modern communication infrastructure. The right choices enable clear, reliable conversations that build trust, convey complex information accurately, and support the human connections at the heart of healthcare. The wrong choices lead to frustration, miscommunication, and systems that fail precisely when they're needed most.
+              Voice codec selection is a critical but often overlooked part of communication infrastructure. The right choices produce clear, reliable conversations that convey complex information accurately and let customers deal with you without repeating themselves. The wrong ones lead to frustration, misheard details, and a phone system that fails at precisely the moment it is busiest.
             </p>
             <p className="mb-6">
-              If you're implementing or upgrading voice communication systems for your healthcare practice or organization, professional guidance can help you navigate these technical decisions in the context of your specific requirements. At ipfinity, we understand that technology serves people—providers caring for patients, teams collaborating to deliver excellent service, and communities staying connected. We're here to help you build communication systems that work reliably, scale sustainably, and deliver the quality your mission demands.
+              If you are implementing or upgrading voice services, it helps to make these decisions in the context of your own traffic rather than from a datasheet. IPFINITY has been an accredited telecommunications carrier since 2002, delivering cloud voice, SIP trunking, cloud fax and global numbering to businesses across Canada and the United States and further afield. We are happy to look at what your sites actually need and scope it honestly, including telling you where you are carrying capacity you do not use.
             </p>
           </div>
 
@@ -237,8 +237,8 @@ export default function BlogPost() {
               </svg>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-2">Written by the ipfinity Clinical Team</h3>
-              <p className="text-[var(--color-muted)] leading-relaxed">Board-certified providers specializing in Other Medical, dedicated to empowering our community with evidence-based health information and compassionate care.</p>
+              <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-2">Written by the IPFINITY Team</h3>
+              <p className="text-[var(--color-muted)] leading-relaxed">IPFINITY Inc. is an accredited telecommunications carrier based in Rockwood, Ontario, delivering cloud-based voice, SIP trunking, cloud fax and global numbering to businesses since 2002.</p>
             </div>
           </div>
         </div>
@@ -251,7 +251,7 @@ export default function BlogPost() {
             Related Resources
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
-            
+
             {/* Article 1 */}
             <a href="/blog" className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
               <div className="bg-gradient-to-br from-[var(--color-light)] to-[var(--color-cream)] h-48 flex items-center justify-center">
@@ -278,10 +278,10 @@ export default function BlogPost() {
               </div>
               <div className="p-6">
                 <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-3 group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'Cormorant, serif' }}>
-                  Securing Telehealth Communications: Encryption and Compliance
+                  Securing Business Voice: Encryption and Privacy
                 </h4>
                 <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                  Learn how encryption protocols protect patient privacy while maintaining call quality in healthcare voice systems.
+                  How encryption protects customer conversations, and what PIPEDA means for the calls your phone system carries.
                 </p>
               </div>
             </a>
@@ -295,10 +295,10 @@ export default function BlogPost() {
               </div>
               <div className="p-6">
                 <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-3 group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'Cormorant, serif' }}>
-                  Bandwidth Planning for Growing Medical Practices
+                  Bandwidth Planning for Growing Businesses
                 </h4>
                 <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                  Calculate your bandwidth needs and plan infrastructure that scales with your practice's telehealth and communication requirements.
+                  Work out what your voice traffic really needs and plan connectivity that scales with your headcount and sites.
                 </p>
               </div>
             </a>
@@ -316,8 +316,8 @@ export default function BlogPost() {
           <p className="text-xl mb-8 text-white/90">
             Our team is here to help.
           </p>
-          <a 
-            href="/contact" 
+          <a
+            href="/contact"
             className="inline-block bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-2xl"
           >
             Contact Us Today

@@ -37,7 +37,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>The IPFINITY Team</span>
           </div>
         </div>
       </section>
@@ -81,7 +81,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-4">
-            Modern VoIP (Voice over Internet Protocol) systems deliver enterprise-grade call quality over internet connections, with features like automatic call routing, voicemail-to-email transcription, call recording for compliance, and integration with CRM and productivity platforms. For organizations in sectors like healthcare in Rockwood, these systems can incorporate HIPAA-compliant features ensuring that patient communications meet regulatory requirements even when staff work from home.
+            Modern VoIP (Voice over Internet Protocol) systems deliver business-grade call quality over internet connections, with features like automatic call routing, voicemail-to-email delivery, call recording, cloud queueing, and integration with CRM and productivity platforms. For regulated businesses, the same platform has to keep working when the desk it used to sit on is a spare room, which means recording, retention and access controls belong in the service rather than in whatever software each employee happens to install at home.
           </p>
 
           <div className="bg-[var(--color-light)] border-l-4 border-[var(--color-primary)] p-6 my-8">
@@ -112,7 +112,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-8">
-            Quality of Service (QoS) configurations prioritize critical traffic like voice and video over less time-sensitive data transfers. When bandwidth becomes constrained, QoS ensures that a file download doesn't cause a client video call to freeze. Many organizations provide pre-configured routers with QoS settings optimized for their specific applications, removing the burden of configuration from individual employees.
+            Quality of Service (QoS) configurations prioritize critical traffic like voice and video over less time-sensitive data transfers. When bandwidth becomes constrained, QoS ensures that a file download doesn&apos;t cause a client video call to freeze. This is the single most common gap in a remote setup, because almost nobody segregates a home network. IPFINITY addresses it with Nightingale, a small appliance that sits behind the modem and enforces voice priority on the connection. It ships pre-programmed and plug-and-play alongside the handsets, which keeps the configuration burden off the individual employee entirely.
           </p>
 
           {/* Section 4 */}
@@ -129,7 +129,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-4">
-            End-to-end encryption for voice and video communications ensures that conversations remain private, particularly crucial for organizations handling sensitive information. Healthcare providers, legal firms, and financial services organizations must ensure their telecom systems meet industry-specific compliance requirements—HIPAA, attorney-client privilege protections, or financial data regulations—even when staff work from personal spaces.
+            Encryption of voice and video traffic keeps conversations private in transit, which matters most for organisations that handle sensitive information about other people. In Canada, commercial organisations handling personal information in the course of business are subject to PIPEDA, and firms working with health-sector clients in Ontario may also have PHIPA obligations flowing through their contracts. Professional practices carry their own confidentiality duties. None of those obligations relax because the desk moved to a spare bedroom, so the controls have to live in the platform rather than in each employee&apos;s home setup.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-8">
@@ -247,8 +247,8 @@ export default function BlogPost() {
               </svg>
             </div>
             <div>
-              <h3 className="text-xl font-medium text-[var(--color-ink)] mb-2">Written by the ipfinity Clinical Team</h3>
-              <p className="text-[var(--color-muted)] leading-relaxed">Board-certified providers specializing in Other Medical</p>
+              <h3 className="text-xl font-medium text-[var(--color-ink)] mb-2">Written by the IPFINITY Team</h3>
+              <p className="text-[var(--color-muted)] leading-relaxed">An accredited Canadian telecommunications carrier delivering cloud voice from Rockwood, Ontario since 2002.</p>
             </div>
           </div>
         </div>
@@ -271,9 +271,9 @@ export default function BlogPost() {
               <div className="p-6">
                 <div className="text-xs uppercase tracking-widest text-[var(--color-accent)] mb-2">Technology</div>
                 <h4 className="text-xl font-light text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'var(--font-cormorant)' }}>
-                  Network Security Best Practices for Healthcare Organizations
+                  Network Security Best Practices for Distributed Businesses
                 </h4>
-                <p className="text-[var(--color-muted)] text-sm">Essential strategies for protecting patient data and maintaining HIPAA compliance in modern healthcare networks.</p>
+                <p className="text-[var(--color-muted)] text-sm">Protecting business communications when every endpoint sits on a network your IT team does not control.</p>
               </div>
             </a>
 

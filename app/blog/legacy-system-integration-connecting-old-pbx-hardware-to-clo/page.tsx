@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Legacy System Integration: Connecting Old PBX Hardware to Cloud Services | ipfinity',
-  description: 'Learn how healthcare organizations can modernize communication infrastructure by integrating legacy PBX systems with cloud services without replacing existing hardware.',
-  keywords: 'legacy PBX integration, cloud telephony, healthcare communications, PBX modernization, hybrid phone systems, VoIP migration',
+  description: 'How a business can modernize its communication infrastructure by connecting an existing PBX to cloud services, without replacing hardware that still works.',
+  keywords: 'legacy PBX integration, cloud telephony, SIP trunking, PBX modernization, hybrid phone systems, VoIP migration',
 }
 
 export default function BlogPost() {
@@ -49,7 +49,7 @@ export default function BlogPost() {
               <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
               </svg>
-              <span>ipfinity Clinical Team</span>
+              <span>ipfinity Team</span>
             </div>
           </div>
         </div>
@@ -61,26 +61,26 @@ export default function BlogPost() {
           {/* Opening */}
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              For many healthcare organizations, the phone system represents a significant investment that has served reliably for years—sometimes decades. The on-premise PBX hardware still works, staff know how to use it, and replacing it entirely feels unnecessarily disruptive and expensive. Yet the advantages of cloud-based communication—remote access, mobile integration, advanced analytics, and easier scaling—are too compelling to ignore.
+              For many businesses, the phone system represents a significant investment that has served reliably for years, sometimes decades. The on-premise PBX hardware still works, staff know how to use it, and replacing it outright feels disruptive and expensive. Yet the advantages of cloud-based communication, including remote access, mobile integration, better analytics and easier scaling, are difficult to ignore.
             </p>
             <p className="mb-6">
-              The good news? You don't have to choose between keeping your legacy system and embracing modern cloud capabilities. Legacy system integration offers a practical middle path, allowing healthcare providers in Rockwood and beyond to connect existing PBX hardware with cloud services, preserving investments while unlocking new functionality.
+              You do not have to choose between keeping the legacy system and adopting cloud capabilities. Legacy system integration offers a practical middle path, letting businesses in Rockwood and across Canada connect existing PBX hardware to cloud services, preserving the investment while adding new functionality.
             </p>
           </div>
 
           {/* Section 1 */}
           <h2 className="text-3xl text-[var(--color-ink)] mt-12 mb-4 font-light" style={{ fontFamily: 'Cormorant, serif' }}>
-            Understanding Legacy PBX Systems in Healthcare
+            Understanding Legacy PBX Systems in Business
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Private Branch Exchange (PBX) systems have been the backbone of healthcare communication infrastructure for generations. These on-premise phone systems manage internal call routing, voicemail, extensions, and external line access. Many facilities operate digital or analog PBX equipment installed 10-20 years ago that continues to function reliably.
+              Private Branch Exchange (PBX) systems have been the backbone of business communication infrastructure for generations. These on-premise phone systems manage internal call routing, voicemail, extensions and external line access. Plenty of businesses still run digital or analog PBX equipment installed 10 to 20 years ago that continues to function reliably.
             </p>
             <p className="mb-6">
-              Healthcare organizations face unique constraints when considering system replacement. Budget cycles are tight, IT resources are stretched thin, and any disruption to communication systems can directly impact patient care. Staff training on new systems takes time, and the risk of downtime during migration is a serious concern. This makes the prospect of "rip and replace" particularly challenging in medical settings.
+              Most organizations face the same constraints when they consider replacement. Budget cycles are tight, IT resources are stretched thin, and any disruption to the phone system is felt immediately by the people trying to reach you. Staff training takes time, and the risk of downtime during migration is a serious concern. That is what makes &quot;rip and replace&quot; a hard sell, even when the case for cloud features is obvious.
             </p>
             <p className="mb-6">
-              Yet legacy systems also have limitations. They typically lack mobile integration, remote work capabilities, advanced call analytics, CRM integration, and the flexibility to easily add or remove users. As healthcare delivery evolves—with telehealth, remote staff, and multi-location practices becoming standard—these limitations become increasingly problematic.
+              Yet legacy systems also have limitations. They typically lack mobile integration, remote work capabilities, useful call analytics, CRM integration, and the flexibility to add or remove users quickly. As working patterns change, with hybrid schedules, remote staff and multi-site operations now ordinary, those limitations become harder to live with.
             </p>
           </div>
 
@@ -103,17 +103,17 @@ export default function BlogPost() {
           {/* Pull Quote */}
           <div className="bg-[var(--color-light)] border-l-4 border-[var(--color-primary)] p-6 my-8">
             <p className="text-[var(--color-ink)] italic text-xl font-light" style={{ fontFamily: 'Cormorant, serif' }}>
-              "Integration allows healthcare organizations to modernize communication capabilities without the disruption and expense of replacing infrastructure that still works reliably."
+              &quot;Integration lets a business modernize its communication capabilities without the disruption and expense of replacing infrastructure that still works reliably.&quot;
             </p>
           </div>
 
           {/* Section 3 */}
           <h2 className="text-3xl text-[var(--color-ink)] mt-12 mb-4 font-light" style={{ fontFamily: 'Cormorant, serif' }}>
-            Key Benefits for Healthcare Organizations
+            Key Benefits for Business
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              The integrated approach offers several compelling advantages specifically relevant to medical practices and healthcare facilities:
+              The integrated approach offers several advantages that matter to any business with phones already on the wall:
             </p>
             <div className="space-y-4 my-6">
               <div className="flex gap-3">
@@ -153,7 +153,7 @@ export default function BlogPost() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <div>
-                  <strong className="text-[var(--color-ink)]">Business continuity:</strong> Cloud redundancy provides failover protection if on-premise equipment fails, improving reliability for patient communication.
+                  <strong className="text-[var(--color-ink)]">Business continuity:</strong> Cloud redundancy provides failover protection if on-premise equipment fails, so incoming customer calls keep landing somewhere useful.
                 </div>
               </div>
               <div className="flex gap-3">
@@ -176,13 +176,13 @@ export default function BlogPost() {
               Successful integration requires careful planning and assessment of your current infrastructure. Not all legacy systems are equally compatible with cloud services, and technical requirements vary based on your specific equipment and goals.
             </p>
             <p className="mb-6">
-              <strong>Internet connectivity</strong> becomes critical when routing voice traffic through cloud services. Your facility needs sufficient bandwidth with quality of service (QoS) prioritization to ensure clear call quality. Most healthcare organizations already have robust internet service, but voice traffic requires consistent, low-latency connections rather than just high speed.
+              <strong>Internet connectivity</strong> becomes critical once voice traffic is routed through cloud services. Your site needs enough bandwidth, with quality of service (QoS) prioritization, to keep calls clear. Most businesses already have adequate internet service, but voice needs a consistent, low-latency connection rather than raw speed. Few networks separate voice from data, which is why a small appliance sitting behind the modem to enforce voice priority often does more for call quality than buying a bigger pipe.
             </p>
             <p className="mb-6">
-              <strong>PBX compatibility</strong> varies by manufacturer and model. Modern IP-PBX systems typically integrate smoothly with SIP trunking. Older digital systems may require additional gateway hardware to translate between protocols. An experienced telecommunications provider can assess your specific equipment and recommend the appropriate integration approach.
+              <strong>PBX compatibility</strong> varies by manufacturer and model. Modern IP-PBX systems usually integrate smoothly with SIP trunking. Older digital systems may need additional gateway hardware to translate between protocols. An experienced carrier can assess your specific equipment and recommend the right integration approach, including which certified handsets can be reused and which should be replaced.
             </p>
             <p className="mb-6">
-              <strong>Security and compliance</strong> remain paramount in healthcare. Integrated systems must maintain HIPAA compliance for any patient information transmitted over voice channels. This includes encrypted connections, secure call recording storage, and proper access controls. Your cloud provider should have healthcare-specific experience and compliance certifications.
+              <strong>Security and compliance</strong> deserve attention before cutover rather than after. In Canada, personal information handled on your voice channels falls under PIPEDA, and some customers bring obligations of their own on top of that, such as Ontario PHIPA where health information is involved. In practice this means encrypted connections, controlled storage of call recordings, a defined retention period, and access limited to the people who need it. Ask your provider where recordings and call records are held, and who can reach them.
             </p>
             <p className="mb-6">
               <strong>Emergency calling (E911)</strong> requires special attention in hybrid environments. The system must accurately route emergency calls and transmit location information, which can be complex when integrating legacy and cloud components. Testing and validation of emergency calling is essential before going live.
@@ -195,16 +195,16 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              A phased approach typically yields the best results when integrating legacy systems with cloud services. Healthcare organizations should consider these implementation strategies:
+              A phased approach typically yields the best results when integrating legacy systems with cloud services. Businesses should consider these implementation strategies:
             </p>
             <p className="mb-6">
-              <strong>Start with a pilot program.</strong> Test the integrated system with a small group of users or a single department before organization-wide deployment. This allows you to identify and resolve issues without impacting all staff and patient communication simultaneously.
+              <strong>Start with a pilot program.</strong> Test the integrated system with a small group of users or a single department before organization-wide deployment. This lets you find and resolve issues without affecting every member of staff and every customer line at once.
             </p>
             <p className="mb-6">
               <strong>Prioritize training and change management.</strong> Even when desk phones remain familiar, new features and mobile capabilities require staff education. Provide clear documentation, hands-on training sessions, and accessible technical support during the transition period.
             </p>
             <p className="mb-6">
-              <strong>Maintain redundancy during migration.</strong> Keep traditional phone lines active alongside new SIP trunks until the integrated system proves reliable. This provides a fallback option if technical issues arise and ensures continuous patient communication.
+              <strong>Maintain redundancy during migration.</strong> Keep traditional phone lines active alongside new SIP trunks until the integrated system has proved itself. This gives you a fallback if technical issues arise and keeps customer calls connected throughout.
             </p>
             <p className="mb-6">
               <strong>Monitor performance metrics.</strong> Cloud platforms typically provide detailed analytics on call quality, volume, and patterns. Use this data to optimize configuration, identify issues early, and demonstrate ROI to stakeholders.
@@ -220,10 +220,10 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Legacy system integration offers the most value in specific scenarios. Healthcare organizations should consider this approach when their existing PBX equipment still functions reliably, budget constraints make full replacement challenging in the near term, or staff resistance to change makes gradual adoption preferable to sudden system replacement.
+              Legacy system integration offers the most value in specific scenarios. Consider this approach when your existing PBX equipment still functions reliably, when budget constraints make full replacement difficult in the near term, or when staff resistance to change makes gradual adoption preferable to a sudden switch.
             </p>
             <p className="mb-6">
-              This strategy works particularly well for organizations that need immediate access to specific cloud capabilities—like mobile integration for telehealth or remote staff support—without waiting for complete system replacement. It's also valuable when wiring infrastructure makes replacing desk phones impractical, or when regulatory or business requirements demand minimal operational disruption.
+              The strategy works particularly well for organizations that need one specific cloud capability now, such as mobile integration for remote and hybrid staff, without waiting for a complete system replacement. It is also valuable when the building wiring makes replacing desk phones impractical, or when the business simply cannot absorb operational disruption this quarter.
             </p>
             <p className="mb-6">
               Conversely, if your PBX equipment frequently fails or requires expensive maintenance, complete replacement may be more cost-effective than integration. Similarly, if your organization is planning facility renovation or relocation, that timing may present an ideal opportunity for full cloud migration rather than hybrid integration.
@@ -233,10 +233,10 @@ export default function BlogPost() {
           {/* Closing */}
           <div className="text-[var(--color-ink)] leading-loose text-base mt-12 pt-8 border-t border-[var(--color-border)]">
             <p className="mb-6">
-              Legacy system integration represents a practical, cost-effective path for healthcare organizations to modernize communication infrastructure without the disruption and expense of complete system replacement. By connecting existing PBX hardware to cloud services, practices in Rockwood and beyond can preserve investments while gaining the flexibility, functionality, and remote capabilities that modern healthcare delivery demands.
+              Legacy system integration is a practical, cost-effective path to modern communication infrastructure without the disruption and expense of replacing everything at once. By connecting existing PBX hardware to cloud services, businesses in Rockwood and beyond can protect the investment already made while gaining the flexibility, functionality and remote access that current ways of working demand.
             </p>
             <p className="mb-6">
-              The key to success lies in thorough assessment, careful planning, phased implementation, and working with experienced telecommunications providers who understand both legacy equipment and cloud technologies. If you're considering how to modernize your practice's communication system while managing costs and minimizing disruption, professional guidance can help you navigate the technical and operational complexities of integration.
+              Success comes down to thorough assessment, careful planning, phased implementation, and working with a carrier that understands both legacy equipment and cloud services. If you are weighing up how to modernize your communication system while managing cost and minimizing disruption, ipfinity can help you work through the technical and operational detail.
             </p>
           </div>
         </div>
@@ -250,10 +250,10 @@ export default function BlogPost() {
           </div>
           <div>
             <h3 className="text-xl font-light text-[var(--color-ink)] mb-2" style={{ fontFamily: 'Cormorant, serif' }}>
-              Written by the ipfinity Clinical Team
+              Written by the ipfinity Team
             </h3>
             <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-              Board-certified providers specializing in Other Medical, committed to delivering evidence-based care and patient education.
+              ipfinity is an accredited Canadian telecommunications carrier. We have delivered cloud voice since 2002, and we own the lines, handsets, features and queuing end to end.
             </p>
           </div>
         </div>
@@ -274,10 +274,10 @@ export default function BlogPost() {
                 </svg>
               </div>
               <h4 className="text-xl font-light text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'Cormorant, serif' }}>
-                VoIP vs Traditional Phone Systems: What Healthcare Practices Need to Know
+                VoIP vs Traditional Phone Systems: What Business Buyers Need to Know
               </h4>
               <p className="text-[var(--color-muted)] text-sm">
-                Compare communication technologies and understand which solution best fits your practice's needs and budget.
+                Compare communication technologies and work out which one fits your operation and your budget.
               </p>
             </a>
 
@@ -289,10 +289,10 @@ export default function BlogPost() {
                 </svg>
               </div>
               <h4 className="text-xl font-light text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'Cormorant, serif' }}>
-                HIPAA Compliance for Cloud Phone Systems in Healthcare
+                Protecting Customer Communications Under PIPEDA
               </h4>
               <p className="text-[var(--color-muted)] text-sm">
-                Essential security requirements and best practices for maintaining patient privacy in modern communication systems.
+                Security requirements and practical habits for protecting customer privacy in a modern phone system.
               </p>
             </a>
 
@@ -304,10 +304,10 @@ export default function BlogPost() {
                 </svg>
               </div>
               <h4 className="text-xl font-light text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'Cormorant, serif' }}>
-                Mobile Communication Solutions for Remote Healthcare Teams
+                Mobile Communication for Distributed Teams
               </h4>
               <p className="text-[var(--color-muted)] text-sm">
-                Enable seamless communication for telehealth providers and distributed staff with mobile-first technology.
+                Keep remote and hybrid staff on the same phone system as the office, using smartphone apps and softphones.
               </p>
             </a>
           </div>

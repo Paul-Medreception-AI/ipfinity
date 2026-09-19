@@ -38,7 +38,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>The ipfinity Team</span>
           </div>
         </div>
       </section>
@@ -48,7 +48,7 @@ export default function BlogPost() {
         <div className="max-w-3xl mx-auto px-6">
           {/* Opening Hook */}
           <p className="text-[var(--color-ink)] leading-loose text-lg mb-6">
-            In an era of digital communication, the humble toll-free number remains one of the most powerful branding tools available to businesses. Whether you're launching a new service line, expanding your practice, or reimagining your brand identity, your toll-free number strategy can significantly impact customer perception, recall, and trust. But with multiple prefix options—800, 888, 877, 866—and the allure of vanity numbers, how do you choose the right approach for your organization?
+            In an era of digital communication, the humble toll-free number remains one of the most powerful branding tools available to businesses. Whether you are launching a new service line, opening a second location, or reworking your brand identity, your toll-free number strategy affects customer perception, recall and trust. But with multiple prefix options, 800, 888, 877 and 866, and the allure of vanity numbers, how do you choose the right approach for your organization?
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -65,7 +65,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Despite functional equivalence—all prefixes route calls identically and are free for callers—perception differences persist. The 800 prefix retains a psychological advantage, carrying connotations of established credibility and longevity. Research in consumer behavior suggests that customers perceive 800 numbers as more trustworthy and professional than newer prefixes, particularly among older demographics who remember when 800 was the only option.
+            Despite functional equivalence—all prefixes route calls identically and are free for callers—perception differences persist. The 800 prefix retains a psychological advantage, carrying connotations of established credibility and longevity. Plenty of buyers still read 800 as the mark of a business that has been around a while, particularly those old enough to remember when 800 was the only option there was.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -78,11 +78,11 @@ export default function BlogPost() {
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Consumer studies reveal fascinating insights into how different demographics perceive toll-free prefixes. Baby Boomers and Gen X consumers show marked preference for 800 numbers, associating them with established, reliable businesses. This cohort often views newer prefixes with mild skepticism, perceiving them as potentially less legitimate or newly established.
+            Generational differences are worth weighing before you commit. Older buyers tend to favour 800 numbers, associating them with established, reliable businesses, and to treat newer prefixes with mild scepticism, reading them as less settled or more recently minted.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Millennials and Gen Z consumers, however, demonstrate prefix agnosticism. Having grown up in an era of multiple toll-free options, they evaluate businesses based on other factors—website quality, online reviews, social media presence—rather than toll-free prefix. For these demographics, a memorable vanity number often carries more weight than prefix prestige.
+            Younger buyers, by contrast, are largely prefix-agnostic. Having grown up with multiple toll-free options, they judge a business on other signals—website quality, online reviews, social media presence—rather than the three digits in front of the number. For these buyers, a number that is easy to remember carries more weight than a prefix with history.
           </p>
 
           <div className="bg-[var(--color-light)] border-l-4 border-[var(--color-primary)] p-6 my-8">
@@ -92,7 +92,7 @@ export default function BlogPost() {
           </div>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Geographic considerations also matter. In markets with conservative business cultures or industries serving older populations—healthcare, financial services, legal services—the 800 prefix may deliver measurable advantages in conversion rates and perceived credibility. Technology companies and startups, conversely, often find that vanity numbers with newer prefixes perform equally well or better, particularly when the vanity element creates strong brand alignment.
+            Geographic and sector considerations also matter. In markets with conservative business cultures, and in industries that serve an older customer base—financial services, legal services, trades and home services—the 800 prefix may still carry weight. Technology companies and newer firms often find that a vanity number on a newer prefix does the job just as well, particularly when the word it spells lines up with the brand.
           </p>
 
           {/* Section 3 */}
@@ -109,7 +109,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            The strategic value of vanity numbers extends beyond memorability. A strong vanity number communicates your value proposition instantly—1-800-DENTIST immediately signals the service category, while 1-888-SELL-NOW creates urgency for real estate services. This instant clarity reduces cognitive load, making it easier for prospects to take action in the moment.
+            The strategic value of vanity numbers extends beyond memorability. A strong vanity number communicates what you do instantly—1-800-GOT-JUNK tells you the service category before you have finished reading it, while a number like 1-888-SELL-NOW creates urgency for a property agency. That clarity reduces the work a prospect has to do, making it easier to act in the moment.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -126,7 +126,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Established businesses with strong existing brand recognition may find numeric 800 numbers perfectly adequate. When your company name already carries significant equity—think regional healthcare systems, established financial institutions, or multi-generational family businesses—customers will remember your brand first and find your number through multiple channels. For these organizations, a premium 800 number reinforces existing credibility without requiring memorability independent of brand.
+            Established businesses with strong existing brand recognition may find numeric 800 numbers perfectly adequate. When your company name already carries significant equity—think a regional distributor, an established financial institution, or a multi-generational family business—customers remember the brand first and find the number through whichever channel is in front of them. For these organizations, a premium 800 number reinforces existing credibility without having to be memorable on its own.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -200,7 +200,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            The strategic evolution involves integrating toll-free numbers within comprehensive omnichannel experiences. Progressive organizations use toll-free numbers as entry points to intelligent routing systems that can transition callers to appropriate channels—transferring to text for appointment scheduling, sending follow-up emails with resources, or routing to video consultations when appropriate.
+            The strategic evolution involves integrating toll-free numbers within a wider set of channels. Organizations increasingly use a toll-free number as the entry point to a routing system that can move the caller to whichever channel suits the task—texting a booking confirmation or a service window, emailing documentation after the call, or moving to video when someone needs to be shown rather than told.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -236,10 +236,10 @@ export default function BlogPost() {
           </div>
           <div>
             <h3 className="text-[var(--color-ink)] font-semibold text-lg mb-1">
-              Written by the ipfinity Clinical Team
+              Written by the ipfinity Team
             </h3>
             <p className="text-[var(--color-muted)] text-sm">
-              Board-certified providers specializing in Other Medical
+              Accredited Canadian telecommunications carrier. Cloud voice since 2002.
             </p>
           </div>
         </div>
@@ -260,10 +260,10 @@ export default function BlogPost() {
               </div>
               <div className="p-6">
                 <h4 className="font-serif text-xl text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors">
-                  Building Patient Trust Through Professional Communication
+                  Building Customer Trust Through Professional Call Handling
                 </h4>
                 <p className="text-[var(--color-muted)] text-sm">
-                  Discover how effective communication systems enhance patient satisfaction and practice reputation.
+                  How answer times, hold treatment and routing shape what callers think of your business.
                 </p>
               </div>
             </Link>
@@ -276,10 +276,10 @@ export default function BlogPost() {
               </div>
               <div className="p-6">
                 <h4 className="font-serif text-xl text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors">
-                  Marketing Strategies for Growing Your Practice in Rockwood
+                  Opening a New Market With Local Numbers
                 </h4>
                 <p className="text-[var(--color-muted)] text-sm">
-                  Practical approaches to expanding your patient base through strategic marketing and community engagement.
+                  Practical approaches to establishing a local presence with DID numbers before you open an office.
                 </p>
               </div>
             </Link>
@@ -292,10 +292,10 @@ export default function BlogPost() {
               </div>
               <div className="p-6">
                 <h4 className="font-serif text-xl text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors">
-                  Ensuring HIPAA Compliance in Modern Communication Systems
+                  Protecting Customer Communications Under PIPEDA
                 </h4>
                 <p className="text-[var(--color-muted)] text-sm">
-                  Essential guidelines for maintaining patient privacy across phone, text, and digital channels.
+                  What Canadian privacy law expects of the calls, messages and call records a business keeps.
                 </p>
               </div>
             </Link>
@@ -307,10 +307,10 @@ export default function BlogPost() {
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-serif text-4xl font-light mb-4">
-            Ready to Take the Next Step?
+            Choosing a Toll-Free Number?
           </h2>
           <p className="text-xl mb-8 text-white/90">
-            Our team is here to help.
+            We can source the number and build the routing behind it.
           </p>
           <Link 
             href="/contact"

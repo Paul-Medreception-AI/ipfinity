@@ -53,7 +53,7 @@ export default function BlogPost() {
           {/* Opening */}
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              When your phone system goes down, every minute counts. For healthcare providers, that could mean missed patient calls. For financial services, lost transactions. For any business, downtime translates directly to revenue loss, customer frustration, and operational chaos. Yet when evaluating telecommunications providers, many organizations focus solely on price and features while glossing over one of the most critical elements: the Service Level Agreement (SLA) and its uptime guarantees.
+              When your phone system goes down, every minute counts. For a contact centre, that means abandoned callers and orders that go to a competitor. For financial services, lost transactions. For a dispatch operation, crews in the field who cannot be reached. For any business, downtime translates directly to revenue loss, customer frustration, and operational chaos. Yet when evaluating telecommunications providers, many organizations focus solely on price and features while glossing over one of the most critical elements: the Service Level Agreement (SLA) and its uptime guarantees.
             </p>
             <p className="mb-6">
               Understanding what those uptime percentages actually mean—and how they translate to real-world reliability—can be the difference between a telecommunications partner that supports your growth and one that undermines your operations. Let's decode the fine print and explore what you really need to know about SLA requirements for business telecommunications.
@@ -111,7 +111,7 @@ export default function BlogPost() {
               </li>
             </ul>
             <p className="mb-6">
-              Suddenly, that single decimal point difference between 99.9% and 99.99% represents over 8 hours versus less than an hour of annual downtime. For mission-critical operations, that gap is enormous. A healthcare practice that relies on telecom for patient scheduling, emergency calls, and telemedicine cannot afford 8+ hours of annual downtime. Similarly, financial services firms handling time-sensitive transactions need carrier-grade reliability.
+              Suddenly, that single decimal point difference between 99.9% and 99.99% represents over 8 hours versus less than an hour of annual downtime. For mission-critical operations, that gap is enormous. A distributor whose order desk runs entirely on the phone, or a service business whose customers call to book install windows, cannot absorb 8+ hours of lost lines a year. Similarly, financial services firms handling time-sensitive transactions need carrier-grade reliability.
             </p>
             <p className="mb-6">
               The industry standard for enterprise-grade telecommunications typically hovers around 99.99% uptime, though some premium providers offer 99.999% for critical infrastructure. Anything below 99.9% should raise immediate red flags for business applications.
@@ -270,7 +270,7 @@ export default function BlogPost() {
               <strong>Diverse routing</strong> means your primary and backup circuits follow physically separate paths to your location. If construction damages one route, the other remains functional. Many enterprise-grade providers offer this as standard for critical connections.
             </p>
             <p className="mb-6">
-              <strong>Failover configurations</strong> automatically reroute traffic when primary systems fail. Modern SD-WAN solutions can seamlessly switch between multiple internet connections, and cloud-based phone systems can redirect calls to mobile devices or alternate locations.
+              <strong>Failover configurations</strong> automatically reroute traffic when primary systems fail. Modern SD-WAN solutions can switch between multiple internet connections without dropping a call, and cloud-based phone systems can redirect calls to mobile devices or alternate locations.
             </p>
             <p className="mb-6">
               <strong>Geographic distribution</strong> reduces single-point-of-failure risk. If your entire operation is in one building with one internet connection, you're vulnerable. Cloud-based solutions inherently provide geographic redundancy across multiple data centers.
@@ -289,7 +289,7 @@ export default function BlogPost() {
               Take the time to thoroughly evaluate SLA terms, ask the hard questions, and demand transparency about actual performance history. Your telecommunications infrastructure is too critical to trust to marketing promises alone. With the right provider, backed by a comprehensive SLA and thoughtful redundancy planning, you can build the reliable, resilient communications foundation your business deserves.
             </p>
             <p>
-              Need help evaluating telecommunications providers or designing a resilient communications strategy? The experts at ipfinity specialize in helping organizations in Rockwood navigate complex technology decisions with clarity and confidence. Let's ensure your telecommunications infrastructure supports your mission rather than undermining it.
+              Need help evaluating telecommunications providers or designing a resilient communications strategy? ipfinity is an accredited carrier, which means we own the lines, the endpoints and the cloud queuing end to end and can answer questions about routing, redundancy and call records directly rather than passing them upstream. We work with businesses across Canada and the United States. Let&apos;s make sure your telecommunications infrastructure supports your operation rather than undermining it.
             </p>
           </div>
         </div>
@@ -306,10 +306,10 @@ export default function BlogPost() {
             </div>
             <div>
               <div className="font-semibold text-[var(--color-ink)] text-lg mb-1">
-                Written by the ipfinity Clinical Team
+                Written by the ipfinity Team
               </div>
               <div className="text-[var(--color-muted)] text-sm">
-                Board-certified providers specializing in Other Medical, serving the Rockwood community with expertise and compassion.
+                Cloud voice specialists at ipfinity, an accredited Canadian telecommunications carrier serving business customers since 2002.
               </div>
             </div>
           </div>

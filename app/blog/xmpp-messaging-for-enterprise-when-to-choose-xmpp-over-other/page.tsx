@@ -37,7 +37,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>The IPFINITY Team</span>
           </div>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function BlogPost() {
         <div className="max-w-3xl mx-auto px-6">
           {/* Opening Hook */}
           <p className="text-[var(--color-ink)] leading-loose text-lg mb-6">
-            In an era where real-time communication drives business operations, choosing the right messaging protocol can make or break your enterprise infrastructure. While many organizations default to proprietary solutions or trendy alternatives, XMPP (Extensible Messaging and Presence Protocol) continues to power some of the world's most demanding communication systems—from healthcare networks to financial institutions. But when does XMPP truly shine, and how do you know if it's the right choice for your organization?
+            In an era where real-time communication drives business operations, choosing the right messaging protocol can make or break your enterprise infrastructure. While many organizations default to proprietary solutions or trendy alternatives, XMPP (Extensible Messaging and Presence Protocol) continues to power some of the world&rsquo;s most demanding communication systems, from carrier networks and logistics operations to financial institutions. But when does XMPP truly shine, and how do you know if it's the right choice for your organization?
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-8">
@@ -68,7 +68,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            XMPP's decentralized architecture allows organizations to maintain complete control over their data—a critical consideration for healthcare providers, legal firms, and financial institutions bound by strict compliance requirements.
+            XMPP's decentralized architecture allows organizations to maintain complete control over their data—a critical consideration for law firms, financial institutions, and any organisation bound by strict compliance requirements.
           </p>
 
           {/* Section 2 */}
@@ -107,7 +107,7 @@ export default function BlogPost() {
               </svg>
               <div>
                 <strong className="text-[var(--color-ink)]">Presence and Status Tracking:</strong>
-                <span className="text-[var(--color-ink)] leading-loose"> When real-time presence information is mission-critical—such as healthcare teams coordinating patient care or emergency response systems—XMPP's built-in presence protocol provides granular, reliable status updates that MQTT and basic HTTP polling cannot efficiently replicate.</span>
+                <span className="text-[var(--color-ink)] leading-loose"> When real-time presence information is mission-critical, such as a field service dispatcher who needs to see which technicians are free before assigning the next job, or an emergency response system, XMPP&rsquo;s built-in presence protocol provides granular, reliable status updates that MQTT and basic HTTP polling cannot efficiently replicate.</span>
               </div>
             </div>
 
@@ -117,7 +117,7 @@ export default function BlogPost() {
               </svg>
               <div>
                 <strong className="text-[var(--color-ink)]">Cross-Organizational Communication:</strong>
-                <span className="text-[var(--color-ink)] leading-loose"> XMPP's federation capabilities allow secure communication between different organizations' servers—essential for healthcare networks, supply chain coordination, or any scenario requiring secure inter-company messaging without third-party intermediaries.</span>
+                <span className="text-[var(--color-ink)] leading-loose"> XMPP&rsquo;s federation capabilities allow secure communication between different organisations&rsquo; servers, which suits supply chain coordination, dealer and distributor networks, or any scenario requiring secure inter-company messaging without third-party intermediaries.</span>
               </div>
             </div>
           </div>
@@ -133,7 +133,7 @@ export default function BlogPost() {
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-4">
-            For organizations in healthcare, finance, legal services, and other regulated sectors, security isn't optional—it's foundational. XMPP offers several security advantages that make it particularly suitable for compliance-sensitive environments:
+            For organisations in finance, legal services, and other regulated sectors, security is not optional, it is foundational. XMPP offers several security advantages that make it particularly suitable for compliance-sensitive environments:
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-4">
@@ -141,7 +141,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-4">
-            <strong>Data Sovereignty:</strong> By hosting your own XMPP server, your organization maintains complete control over where data resides and who has access. This is critical for HIPAA compliance, GDPR requirements, and other regulations demanding data localization. Cloud-based proprietary solutions often cannot guarantee this level of control.
+            <strong>Data Sovereignty:</strong> By hosting your own XMPP server, your organization maintains complete control over where data resides and who has access. That matters under PIPEDA in Canada and GDPR in Europe, and under any obligation that requires you to know which jurisdiction holds your data. Where your own customers carry a sector obligation of their own, such as Ontario&rsquo;s PHIPA, the same control is what lets you answer their questions. Cloud-based proprietary solutions often cannot guarantee this level of control.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -166,7 +166,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            XMPP's sweet spot is human-to-human or human-to-system communication requiring rich features: presence, roster management, message delivery receipts, typing indicators, and multimedia support. Organizations in Rockwood implementing team collaboration tools, patient communication portals, or customer support systems will find XMPP's feature set difficult to replicate with lighter-weight alternatives.
+            XMPP's sweet spot is human-to-human or human-to-system communication requiring rich features: presence, roster management, message delivery receipts, typing indicators, and multimedia support. Organisations implementing team collaboration tools, customer self-service portals, or contact centre support systems will find XMPP&rsquo;s feature set difficult to replicate with lighter-weight alternatives.
           </p>
 
           {/* Section 5 */}
@@ -211,7 +211,7 @@ export default function BlogPost() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
               <div className="text-[var(--color-ink)] leading-loose">
-                Integration capabilities with existing enterprise systems including Active Directory, LDAP, CRM platforms, and electronic health record systems—crucial for organizations seeking unified communication infrastructure.
+                Integration capabilities with existing enterprise systems including Active Directory, LDAP, CRM platforms, ticketing systems and ERP, which is crucial for organisations seeking unified communication infrastructure.
               </div>
             </div>
           </div>
@@ -251,7 +251,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-8">
-            Whether you're building a secure healthcare communication platform, coordinating distributed teams, or creating customer-facing messaging systems, understanding when XMPP provides strategic advantages helps you make informed infrastructure decisions. If you're evaluating communication protocols for your organization in Rockwood and need expert guidance on implementation strategy, architecture design, or security considerations, our team brings deep technical expertise to help you build reliable, scalable communication systems tailored to your specific needs.
+            Whether you are building a secure internal messaging platform, coordinating distributed teams, or creating customer-facing messaging systems, understanding when XMPP provides strategic advantages helps you make informed infrastructure decisions. If you are evaluating communication protocols and want guidance on implementation strategy, architecture design, or security considerations, our team can help you scope and build a messaging platform that fits how your business actually runs.
           </p>
         </div>
 
@@ -264,10 +264,10 @@ export default function BlogPost() {
           </div>
           <div>
             <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-2" style={{ fontFamily: 'Cormorant, serif' }}>
-              Written by the ipfinity Clinical Team
+              Written by the IPFINITY Team
             </h3>
             <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-              Board-certified providers specializing in Other Medical, dedicated to delivering evidence-based care and patient education in Rockwood.
+              Cloud voice engineers and carrier specialists at IPFINITY Inc., an accredited Canadian telecommunications carrier delivering CloudVoice since 2002.
             </p>
           </div>
         </div>
@@ -323,10 +323,10 @@ export default function BlogPost() {
               </div>
               <div className="p-6">
                 <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'Cormorant, serif' }}>
-                  Compliance and Data Sovereignty in Healthcare
+                  Compliance and Data Sovereignty
                 </h4>
                 <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                  Navigate HIPAA, GDPR, and data localization requirements with confidence in your communication systems.
+                  Where your messages and call records actually live, and how to answer PIPEDA and GDPR questions about your communication systems.
                 </p>
               </div>
             </a>

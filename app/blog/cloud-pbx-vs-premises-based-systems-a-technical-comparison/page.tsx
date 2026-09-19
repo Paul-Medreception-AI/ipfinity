@@ -37,7 +37,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>ipfinity Team</span>
           </div>
         </div>
       </section>
@@ -77,13 +77,13 @@ export default function BlogPost() {
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Premises-based systems require substantial upfront capital investment. You're purchasing physical equipment, paying for professional installation, potentially upgrading network infrastructure, and building out redundancy. For a mid-sized organization, initial costs often range from $50,000 to $150,000 or more. This capital expenditure model means significant cash outlay before your system handles its first call.
+              Premises-based systems require substantial upfront capital investment. You&apos;re purchasing physical equipment, paying for professional installation, potentially upgrading network infrastructure, and building out redundancy. That capital expenditure model means a significant cash outlay before the system handles its first call, and the amount scales with the number of sites you are equipping.
             </p>
             <p className="mb-6">
-              Cloud PBX operates on an operational expenditure model. You pay monthly per-user fees, typically ranging from $20 to $50 per user depending on features. There's minimal upfront cost—often just IP phones or softphone licenses. This subscription model converts a large capital project into a predictable monthly operating expense, freeing capital for other strategic investments.
+              Cloud PBX operates on an operational expenditure model. You pay a recurring fee for the capacity you use, and upfront cost is limited to handsets or softphone licences. How that recurring fee is structured matters. Charging strictly per seat can punish businesses with many light users, which is why capacity-based scoping, counting SIP trunks, simultaneous channels, direct dial numbers, cloud IVR and redundancy, often describes a business more accurately. For reference, a SIP trunk runs $30 CAD, so it is straightforward to model what a given level of concurrency will cost before committing.
             </p>
             <p className="mb-6">
-              The financial implications extend beyond initial costs. Premises systems require ongoing maintenance contracts, periodic hardware refreshes every 5-7 years, and dedicated IT resources. Cloud systems include maintenance, updates, and support in the monthly fee, making total cost of ownership more predictable and often lower over a five-year period.
+              The financial implications extend beyond initial costs. Premises systems carry ongoing maintenance contracts, periodic hardware refreshes, and dedicated technical resources. Cloud systems fold maintenance, updates and support into the recurring fee, which makes total cost of ownership more predictable and, over a five-year horizon, frequently lower.
             </p>
           </div>
 
@@ -103,7 +103,7 @@ export default function BlogPost() {
               Scaling a premises-based system requires planning and investment. Adding users beyond initial capacity means purchasing additional line cards, potentially upgrading the main system, and scheduling professional installation. Seasonal fluctuations or rapid growth create capacity challenges. Downsizing offers no cost recovery—you own the hardware regardless of utilization.
             </p>
             <p className="mb-6">
-              Cloud PBX scales with remarkable simplicity. Adding users typically takes minutes through a web portal. Seasonal staff can be added for specific months then removed without penalty. Multi-location expansion doesn't require purchasing and installing separate PBX equipment at each site—everyone connects to the same cloud platform. This elasticity matches your communication infrastructure to real-time business needs.
+              Cloud PBX scales far more simply. Adding users is typically a configuration change rather than a purchase order. Seasonal staff can be added for the months they are needed and removed afterwards, subject to your agreement. Multi-site expansion doesn&apos;t require buying and installing separate PBX equipment at each location, because every site connects to the same platform. That elasticity works in both directions: reviewing trunk and channel counts against real concurrent usage each quarter usually finds capacity that can be released, and a provider worth having will tell you when you are paying for lines you are not using.
             </p>
             <p className="mb-6">
               Geographic flexibility represents another key difference. Premises systems tie your communications to physical locations. Cloud systems support truly distributed workforces—employees in Rockwood, remote workers across the country, and satellite offices all function as part of one unified system with consistent features and dial plans.
@@ -119,10 +119,10 @@ export default function BlogPost() {
               Premises-based systems put reliability responsibility squarely on your shoulders. Power outages require backup batteries or generators. Hardware failures mean emergency service calls and potential downtime. Building a truly redundant premises system—with backup servers, failover connections, and geographically separated equipment—represents significant additional investment that most organizations forgo.
             </p>
             <p className="mb-6">
-              Cloud PBX providers build enterprise-grade redundancy into their core service. Multiple geographically distributed data centers provide automatic failover. Your internet connection becomes the primary concern, but even that can be mitigated through cellular backup or multiple ISPs. If your Rockwood office loses power or connectivity, calls can automatically route to mobile phones, remote users continue working uninterrupted, and your communication infrastructure remains operational.
+              Cloud PBX moves that responsibility to the provider, whose redundancy is built into the core service rather than assembled per customer. Your internet connection becomes the primary concern, and that can be mitigated with a cellular backup path or a second provider. If your Rockwood office loses power or connectivity, calls can route automatically to mobiles, staff working elsewhere carry on uninterrupted, and the business stays reachable.
             </p>
             <p className="mb-6">
-              Disaster recovery planning simplifies dramatically with cloud systems. Your phone system isn't tied to a physical location that could flood, burn, or lose power. This architectural advantage proved invaluable during recent years as organizations rapidly shifted to remote work—cloud PBX users adapted within hours while premises system owners faced weeks of complex reconfiguration.
+              Disaster recovery planning simplifies considerably with cloud systems, because the phone system is not tied to a building that can flood, burn or lose power. That architectural advantage became obvious when organisations shifted to distributed and hybrid working: a cloud platform follows the people, while a premises system stays where it was installed and has to be reconfigured to reach them.
             </p>
           </div>
 
@@ -135,10 +135,10 @@ export default function BlogPost() {
               Premises-based systems deliver features determined by hardware capabilities and software versions you've purchased. New capabilities require paid upgrades, professional installation, and careful compatibility checking. Feature development moves at the pace of major release cycles. Integration with modern cloud applications often requires complex middleware or isn't possible at all.
             </p>
             <p className="mb-6">
-              Cloud PBX operates on a continuous improvement model. Providers roll out new features regularly, often monthly, included in your subscription. You benefit from innovation without upgrade projects. Modern cloud systems offer rich APIs and pre-built integrations with CRM platforms, help desk systems, collaboration tools, and business applications. Your phone system becomes an integrated part of your digital workflow rather than a standalone communication island.
+              Cloud PBX operates on a continuous improvement model. New capabilities are released into the platform and included in the service, so you benefit from them without running an upgrade project. Modern cloud systems offer APIs and pre-built integrations with CRM platforms, help desk systems, collaboration tools and line-of-business applications, which turns the phone system into part of the workflow rather than a separate island.
             </p>
             <p className="mb-6">
-              Advanced features like speech analytics, AI-powered transcription, sentiment analysis, and sophisticated reporting are increasingly standard in cloud platforms but require expensive add-ons or aren't available at all for premises systems. This innovation gap continues widening as software development naturally gravitates toward cloud-native architectures.
+              Capabilities such as transcription, call analytics and detailed queue reporting are increasingly standard in cloud platforms, while on premises equipment they tend to require paid add-ons or are simply unavailable. That gap continues to widen as development effort concentrates on cloud-native architectures. It is also worth asking who holds the resulting data: a carrier that owns the lines, the features and the queuing end to end also owns the call detail records, which is what makes the reporting complete rather than partial.
             </p>
           </div>
 
@@ -220,8 +220,8 @@ export default function BlogPost() {
               </svg>
             </div>
             <div>
-              <div className="font-semibold text-[var(--color-ink)] mb-1">Written by the ipfinity Clinical Team</div>
-              <div className="text-[var(--color-muted)] text-sm">Board-certified providers specializing in Other Medical</div>
+              <div className="font-semibold text-[var(--color-ink)] mb-1">Written by the ipfinity Team</div>
+              <div className="text-[var(--color-muted)] text-sm">Cloud voice engineers and carrier specialists, serving Canadian and international businesses since 2002</div>
             </div>
           </div>
         </div>

@@ -5,25 +5,29 @@ export default function Home() {
     <main>
       {/* Hero */}
       <section className="relative min-h-[90vh] flex items-center text-white overflow-hidden">
-        <Image 
-          src="/images/background-1.jpg" 
-          alt="ipfinity" 
-          fill 
-          priority 
-          sizes="100vw" 
-          className="object-cover object-center" 
+        <Image
+          src="/images/stock/hero-network.jpg"
+          alt="Network infrastructure carrying business voice traffic"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-dark/85 to-primary/75" />
+        {/* Scrim so the headline stays legible over the photograph. */}
+        <div
+          className="absolute inset-0"
+          style={{ background: 'linear-gradient(135deg, rgba(26,32,48,0.94) 0%, rgba(26,32,48,0.80) 45%, rgba(241,103,33,0.48) 100%)' }}
+        />
         <div className="relative max-w-5xl mx-auto px-6 text-center py-20">
           <h1 className="text-6xl sm:text-7xl font-light tracking-tight leading-tight" style={{fontFamily: 'var(--font-cormorant)'}}>
             Enterprise Voice and Messaging Solutions That Scale With You
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mx-auto mt-6 leading-relaxed">
-            IPFINITY delivers cloud-based telecommunications infrastructure connecting businesses across 150+ countries. Our flexible CloudVoice platform provides SIP trunking, messaging, fax, and custom voice applications designed to adapt to your unique communication needs.
+            An accredited carrier since 2002, IPfinity owns its cloud voice network end to end. Numbers in over 100 countries, call delivery into more than 150, and SIP trunking, messaging, fax and custom voice applications built around how your business actually works.
           </p>
           <div className="flex flex-wrap gap-4 justify-center mt-10">
             <a href="/contact" className="bg-white text-[var(--color-dark)] px-8 py-4 rounded-xl font-bold shadow-xl hover:-translate-y-0.5 transition-all">
-              Request a Consultation
+              Request a Quote
             </a>
             <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all">
               Explore Solutions
@@ -64,8 +68,59 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Customer logo wall — every logo here is published on ipfinity.com today.
+          Names verified against the artwork itself, not inferred from filenames. */}
+      <section className="bg-[var(--color-cream)] py-20 border-b border-[var(--color-border)]">
+        <div className="max-w-7xl mx-auto px-6">
+          <p className="text-center text-xs font-semibold tracking-[0.2em] uppercase text-[var(--color-muted)] mb-12">
+            Trusted by business across Canada
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            {[
+              ['Bluesun-320x202.jpg', 'Bluesun'],
+              ['danby-logo-320x202.jpg', 'Danby'],
+              ['mazda-logo-large2-320x202.jpg', 'Mazda'],
+              ['mitsubishi-logo-320x202.jpg', 'Mitsubishi'],
+              ['Shipperbee-320x202.jpg', 'ShipperBee'],
+              ['MCC-320x202.jpg', 'Mobile Climate Control'],
+              ['New-Roads-Logo-320x202.jpg', 'New Roads Automotive Group'],
+              ['Service-Pro-320x202.jpg', 'Service Pro Truck Lines'],
+              ['TSI-group-320x202.jpg', 'TSI Group Inc.'],
+              ['Pinnacle-320x202.jpg', 'Pinnacle International'],
+              ['CHATS-320x202.jpg', 'CHATS Community & Home Assistance to Seniors'],
+              ['Labticians-320x202.jpg', 'Labtician Ophthalmics'],
+              ['carrotlogo-320x202.jpg', 'Carrot Eye Surgery Clinic'],
+              ['wordmark_york-320x202.jpg', 'Alzheimer Society York Region'],
+              ['Newmarket-logo-320x202.jpg', 'Newmarket Chamber of Commerce'],
+              ['INC-Fairweather-320x202.jpg', 'International Clothiers and Fairweather'],
+              ['maxresdefault-320x202.jpeg', 'Qualifirst'],
+              ['rice-logo-320x202.jpg', 'Rice Group'],
+              ['sweeny-320x202.jpg', 'Sweeny & Co Architects'],
+              ['boltsplus-320x202.jpg', 'Bolts Plus'],
+              ['global_ifs_logo-1280x243-1-320x202.jpg', 'Global IFS'],
+              ['First-Ascent-Full-Mark-01-1-320x202.jpg', 'First Ascent Ventures'],
+              ['RGB_PROFOUND_For-Website-01-01-320x202.jpg', 'Profound'],
+              ['netoptiks-320x202.jpg', 'NetOptiks'],
+              ['huge-logo-320x202.jpg', 'Huge'],
+            ].map(([file, name]) => (
+              <div
+                key={file}
+                className="bg-white rounded-xl border border-[var(--color-border)] h-24 flex items-center justify-center p-4"
+              >
+                <img
+                  src={`/images/${file}`}
+                  alt={name}
+                  loading="lazy"
+                  className="max-h-14 w-auto max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Services Preview */}
-      <section className="bg-[var(--color-cream)] py-24">
+      <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-5xl text-center text-[var(--color-ink)] mb-4" style={{fontFamily: 'var(--font-cormorant)'}}>
             How We Can Help
@@ -99,7 +154,7 @@ export default function Home() {
                 Global DID Numbers
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed mt-3">
-                Local and toll-free numbers from over 150 countries worldwide, all managed through our unified platform. Route international calls seamlessly to any destination with flexible forwarding and failover options.
+                Local and toll-free numbers from major cities in over 100 countries, with call delivery into more than 150, all managed through one platform. Route international calls with flexible forwarding and failover.
               </p>
               <a href="/services" className="inline-block text-[var(--color-primary)] font-semibold text-sm mt-6 hover:underline">
                 Learn More →
@@ -126,7 +181,7 @@ export default function Home() {
       </section>
 
       {/* About Teaser */}
-      <section className="bg-white py-24">
+      <section className="bg-[var(--color-cream)] py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-5 gap-12 items-center">
             <div className="lg:col-span-3">
@@ -134,21 +189,22 @@ export default function Home() {
                 Telecommunications Infrastructure Built for How You Work
               </h2>
               <p className="text-[var(--color-muted)] leading-relaxed mb-6">
-                IPFINITY is a telecommunications services provider serving large Canadian corporations and multi-national companies with global communication needs. We own and operate CloudVoice, our distributed communications infrastructure with a worldwide footprint, interconnecting with carriers in over 150 countries. Whether you need numbers from Adelaide or Zimbabwe, ringing in New York, New Delhi, or Toronto, we deliver the connectivity your business requires.
+                IPfinity is a telecommunications services provider serving large Canadian corporations and multi-national companies with global communication needs. We own and operate CloudVoice, our distributed communications infrastructure with a worldwide footprint, interconnecting with carriers in over 150 countries. Whether you need numbers from Adelaide or Zimbabwe, ringing in New York, New Delhi, or Toronto, we deliver the connectivity your business requires.
               </p>
               <p className="text-[var(--color-muted)] leading-relaxed mb-8">
                 Our CloudVoice platform offers best-in-class services including SIP and PRI trunking, fax, SMS and XMPP messaging, combined with innovative, customized voice-data-messaging-fax applications that solve real communication challenges. Recognizing that no two businesses are alike, we built CloudVoice to be flexible and scalable, providing immediate value to your bottom line from day one and keeping pace with your growth trajectory.
               </p>
               <a href="/about" className="text-[var(--color-primary)] font-semibold hover:underline">
-                Meet Our Team →
+                More about IPfinity →
               </a>
             </div>
             <div className="lg:col-span-2">
-              <div className="bg-[var(--color-light)] rounded-2xl h-80 w-full flex items-center justify-center">
-                <svg stroke="var(--color-primary)" strokeWidth={1.5} fill="none" viewBox="0 0 24 24" className="w-20 h-20 opacity-40">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15a4.5 4.5 0 004.5 4.5H18a3.75 3.75 0 001.332-7.257 3 3 0 00-3.758-3.848 5.25 5.25 0 00-10.233 2.33A4.502 4.502 0 002.25 15z" />
-                </svg>
-              </div>
+              <img
+                src="/images/stock/fiber-optic.jpg"
+                alt="Fibre optic cabling patched into a carrier network switch"
+                loading="lazy"
+                className="rounded-2xl h-80 w-full object-cover shadow-lg"
+              />
             </div>
           </div>
         </div>
@@ -210,7 +266,7 @@ export default function Home() {
             Global Cloud Telecommunications Built for Business
           </h2>
           <a href="/contact" className="inline-block bg-white text-[var(--color-dark)] font-bold px-12 py-5 rounded-2xl shadow-2xl hover:-translate-y-1 transition-all text-lg">
-            Request a Consultation
+            Request a Quote
           </a>
         </div>
       </section>

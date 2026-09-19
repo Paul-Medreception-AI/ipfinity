@@ -35,7 +35,7 @@ export default function TermsSmsPage() {
               1. Program Description:
             </h3>
             <p className="text-[var(--color-muted)] mb-6">
-              This messaging program sends appointment confirmation and reminder messages to customers who have booked an appointment with ipfinity through our website at https://www.ipfinity.com, or via our scheduling forms, and have explicitly opted in to receive SMS notifications. Opt-in is collected via web forms with a dedicated checkbox for SMS consent. Messages include scheduling confirmations, appointment reminders, rescheduling updates, and customer support communications.
+              This messaging program sends service related text messages to customers and prospective customers of IPFINITY Inc. who have explicitly opted in to receive SMS notifications, whether through our website at https://www.ipfinity.com, through our contact and quote request forms, or in the course of ordering and activating service. Opt-in is collected with a dedicated checkbox for SMS consent, and we keep a timestamped record of it. Messages include service and network notifications, confirmations and reminders for installation and service windows, rescheduling updates, account and billing notices, and customer support communications.
             </p>
 
             <h3 className="font-cormorant text-2xl text-[var(--color-ink)] mt-10 mb-4">
@@ -63,14 +63,14 @@ export default function TermsSmsPage() {
               5. Message &amp; Data Rates:
             </h3>
             <p className="text-[var(--color-muted)] mb-6">
-              Message and data rates may apply for messages sent to you from us and to us from you. Message frequency varies based on your service usage and appointment schedule. For questions about your text plan or data plan, contact your wireless provider.
+              Message and data rates may apply for messages sent to you from us and to us from you. Message frequency varies based on the services you hold with us and on any installation or service work under way. For questions about your text plan or data plan, contact your own wireless provider.
             </p>
 
             <h3 className="font-cormorant text-2xl text-[var(--color-ink)] mt-10 mb-4">
               6. Supported Carriers:
             </h3>
             <p className="text-[var(--color-muted)] mb-6">
-              Our SMS program works with all major U.S. wireless carriers, including AT&amp;T, T-Mobile, Verizon, Sprint, and most regional carriers.
+              Our SMS program is supported on major Canadian and United States wireless networks. Delivery on any particular network depends on that network operator, and wireless carriers are not liable for delayed or undelivered messages.
             </p>
 
             <h3 className="font-cormorant text-2xl text-[var(--color-ink)] mt-10 mb-4">
@@ -87,7 +87,7 @@ export default function TermsSmsPage() {
               For privacy-related inquiries, please refer to our <a href="/privacy-sms" className="text-[var(--color-primary)] underline">Privacy Policy</a> at https://www.ipfinity.com/privacy-sms
             </p>
             <p className="text-[var(--color-muted)] mb-6">
-              We comply with all applicable laws and regulations, including the Telephone Consumer Protection Act (TCPA) and CTIA guidelines, regarding the use of SMS communications.
+              We send commercial electronic messages in accordance with Canada&apos;s Anti-Spam Legislation (CASL) and the rules of the Canadian Radio-television and Telecommunications Commission (CRTC), and we handle the personal information involved in accordance with the Personal Information Protection and Electronic Documents Act (PIPEDA) and applicable provincial privacy legislation.
             </p>
 
             <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">
@@ -171,7 +171,7 @@ export default function TermsSmsPage() {
               Governing Law
             </h2>
             <p className="text-[var(--color-muted)] mb-6">
-              These Terms of Service shall be governed by and construed in accordance with the laws of the State of ON. Any dispute arising under these Terms shall be resolved exclusively through binding arbitration in that jurisdiction.
+              These Terms of Service shall be governed by and construed in accordance with the laws of the Province of Ontario and the federal laws of Canada applicable in that province. Any dispute arising under these Terms shall be resolved exclusively through binding arbitration in that jurisdiction.
             </p>
 
             <h2 className="font-cormorant text-3xl text-[var(--color-ink)] mt-12 mb-4">

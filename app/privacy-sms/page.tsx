@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | ipfinity',
-  description: 'ipfinity - Privacy Policy, including SMS, TCPA and HIPAA disclosures.',
+  description: 'ipfinity - Privacy Policy, including SMS consent, PIPEDA and CASL disclosures.',
   alternates: { canonical: 'https://www.ipfinity.com/privacy-sms' },
 }
 
@@ -56,7 +56,7 @@ export default function PrivacySmsPage() {
           </p>
           <ul className="list-disc pl-6 mb-6 text-[var(--color-ink)] space-y-2">
             <li>Records of inquiries and service requests</li>
-            <li>Appointment details and preferences</li>
+            <li>Service details, site information and scheduling preferences for installation and service windows</li>
             <li>Service history and feedback</li>
           </ul>
 
@@ -69,7 +69,7 @@ export default function PrivacySmsPage() {
           <ul className="list-disc pl-6 mb-6 text-[var(--color-ink)] space-y-2">
             <li>Providing and improving our services</li>
             <li>Processing transactions and payments</li>
-            <li>Communicating with you about your inquiries, appointments, and promotions</li>
+            <li>Communicating with you about your inquiries, quotes, service windows, account matters and offers you have consented to receive</li>
             <li>Enhancing website functionality and user experience</li>
             <li>Ensuring security and fraud prevention</li>
             <li>Maintaining records of your communication preferences and consent</li>
@@ -82,7 +82,7 @@ export default function PrivacySmsPage() {
             Text Message Program Terms &amp; Conditions
           </p>
           <p className="text-[var(--color-ink)] mb-6 leading-relaxed">
-            By opting into our SMS messaging services, you agree to receive text messages related to our services, including appointment reminders, customer support, and important updates.
+            By opting into our SMS messaging services, you agree to receive text messages related to our services, including service and network notifications, installation and service window confirmations and reminders, account and billing notices, customer support communications, and other important updates.
           </p>
           <p className="text-[var(--color-ink)] mb-2 leading-relaxed font-semibold">
             Opt-In &amp; Consent:
@@ -90,7 +90,7 @@ export default function PrivacySmsPage() {
           <ul className="list-disc pl-6 mb-6 text-[var(--color-ink)] space-y-2">
             <li>You will only receive messages if you have explicitly opted in</li>
             <li>We maintain timestamped records of all opt-in actions</li>
-            <li>We comply with the Telephone Consumer Protection Act (TCPA) and all applicable laws</li>
+            <li>We obtain and record consent in the manner required by Canada&apos;s Anti-Spam Legislation (CASL) and applicable CRTC rules</li>
           </ul>
           <p className="text-[var(--color-ink)] mb-2 leading-relaxed font-semibold">
             Opt-Out Instructions:
@@ -104,7 +104,7 @@ export default function PrivacySmsPage() {
             Message Frequency &amp; Content:
           </p>
           <ul className="list-disc pl-6 mb-6 text-[var(--color-ink)] space-y-2">
-            <li>Message frequency varies based on your interactions with our business</li>
+            <li>Message frequency varies based on your services with us and your interactions with our business</li>
             <li>Messages will be directly related to the services you have requested</li>
             <li>We do not send promotional content without specific consent</li>
           </ul>
@@ -119,9 +119,9 @@ export default function PrivacySmsPage() {
             Carrier Information:
           </p>
           <ul className="list-disc pl-6 mb-6 text-[var(--color-ink)] space-y-2">
-            <li>Standard message and data rates may apply</li>
-            <li>Carriers are not liable for delayed or undelivered messages</li>
-            <li>Supported carriers include AT&amp;T, Verizon, T-Mobile, Sprint, and most regional carriers</li>
+            <li>Message and data rates may apply, depending on your plan with your own wireless provider</li>
+            <li>Wireless carriers are not liable for delayed or undelivered messages</li>
+            <li>Our messaging program is supported on major Canadian and United States wireless networks</li>
           </ul>
           <p className="text-[var(--color-ink)] mb-4 leading-relaxed font-semibold">
             SMS Data Protection Statement
@@ -137,31 +137,31 @@ export default function PrivacySmsPage() {
             4. Information Sharing &amp; Disclosure
           </h2>
           <p className="text-[var(--color-ink)] mb-4 leading-relaxed">
-            We do not sell, rent, or trade personal information or Protected Health Information. We may share information with:
+            We do not sell, rent, or trade your personal information. We may share information with:
           </p>
           <p className="text-[var(--color-ink)] mb-2 leading-relaxed font-semibold">
-            Healthcare Operations:
+            Network and Carrier Operations:
           </p>
           <ul className="list-disc pl-6 mb-6 text-[var(--color-ink)] space-y-2">
-            <li>Other healthcare providers involved in your care for treatment coordination purposes</li>
-            <li>Health insurance companies and third-party payers for billing and claims processing</li>
-            <li>Healthcare clearinghouses as necessary for payment processing</li>
+            <li>Underlying network operators and interconnecting carriers, where this is necessary to originate, route, deliver or terminate your calls, messages and faxes</li>
+            <li>Number portability, directory and regulatory processes, where required to move a telephone number to or from another carrier</li>
+            <li>Equipment suppliers and logistics providers, solely to ship and configure the handsets and devices you have ordered</li>
           </ul>
           <p className="text-[var(--color-ink)] mb-2 leading-relaxed font-semibold">
             Service Providers:
           </p>
           <ul className="list-disc pl-6 mb-6 text-[var(--color-ink)] space-y-2">
-            <li>Third-party vendors who assist in our operations (e.g., payment processing, appointment scheduling, electronic health records) under Business Associate Agreements</li>
+            <li>Third-party vendors who assist in our operations, such as payment processing, billing, scheduling and customer support, under written agreements limiting their use of the information</li>
             <li>SMS aggregators and providers solely for the purpose of delivering messages you&apos;ve consented to receive</li>
-            <li>All service providers are contractually obligated to maintain confidentiality, security, and HIPAA compliance where applicable</li>
+            <li>All service providers are contractually obligated to maintain confidentiality and appropriate security safeguards</li>
           </ul>
           <p className="text-[var(--color-ink)] mb-2 leading-relaxed font-semibold">
             Legal Requirements:
           </p>
           <ul className="list-disc pl-6 mb-6 text-[var(--color-ink)] space-y-2">
             <li>When required by law, regulation, or legal process</li>
-            <li>To public health authorities as required or permitted by law</li>
-            <li>For health oversight activities, judicial proceedings, or law enforcement purposes as permitted by HIPAA</li>
+            <li>To regulators, including the Canadian Radio-television and Telecommunications Commission (CRTC), where required or permitted by law</li>
+            <li>For judicial proceedings, lawful access requests, or emergency services purposes, as permitted or required by applicable Canadian law</li>
           </ul>
           <p className="text-[var(--color-ink)] mb-2 leading-relaxed font-semibold">
             Business Transfers:
@@ -227,17 +227,17 @@ export default function PrivacySmsPage() {
           </p>
 
           <h2 className="font-cormorant text-2xl text-[var(--color-ink)] mt-10 mb-4 font-semibold">
-            8. Privacy, HIPAA &amp; Health Information
+            8. Canadian Privacy and Anti-Spam Law
           </h2>
           <p className="text-[var(--color-ink)] mb-4 leading-relaxed">
-            As a healthcare provider, we are committed to protecting your Protected Health Information (PHI) in accordance with the Health Insurance Portability and Accountability Act (HIPAA).
+            IPFINITY Inc. is an Ontario company and an accredited telecommunications carrier. We handle personal information in accordance with the Personal Information Protection and Electronic Documents Act (PIPEDA) and applicable provincial privacy legislation, and we send commercial electronic messages in accordance with Canada&apos;s Anti-Spam Legislation (CASL) and the rules of the Canadian Radio-television and Telecommunications Commission (CRTC).
           </p>
           <ul className="list-disc pl-6 mb-6 text-[var(--color-ink)] space-y-2">
-            <li>SMS is not a fully encrypted communication method. We minimize the amount of health information included in text messages to protect your privacy.</li>
-            <li>We will not include detailed medical records, diagnoses, lab results, or other sensitive clinical data in SMS messages.</li>
-            <li>By opting in, you acknowledge that standard SMS messages may be intercepted or read by unauthorized parties due to the nature of wireless communications, and you accept this risk for the convenience of receiving appointment-related text messages.</li>
-            <li>Your consent to receive SMS messages is separate from and does not replace any HIPAA authorizations or medical consent forms.</li>
-            <li>We comply with the Telephone Consumer Protection Act (TCPA), HIPAA, CTIA guidelines, and all applicable federal and state regulations regarding SMS communications and health information.</li>
+            <li>SMS is not an encrypted communication method. We keep the amount of personal and account information included in text messages to the minimum needed for the message to be useful.</li>
+            <li>We will not include passwords, full payment card details, or other sensitive credentials in SMS messages.</li>
+            <li>By opting in, you acknowledge that standard SMS messages may be intercepted or read by unauthorized parties because of the nature of wireless communications, and you accept that risk in exchange for the convenience of receiving service-related text messages.</li>
+            <li>Your consent to receive SMS messages is separate from, and does not replace, any service agreement, authorization or consent you have given us for other purposes.</li>
+            <li>Where you are a customer who carries privacy obligations of your own, such as an Ontario health information custodian under the Personal Health Information Protection Act (PHIPA), those obligations remain yours. We provide the communications service; we do not assume your obligations, and we do not hold ourselves out as certified under any health privacy regime.</li>
           </ul>
 
           <h2 className="font-cormorant text-2xl text-[var(--color-ink)] mt-10 mb-4 font-semibold">
@@ -260,15 +260,15 @@ export default function PrivacySmsPage() {
             <p className="text-[var(--color-muted)]">Website: https://www.ipfinity.com</p>
           </div>
           <p className="text-[var(--color-ink)] mb-4 leading-relaxed">
-            To file a HIPAA complaint, you may also contact:
+            If we have not resolved your concern to your satisfaction, you may also contact the federal privacy regulator:
           </p>
           <div className="bg-[var(--color-cream)] border border-[var(--color-border)] rounded-lg p-6 mb-8">
-            <p className="text-[var(--color-ink)] font-semibold mb-2">U.S. Department of Health and Human Services</p>
-            <p className="text-[var(--color-ink)] mb-2">Office for Civil Rights</p>
-            <p className="text-[var(--color-ink)]">Website: www.hhs.gov/ocr</p>
+            <p className="text-[var(--color-ink)] font-semibold mb-2">Office of the Privacy Commissioner of Canada</p>
+            <p className="text-[var(--color-ink)] mb-2">Website: www.priv.gc.ca</p>
+            <p className="text-[var(--color-ink)]">Complaints about commercial electronic messages may be directed to the CRTC at www.crtc.gc.ca</p>
           </div>
           <p className="text-[var(--color-ink)] leading-relaxed">
-            By using our website and services, you consent to this Privacy Policy. This policy does not replace or modify the informed consent process for medical treatment or our HIPAA Notice of Privacy Practices.
+            By using our website and services, you consent to this Privacy Policy. This policy does not replace or modify the terms of any service agreement you hold with us.
           </p>
         </div>
       </div>

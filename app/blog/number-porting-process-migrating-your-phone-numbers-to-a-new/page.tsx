@@ -36,7 +36,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>The ipfinity Team</span>
           </div>
         </div>
       </section>
@@ -46,11 +46,11 @@ export default function BlogPost() {
         <div className="max-w-3xl mx-auto px-6">
           {/* Opening Hook */}
           <p className="text-[var(--color-ink)] leading-loose text-lg mb-6">
-            Your phone number is more than just a string of digits—it's your business identity, the lifeline your patients use to reach you, and often a carefully established presence in your community. The thought of changing carriers and potentially losing that number can be daunting. Whether you're upgrading to a more cost-effective solution, seeking better service quality, or integrating new communication technologies, understanding the number porting process is essential for a seamless transition.
+            Your phone number is more than a string of digits—it is your business identity, the number your customers, suppliers and staff already have, and often a presence you have spent years establishing. The thought of changing carriers and losing that number keeps a great many businesses on a service they have long outgrown. Whether you are moving to a lower-cost platform, chasing better call quality, or adding capabilities your current provider cannot deliver, understanding the porting process is what turns a daunting switch into a scheduled task.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            The good news? Federal regulations protect your right to keep your phone numbers when switching carriers. With proper planning and understanding of the process, number porting can be straightforward and stress-free. This comprehensive guide walks you through everything you need to know about migrating your phone numbers to a new carrier without disrupting your practice operations.
+            The good news is that your right to keep your numbers when you change carriers is protected by regulation on both sides of the border. With proper planning and a clear understanding of the process, porting is routine. This guide walks through everything involved in migrating your phone numbers to a new carrier without disrupting your operations.
           </p>
 
           {/* Section 1 */}
@@ -59,11 +59,11 @@ export default function BlogPost() {
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Number porting, also known as Local Number Portability (LNP), is the process of transferring an existing telephone number from one service provider to another. Established by the Federal Communications Commission (FCC) in 1996, this regulation ensures that consumers and businesses maintain ownership of their phone numbers regardless of which carrier they choose.
+            Number porting, also known as Local Number Portability (LNP), is the process of transferring an existing telephone number from one service provider to another. Number portability is mandated by the telecommunications regulators on both sides of the border—the CRTC in Canada and the FCC in the United States—so consumers and businesses keep their numbers regardless of which carrier they choose.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            For healthcare practices, this means you can switch to a Voice over IP (VoIP) system, change traditional carriers, or upgrade your communication infrastructure without changing the numbers your patients know and trust. The process applies to local phone numbers, toll-free numbers, and can include both landlines and mobile numbers depending on your service type.
+            For a business, this means you can move to a Voice over IP (VoIP) platform, change carriers, or rebuild your communication infrastructure without changing the numbers your customers already know. The process applies to local numbers and toll-free numbers, and can cover both fixed lines and mobile numbers depending on your service type.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -138,7 +138,7 @@ export default function BlogPost() {
 
           {/* Pull Quote */}
           <blockquote className="bg-[var(--color-light)] border-l-4 border-[var(--color-primary)] p-6 my-8 text-[var(--color-ink)] italic text-xl" style={{ fontFamily: 'Cormorant, serif' }}>
-            "Federal law protects your right to keep your phone numbers when switching carriers, ensuring continuity for your practice and patients."
+            &quot;Your right to keep your phone numbers when you change carriers is protected by regulation. The number belongs to your business, not to the carrier that happens to be serving it.&quot;
           </blockquote>
 
           {/* Section 3 */}
@@ -147,7 +147,7 @@ export default function BlogPost() {
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Understanding the typical timeline helps you plan your migration and set realistic expectations for your staff and patients. While simple ports can complete quickly, complex multi-line migrations require more coordination time.
+            Understanding the typical timeline helps you plan the migration and set realistic expectations with your staff and your customers. Simple ports complete quickly; complex multi-line migrations need more coordination time.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -155,11 +155,11 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            <strong>Toll-free numbers</strong> generally require 10-15 business days. These numbers involve coordination through the SMS/800 database, which manages toll-free number registry nationwide. While slightly longer, the process is well-established and predictable.
+            <strong>Toll-free numbers</strong> generally require 10-15 business days. These involve coordination through the toll-free numbering registry rather than a single carrier, which adds a step to the process. While slightly longer, the process is well-established and predictable.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            <strong>Large multi-line systems</strong> or complex practice setups may take 15-30 business days. Practices porting multiple locations, departments, or dozens of individual lines need additional time for testing and coordination. Your new carrier will typically work with you to schedule the cutover during low-traffic periods to minimize disruption.
+            <strong>Large multi-line systems</strong> or complex configurations may take 15-30 business days. Businesses porting multiple locations, departments, or dozens of individual lines need the extra time for testing and coordination. Your new carrier will normally work with you to schedule the cutover during a low-traffic period to minimize disruption.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -176,7 +176,7 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            <strong>Step 1: Choose Your New Carrier.</strong> Research providers that meet your needs—consider call quality, features, pricing, customer support, and HIPAA compliance for healthcare communications. Request detailed proposals and verify they can support your specific requirements.
+            <strong>Step 1: Choose Your New Carrier.</strong> Research providers against what you actually need—call quality, features, pricing, how quickly support answers, and how the provider handles personal information under PIPEDA. Ask whether they are an accredited carrier or a reseller, because that determines who you are really speaking to when something goes wrong. Request detailed proposals and verify they can support your specific requirements.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -188,11 +188,11 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            <strong>Step 4: Receive FOC Date.</strong> Once validated, you'll receive confirmation with the Firm Order Commitment date. This is when the actual transfer will occur. Mark this date clearly and plan any staff training or patient communications around it.
+            <strong>Step 4: Receive FOC Date.</strong> Once validated, you'll receive confirmation with the Firm Order Commitment date. This is when the actual transfer will occur. Mark this date clearly and plan staff training and any customer notices around it.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            <strong>Step 5: Cutover Day.</strong> On the FOC date, typically during a maintenance window, your numbers transfer to the new carrier. This usually involves brief downtime (minutes to an hour). Your new carrier should coordinate timing to minimize impact on your practice.
+            <strong>Step 5: Cutover Day.</strong> On the FOC date, typically during a maintenance window, your numbers transfer to the new carrier. This usually involves brief downtime (minutes to an hour). Your new carrier should coordinate the timing to minimize the impact on your business.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -231,7 +231,7 @@ export default function BlogPost() {
               <div className="bg-[var(--color-cream)] p-6 rounded-lg">
                 <h3 className="font-semibold text-[var(--color-ink)] mb-2">Inadequate Testing</h3>
                 <p className="text-[var(--color-ink)] leading-loose text-sm">
-                  Thoroughly test all functionality immediately after porting. Issues caught early are easier to resolve. Create a checklist covering every number, feature, and use case your practice relies on.
+                  Thoroughly test all functionality immediately after porting. Issues caught early are easier to resolve. Create a checklist covering every number, feature, and use case your business relies on.
                 </p>
               </div>
             </div>
@@ -243,7 +243,7 @@ export default function BlogPost() {
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Strategic planning makes the difference between a seamless transition and a disruptive experience. Follow these best practices to protect your practice operations and patient experience.
+            Planning is what separates an uneventful transition from a disruptive one. The practices below protect both your operations and the people trying to reach you.
           </p>
 
           <div className="my-8">
@@ -300,7 +300,7 @@ export default function BlogPost() {
           </div>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Consider conducting the port in phases if you have multiple locations or departments. This staged approach allows you to identify and resolve issues with one group before migrating others, reducing overall risk to your practice operations.
+            Consider conducting the port in phases if you have multiple locations or departments. This staged approach lets you identify and resolve issues with one group before migrating the rest, reducing the overall risk to your operations.
           </p>
 
           {/* Closing */}
@@ -309,15 +309,15 @@ export default function BlogPost() {
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Number porting doesn't have to be complicated or disruptive. With proper preparation, accurate information, and strategic timing, you can migrate to a new carrier while maintaining seamless communication with your patients. The key is understanding the process, avoiding common pitfalls, and working closely with a responsive carrier who understands healthcare communication needs.
+            Number porting does not have to be complicated or disruptive. With proper preparation, accurate account information and sensible timing, you can move to a new carrier without your callers noticing anything other than that the line sounds better. The key is understanding the process, avoiding the common pitfalls, and working with a carrier that answers the phone when you call about it.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Whether you're looking to reduce costs, improve call quality, add advanced features, or modernize your communication infrastructure, porting your existing numbers protects the identity and reputation you've built in your community. Your phone number is an essential part of your practice—federal regulations ensure you keep it when making changes that benefit your operations.
+            Whether you are reducing costs, improving call quality, adding features, or modernizing your communication infrastructure, porting your existing numbers protects the identity and reputation you have built. Your phone number is an essential part of your business—number portability rules exist precisely so that you keep it when you make a change that benefits your operations.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            If you're considering a carrier change or communication system upgrade, the team at ipfinity can help you navigate the technical and regulatory aspects of number porting. We specialize in healthcare communication solutions and understand the unique requirements of medical practices in Rockwood and beyond. Contact us to discuss your specific needs and create a migration plan that protects your practice continuity while enabling your growth.
+            If you are considering a carrier change or a communication system upgrade, the team at ipfinity can help you work through the technical and regulatory side of porting. We are an accredited telecommunications carrier based in Rockwood, Ontario, serving businesses across Canada and the United States as well as Colombia, Mexico, parts of Europe and Australasia. Contact us to discuss your numbers and build a migration plan that keeps you reachable throughout.
           </p>
         </div>
       </article>
@@ -333,9 +333,9 @@ export default function BlogPost() {
               </svg>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-2">Written by the ipfinity Clinical Team</h3>
+              <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-2">Written by the ipfinity Team</h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Board-certified providers specializing in Other Medical, dedicated to delivering evidence-based care and patient education to the Rockwood community.
+                ipfinity Inc. is an accredited cloud telecommunications carrier based in Rockwood, Ontario, delivering CloudVoice to businesses since 2002.
               </p>
             </div>
           </div>
@@ -356,10 +356,10 @@ export default function BlogPost() {
                 </svg>
               </div>
               <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors duration-300" style={{ fontFamily: 'Cormorant, serif' }}>
-                VoIP vs Traditional Phone Systems: What's Best for Your Practice?
+                VoIP vs Traditional Phone Lines: Which Suits Your Business?
               </h4>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Compare modern communication technologies and discover which solution meets your practice needs.
+                Compare the two approaches and work out which one fits the way your business uses the phone.
               </p>
             </a>
 
@@ -371,10 +371,10 @@ export default function BlogPost() {
                 </svg>
               </div>
               <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors duration-300" style={{ fontFamily: 'Cormorant, serif' }}>
-                HIPAA Compliance for Healthcare Phone Systems
+                SIP Trunking Explained: Trunks, Channels and DIDs
               </h4>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Essential security measures and compliance requirements for protecting patient communications.
+                How trunks, simultaneous channels and DID numbers combine into what you pay each month.
               </p>
             </a>
 
@@ -385,10 +385,10 @@ export default function BlogPost() {
                 </svg>
               </div>
               <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors duration-300" style={{ fontFamily: 'Cormorant, serif' }}>
-                Reducing Missed Calls: Communication Strategies for Busy Practices
+                Reducing Missed Calls: Queueing Strategies for Busy Businesses
               </h4>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Practical solutions for managing high call volumes and improving patient access to care.
+                Practical approaches to high call volumes, from cloud queuing to overflow routing.
               </p>
             </a>
           </div>

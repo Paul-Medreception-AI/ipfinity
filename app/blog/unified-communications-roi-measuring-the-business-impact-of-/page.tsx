@@ -36,7 +36,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>The ipfinity Team</span>
           </div>
         </div>
       </section>
@@ -46,7 +46,7 @@ export default function BlogPost() {
         <div className="max-w-3xl mx-auto px-6">
           {/* Opening Hook */}
           <p className="text-[var(--color-ink)] leading-loose text-lg mb-8">
-            In today's fast-paced business environment, communication tools are no longer just operational necessities—they're strategic assets that directly impact your bottom line. As organizations in Rockwood and beyond invest in unified communications (UC) platforms, the critical question becomes: How do we measure the real return on investment? Understanding the business impact of integrated voice and collaboration systems isn't just about tracking cost savings; it's about quantifying productivity gains, improved patient outcomes, enhanced team collaboration, and competitive advantages that drive sustainable growth.
+            Communication tools are no longer just an operational necessity. They are infrastructure your revenue runs on, and they show up on the bottom line whether or not you measure them. As organizations in Rockwood and beyond invest in unified communications (UC) platforms, the question becomes: how do we measure the real return on investment? Understanding the business impact of integrated voice and collaboration is not only about tracking cost savings. It is about quantifying productivity gains, a better experience for the people who call you, stronger team collaboration, and the competitive advantages that follow from being easy to reach.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-8">
@@ -81,7 +81,7 @@ export default function BlogPost() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
               <p className="text-[var(--color-ink)] leading-relaxed">
-                <strong>Communication Efficiency:</strong> Track call connection rates, average response times, and first-contact resolution rates to measure how effectively your team communicates internally and with patients.
+                <strong>Communication Efficiency:</strong> Track call connection rates, average answer times, and first-contact resolution to measure how effectively your team communicates internally and with customers.
               </p>
             </div>
 
@@ -117,7 +117,7 @@ export default function BlogPost() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
               <p className="text-[var(--color-ink)] leading-relaxed">
-                <strong>Patient Experience:</strong> Track satisfaction scores, wait times, appointment adherence, and feedback related to communication ease and accessibility.
+                <strong>Caller Experience:</strong> Track queue wait times, abandoned calls, how often a caller has to be transferred, and what customers tell you about how easy you are to reach.
               </p>
             </div>
           </div>
@@ -125,7 +125,7 @@ export default function BlogPost() {
           {/* Pull Quote */}
           <div className="bg-[var(--color-light)] border-l-4 border-[var(--color-primary)] p-6 my-8">
             <p className="text-[var(--color-ink)] italic text-xl leading-relaxed" style={{ fontFamily: 'var(--font-cormorant)' }}>
-              "Organizations that implement comprehensive UC measurement frameworks report average productivity gains of 20-30% and communication cost reductions of 30-50% within the first year."
+              &quot;The organizations that get the most out of unified communications are rarely the ones that spent the most on it. They are the ones that decided, before they signed anything, what they were going to measure.&quot;
             </p>
           </div>
 
@@ -165,15 +165,15 @@ export default function BlogPost() {
 
           {/* Section 5 */}
           <h2 className="text-3xl text-[var(--color-ink)] mt-12 mb-4" style={{ fontFamily: 'var(--font-cormorant)' }}>
-            Measuring Patient and Customer Impact
+            Measuring the Impact on Customers
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            For healthcare organizations, unified communications ROI extends directly to patient experience and clinical outcomes. When care teams can communicate instantly and securely, response times decrease, coordination improves, and patient satisfaction rises. These improvements translate into measurable business value through higher retention rates, positive reviews and referrals, reduced no-show rates, and improved clinical outcomes that enhance reputation.
+            The clearest returns on unified communications are usually the ones your customers feel. When a caller reaches the right person the first time, when a team can pull a colleague into a call rather than promising to ring back, and when someone working from home is as reachable as someone at head office, the business gets quicker at answering questions and quicker at closing them out. That shows up as repeat business, fewer complaints, and fewer opportunities lost because nobody picked up.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Track patient-facing metrics such as average time to reach the practice, wait times for callbacks, appointment scheduling efficiency, and patient satisfaction scores related to communication accessibility. Connect these metrics to business outcomes: each percentage point improvement in patient satisfaction correlates with specific retention and referral rate increases that directly impact revenue.
+            Track the customer-facing measures your phone system can actually produce: average time to reach a person, how long callers wait in queue before abandoning, how many calls are answered outside business hours, and how often a caller has to explain themselves twice. A carrier that owns its own queuing can give you these figures from the call records rather than from a survey, which makes them harder to argue with and easier to act on.
           </p>
 
           {/* Section 6 */}
@@ -200,7 +200,7 @@ export default function BlogPost() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
               <p className="text-[var(--color-ink)] leading-relaxed">
-                <strong>Define clear objectives</strong> aligned with business strategy—whether that's cost reduction, growth enablement, competitive differentiation, or patient experience enhancement.
+                <strong>Define clear objectives</strong> aligned with business strategy, whether that is cost reduction, supporting growth, competitive differentiation, or simply being easier to reach than the alternative.
               </p>
             </div>
 
@@ -261,8 +261,8 @@ export default function BlogPost() {
             </svg>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-1">Written by the ipfinity Clinical Team</h3>
-            <p className="text-[var(--color-muted)] text-sm">Board-certified providers specializing in Other Medical</p>
+            <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-1">Written by the ipfinity Team</h3>
+            <p className="text-[var(--color-muted)] text-sm">Accredited Canadian telecommunications carrier. Cloud voice since 2002.</p>
           </div>
         </div>
       </div>
@@ -283,10 +283,10 @@ export default function BlogPost() {
                 </svg>
               </div>
               <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'var(--font-cormorant)' }}>
-                Understanding Communication Infrastructure for Modern Healthcare
+                Communication Infrastructure for Distributed Teams
               </h4>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Explore the essential technology foundations that support effective patient care coordination and team collaboration.
+                The technology foundations behind reliable voice across head office, branches and staff working from home.
               </p>
             </a>
 
@@ -298,10 +298,10 @@ export default function BlogPost() {
                 </svg>
               </div>
               <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'var(--font-cormorant)' }}>
-                HIPAA-Compliant Communication Best Practices
+                Protecting Customer Data Under PIPEDA
               </h4>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Learn how to maintain patient privacy and security while leveraging modern communication technologies.
+                How Canadian privacy expectations apply to the calls, messages and call records your business keeps.
               </p>
             </a>
 
@@ -313,10 +313,10 @@ export default function BlogPost() {
                 </svg>
               </div>
               <h4 className="text-xl font-semibold text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors" style={{ fontFamily: 'var(--font-cormorant)' }}>
-                Building High-Performance Healthcare Teams Through Better Communication
+                Building High-Performance Teams Through Better Communication
               </h4>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Discover strategies for enhancing team collaboration, reducing burnout, and improving patient outcomes through integrated communication.
+                Strategies for improving collaboration, cutting internal friction, and shortening the time it takes to get an answer.
               </p>
             </a>
           </div>
@@ -327,10 +327,10 @@ export default function BlogPost() {
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-4xl font-light mb-4" style={{ fontFamily: 'var(--font-cormorant)' }}>
-            Ready to Take the Next Step?
+            Ready to Put Numbers to It?
           </h2>
           <p className="text-lg mb-8 text-white/90">
-            Our team is here to help you measure and maximize your communication technology investment.
+            We can help you measure what your communications spend is actually returning.
           </p>
           <a
             href="/contact"

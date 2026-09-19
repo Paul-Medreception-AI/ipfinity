@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Real-Time Communications Security: Protecting Voice and Messaging Infrastructure | ipfinity',
-  description: 'Learn how to protect your voice and messaging infrastructure from evolving cyber threats. Expert guidance on securing real-time communications in healthcare and beyond.',
-  keywords: 'real-time communications security, voice infrastructure protection, messaging security, VoIP security, healthcare communications, secure messaging, telehealth security',
+  description: 'Learn how to protect your voice and messaging infrastructure from evolving cyber threats. Practical guidance on encryption, session border controllers, toll-fraud monitoring and staff awareness.',
+  keywords: 'real-time communications security, voice infrastructure protection, messaging security, VoIP security, SIP trunk security, toll fraud prevention, secure business messaging',
 }
 
 export default function BlogPost() {
@@ -37,7 +37,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>The ipfinity Team</span>
           </div>
         </div>
       </section>
@@ -48,7 +48,7 @@ export default function BlogPost() {
           {/* Opening */}
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Every day, millions of voice calls and messages traverse digital networks carrying sensitive conversations, personal information, and critical business communications. In healthcare settings, these exchanges often contain protected health information. In corporate environments, they may include proprietary data and strategic decisions. Yet despite their importance, real-time communication systems remain among the most vulnerable components of modern digital infrastructure—and among the least protected.
+              Every day, millions of voice calls and messages traverse digital networks carrying sensitive conversations, personal information, and critical business communications. A single call may contain payment details, contract terms, or a customer record read aloud. In corporate environments, the same channels carry proprietary data and strategic decisions. Yet despite that, real-time communication systems remain among the most vulnerable components of modern digital infrastructure—and among the least protected.
             </p>
             <p className="mb-6">
               The shift from traditional phone systems to Voice over Internet Protocol (VoIP) and cloud-based messaging platforms has brought unprecedented convenience and cost savings. However, it has also expanded the attack surface exponentially. What was once a closed, circuit-switched network is now an internet-connected system vulnerable to the same threats facing every other digital service. Understanding these risks and implementing robust security measures is no longer optional—it's essential for protecting privacy, maintaining compliance, and preserving trust.
@@ -81,17 +81,17 @@ export default function BlogPost() {
 
           {/* Section 2 */}
           <h2 className="font-[family-name:var(--font-cormorant)] text-3xl text-[var(--color-ink)] mt-12 mb-4">
-            Why Healthcare and Professional Services Are Prime Targets
+            Why Professional and Multi-Site Businesses Are Prime Targets
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Healthcare organizations, professional service providers, and other entities handling sensitive information face heightened risks. The value of protected health information on the black market makes healthcare systems particularly attractive targets. A single breach can expose not just communication content, but also appointment schedules, treatment discussions, and personal identifiers.
+              Professional services firms, finance and legal teams, and any business whose calls carry client information face heightened risk. Voice systems attract attackers for two separate reasons: the content of the conversations, and the system itself as a billable resource. A single compromise can expose call recordings, contact directories and call detail records, and quietly run up international toll charges at the same time.
             </p>
             <p className="mb-6">
-              Regulatory requirements such as HIPAA in healthcare or various data protection laws in other sectors create additional pressure. Organizations must not only prevent breaches but also demonstrate due diligence in protecting communication channels. Failure to do so can result in substantial fines, legal liability, and irreparable damage to professional reputation.
+              Regulatory requirements add pressure on top of the security case. In Canada, PIPEDA obliges an organization to protect the personal information in its custody, and that includes what sits in voicemail boxes, call recordings and message archives. Organizations must not only prevent breaches but be able to demonstrate due diligence in protecting communication channels. Failure to do so can result in regulatory findings, legal liability, and lasting damage to professional reputation.
             </p>
             <p className="mb-6">
-              The increasing adoption of telehealth and remote work has further expanded the attack surface. Providers conducting virtual appointments, support staff working from home, and distributed teams collaborating across locations all rely on secure real-time communications. Each endpoint, each connection, and each device represents a potential vulnerability that must be addressed.
+              The move to remote and hybrid work has widened the attack surface considerably. Staff taking calls from home, softphones running on personal mobiles, and distributed teams collaborating across locations all rely on real-time communications that now leave the building. Each endpoint, each connection, and each device represents a potential vulnerability that must be addressed.
             </p>
           </div>
 
@@ -220,7 +220,7 @@ export default function BlogPost() {
               The security of real-time communication infrastructure is not merely a technical challenge—it's a fundamental responsibility for any organization handling sensitive information. As threats continue to evolve and communication systems become increasingly critical to daily operations, robust security measures move from optional best practices to essential requirements.
             </p>
             <p className="mb-6">
-              Whether you're a healthcare provider conducting telehealth appointments, a professional service firm collaborating with clients remotely, or any organization that relies on voice and messaging systems, now is the time to evaluate and strengthen your communication security. The cost of prevention is always lower than the cost of breach recovery, and the trust you protect is irreplaceable.
+              Whether you run a contact centre, a professional firm collaborating with clients remotely, or any business that relies on voice and messaging systems, now is the time to evaluate and strengthen your communication security. The cost of prevention is always lower than the cost of breach recovery, and the trust you protect is irreplaceable.
             </p>
             <p className="mb-6">
               If you have concerns about your organization's communication security or need guidance on implementing appropriate protections, professional help is available. Expert security assessments can identify vulnerabilities, and experienced professionals can design and implement comprehensive security strategies tailored to your specific needs and regulatory requirements.
@@ -239,8 +239,8 @@ export default function BlogPost() {
               </svg>
             </div>
             <div>
-              <div className="font-semibold text-[var(--color-ink)] text-lg mb-1">Written by the ipfinity Clinical Team</div>
-              <div className="text-[var(--color-muted)] text-sm">Board-certified providers specializing in Other Medical</div>
+              <div className="font-semibold text-[var(--color-ink)] text-lg mb-1">Written by the ipfinity Team</div>
+              <div className="text-[var(--color-muted)] text-sm">ipfinity Inc. is an accredited Canadian telecommunications carrier, delivering CloudVoice since 2002.</div>
             </div>
           </div>
         </div>
@@ -262,9 +262,9 @@ export default function BlogPost() {
               <div className="p-6">
                 <div className="text-xs uppercase tracking-widest text-[var(--color-primary)] mb-2">Security</div>
                 <h4 className="font-[family-name:var(--font-cormorant)] text-xl text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors">
-                  Understanding HIPAA Compliance for Digital Health Platforms
+                  Understanding PIPEDA Obligations for Business Communications
                 </h4>
-                <p className="text-[var(--color-muted)] text-sm">Essential security measures and compliance requirements for healthcare technology.</p>
+                <p className="text-[var(--color-muted)] text-sm">What Canadian privacy law expects of the systems that carry your customer conversations.</p>
               </div>
             </a>
 
@@ -278,9 +278,9 @@ export default function BlogPost() {
               <div className="p-6">
                 <div className="text-xs uppercase tracking-widest text-[var(--color-primary)] mb-2">Technology</div>
                 <h4 className="font-[family-name:var(--font-cormorant)] text-xl text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors">
-                  Implementing Secure Messaging in Healthcare Settings
+                  Implementing Secure Business Messaging
                 </h4>
-                <p className="text-[var(--color-muted)] text-sm">Best practices for protecting patient communications and clinical collaboration.</p>
+                <p className="text-[var(--color-muted)] text-sm">Practical steps for protecting customer messages and internal collaboration.</p>
               </div>
             </a>
 
@@ -294,9 +294,9 @@ export default function BlogPost() {
               <div className="p-6">
                 <div className="text-xs uppercase tracking-widest text-[var(--color-primary)] mb-2">Risk Management</div>
                 <h4 className="font-[family-name:var(--font-cormorant)] text-xl text-[var(--color-ink)] mb-2 group-hover:text-[var(--color-primary)] transition-colors">
-                  Cybersecurity Incident Response for Medical Practices
+                  Toll Fraud: How It Happens and How to Stop It
                 </h4>
-                <p className="text-[var(--color-muted)] text-sm">How to prepare for and respond to security breaches in healthcare environments.</p>
+                <p className="text-[var(--color-muted)] text-sm">How attackers turn an unprotected phone system into revenue, and the controls that shut it down.</p>
               </div>
             </a>
           </div>

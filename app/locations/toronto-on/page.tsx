@@ -1,12 +1,13 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: 'Other Medical Near Toronto, ON | ipfinity',
-  description: 'Expert Other Medical care serving Toronto, ON and surrounding communities. Convenient access to specialized psychiatric services with telehealth options available.',
+  title: 'Business Telecom in Toronto, ON | ipfinity',
+  description: 'Cloud voice, SIP trunking, call centre queuing and global DID numbers for Toronto head offices and multi-site businesses. IPFINITY is an accredited Canadian carrier.',
   openGraph: {
-    title: 'Other Medical Near Toronto, ON | ipfinity',
-    description: 'Expert Other Medical care serving Toronto, ON and surrounding communities.',
+    title: 'Business Telecom in Toronto, ON | ipfinity',
+    description: 'Cloud voice, SIP trunking and call centre queuing for Toronto head offices and multi-site businesses.',
     url: 'https://www.ipfinity.com/locations/toronto-on',
   },
 }
@@ -14,32 +15,48 @@ export const metadata: Metadata = {
 export default function TorontoLocationPage() {
   return (
     <main className="min-h-screen">
-      
+
       {/* HERO */}
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-28 text-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <nav className="flex items-center gap-2 text-sm mb-8 opacity-90">
-            <Link href="/" className="hover:underline">Home</Link>
-            <span>›</span>
-            <Link href="/locations" className="hover:underline">Locations</Link>
-            <span>›</span>
-            <span>Toronto, ON</span>
-          </nav>
-          
-          <h1 className="font-[family-name:var(--font-cormorant)] text-5xl md:text-6xl font-light mb-6 leading-tight">
-            Other Medical Near Toronto, ON
-          </h1>
-          
-          <p className="text-xl md:text-2xl mb-10 leading-relaxed max-w-3xl opacity-95">
-            Serving patients from Toronto and surrounding ON communities. Expert psychiatric care is closer than you think.
-          </p>
-          
-          <Link 
-            href="/contact" 
-            className="inline-block bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] text-white font-semibold px-10 py-4 rounded-full transition-all duration-300 hover:scale-105 shadow-lg"
-          >
-            Schedule in Toronto
-          </Link>
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex flex-col lg:flex-row gap-10 items-center">
+            <div className="w-full lg:w-3/5">
+              <nav className="flex items-center gap-2 text-sm mb-8 opacity-90">
+                <Link href="/" className="hover:underline">Home</Link>
+                <span>›</span>
+                <span>Locations</span>
+                <span>›</span>
+                <span>Toronto, ON</span>
+              </nav>
+
+              <h1 className="font-[family-name:var(--font-cormorant)] text-5xl md:text-6xl font-light mb-6 leading-tight">
+                Business Telecommunications in Toronto, Ontario
+              </h1>
+
+              <p className="text-xl md:text-2xl mb-10 leading-relaxed max-w-3xl opacity-95">
+                Cloud voice, call centre queuing and global numbering for Toronto head offices and the branches they run. IPFINITY is an accredited carrier with a 416 presence of its own.
+              </p>
+
+              <Link
+                href="/contact"
+                className="inline-block bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] text-white font-semibold px-10 py-4 rounded-full transition-all duration-300 hover:scale-105 shadow-lg"
+              >
+                Talk to an engineer
+              </Link>
+            </div>
+
+            <div className="relative w-full max-w-md lg:w-2/5 lg:max-w-none h-80 lg:h-[26rem] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/Nav-grid-web-image-call-centre.jpg"
+                alt="Cloud call centre queuing from IPFINITY"
+                fill
+                priority
+                quality={90}
+                sizes="(max-width: 1024px) 100vw, 40vw"
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -49,25 +66,39 @@ export default function TorontoLocationPage() {
           <h2 className="font-[family-name:var(--font-cormorant)] text-4xl md:text-5xl text-[var(--color-ink)] mb-10 text-center">
             Serving the Toronto Area
           </h2>
-          
+
           <div className="prose prose-lg max-w-none mb-12">
             <p className="text-[var(--color-ink)] leading-relaxed mb-6">
-              Located in nearby Rockwood, our practice is easily accessible to patients throughout Toronto and the Greater Toronto Area. Many of our Toronto patients find the commute convenient, with straightforward highway access and ample parking available. The drive offers a peaceful transition from the busy city to our welcoming, patient-centered facility.
+              Toronto is where the head offices are, and head offices rarely have a simple phone problem. There is usually a main number that has to be answered a particular way, a set of branches that were connected at different times by different suppliers, and a bill nobody can fully explain. IPFINITY is an accredited carrier, so instead of coordinating between a phone vendor and a line provider, you deal with one company that owns both.
             </p>
-            
+
+            <p className="text-[var(--color-ink)] leading-relaxed mb-6">
+              We hold our numbering in 416 and the other local ranges, so a Toronto presence does not depend on where your people physically sit. Your existing numbers port across and keep working. Sites join the same cloud platform rather than each running a separate system, which is what makes internal dialling between offices behave like internal dialling.
+            </p>
+
             <p className="text-[var(--color-ink)] leading-relaxed">
-              Patients from Toronto choose ipfinity for our specialized expertise, personalized treatment approach, and commitment to evidence-based psychiatric care. While Toronto has many healthcare options, our practice offers a level of focused attention and advanced treatment modalities that sets us apart. For those who prefer to avoid the drive, we also offer comprehensive telehealth services that bring expert care directly to your home.
+              Because we own the lines, phones, features and cloud queuing cradle to grave, the call records and queue analytics are ours. That matters most to the businesses here that run real inbound volume: you can ask what happened in the queue at 10am and get an answer from the carrier&apos;s own data.
             </p>
           </div>
 
-          {/* MAP PLACEHOLDER */}
-          <div className="bg-[var(--color-light)] rounded-2xl h-64 flex items-center justify-center border border-[var(--color-border)] animate-fade-up">
-            <div className="text-center">
-              <svg className="w-16 h-16 mx-auto mb-4 text-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+          {/* Coverage panel */}
+          <div className="bg-[var(--color-light)] rounded-2xl p-8 border border-[var(--color-border)] animate-fade-up">
+            <div className="flex flex-col sm:flex-row items-start gap-6">
+              <svg className="w-14 h-14 flex-shrink-0 text-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
               </svg>
-              <p className="text-[var(--color-muted)] font-medium">Toronto, ON to Rockwood</p>
+              <div>
+                <h3 className="font-[family-name:var(--font-cormorant)] text-2xl text-[var(--color-ink)] mb-3">
+                  Serving Toronto and the GTA
+                </h3>
+                <p className="text-[var(--color-ink)] leading-relaxed mb-2">
+                  IPFINITY Inc., P.O. Box 564, Rockwood, ON N0B 2K0. Service is delivered over the network, so there is no office to attend and nothing to travel to.
+                </p>
+                <p className="text-[var(--color-muted)] leading-relaxed">
+                  Tel 416.900.1416 or 855-IPFINITY · Fax 416.259.0432 · info@ipfinity.com
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -77,23 +108,23 @@ export default function TorontoLocationPage() {
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="font-[family-name:var(--font-cormorant)] text-4xl md:text-5xl text-[var(--color-ink)] mb-12 text-center">
-            Services Available to Toronto Patients
+            Services for Toronto Businesses
           </h2>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
-            
+
             {/* Service 1 */}
             <div className="bg-[var(--color-cream)] rounded-2xl p-8 hover:shadow-xl transition-all duration-300 animate-fade-up border border-[var(--color-border)]">
               <svg className="w-12 h-12 text-[var(--color-accent)] mb-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232 1.232 3.227 0 4.458l-1.403 1.403m-4.456-4.457l3-3m-3 3l-3.598 3.598a9 9 0 01-4.943 0L5 14.5" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
               </svg>
               <h3 className="font-[family-name:var(--font-cormorant)] text-2xl text-[var(--color-ink)] mb-4">
-                Comprehensive Psychiatric Evaluations
+                SIP &amp; PRI Trunking
               </h3>
               <p className="text-[var(--color-muted)] mb-6 leading-relaxed">
-                Thorough diagnostic assessments to understand your unique mental health needs and develop personalized treatment plans.
+                Simultaneous channels sized to peak call volume across every site, not to headcount. A SIP trunk is $30 CAD, and we review the count with you each quarter.
               </p>
-              <Link href="/services/evaluations" className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] font-semibold inline-flex items-center gap-2 transition-colors">
+              <Link href="/services/sip-pri-trunking" className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] font-semibold inline-flex items-center gap-2 transition-colors">
                 Learn More
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
@@ -104,15 +135,15 @@ export default function TorontoLocationPage() {
             {/* Service 2 */}
             <div className="bg-[var(--color-cream)] rounded-2xl p-8 hover:shadow-xl transition-all duration-300 animate-fade-up border border-[var(--color-border)]">
               <svg className="w-12 h-12 text-[var(--color-accent)] mb-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
               </svg>
               <h3 className="font-[family-name:var(--font-cormorant)] text-2xl text-[var(--color-ink)] mb-4">
-                Medication Management
+                Global DID Numbers
               </h3>
               <p className="text-[var(--color-muted)] mb-6 leading-relaxed">
-                Expert psychiatric medication oversight with regular monitoring to ensure optimal therapeutic outcomes and minimal side effects.
+                A Toronto head office can answer numbers from elsewhere. We serve Canada and the US, plus Colombia, Mexico, parts of Europe and Australia and New Zealand, on one platform.
               </p>
-              <Link href="/services/medication-management" className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] font-semibold inline-flex items-center gap-2 transition-colors">
+              <Link href="/services/global-did-numbers" className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] font-semibold inline-flex items-center gap-2 transition-colors">
                 Learn More
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
@@ -123,15 +154,15 @@ export default function TorontoLocationPage() {
             {/* Service 3 */}
             <div className="bg-[var(--color-cream)] rounded-2xl p-8 hover:shadow-xl transition-all duration-300 animate-fade-up border border-[var(--color-border)]">
               <svg className="w-12 h-12 text-[var(--color-accent)] mb-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
               </svg>
               <h3 className="font-[family-name:var(--font-cormorant)] text-2xl text-[var(--color-ink)] mb-4">
-                Telehealth Services
+                Custom Voice Applications
               </h3>
               <p className="text-[var(--color-muted)] mb-6 leading-relaxed">
-                Convenient virtual appointments that bring expert psychiatric care directly to Toronto patients in the comfort of their own homes.
+                Cloud IVR and call routing built around how your business actually answers, including menus that hand a caller to the right queue instead of the right department.
               </p>
-              <Link href="/services/telehealth" className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] font-semibold inline-flex items-center gap-2 transition-colors">
+              <Link href="/services/custom-voice-applications" className="text-[var(--color-accent)] hover:text-[var(--color-accent-dark)] font-semibold inline-flex items-center gap-2 transition-colors">
                 Learn More
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
@@ -143,18 +174,40 @@ export default function TorontoLocationPage() {
         </div>
       </section>
 
-      {/* TELEHEALTH FOR TORONTO */}
+      {/* CALL CENTRES AND MULTI-SITE */}
       <section className="py-20 px-6">
-        <div className="bg-[var(--color-light)] rounded-2xl p-12 max-w-3xl mx-auto border border-[var(--color-border)] animate-fade-up">
-          <h2 className="font-[family-name:var(--font-cormorant)] text-3xl md:text-4xl text-[var(--color-ink)] mb-6 text-center">
-            Can't Make the Drive? We Offer Telehealth
-          </h2>
-          <p className="text-[var(--color-ink)] leading-relaxed mb-6 text-center max-w-2xl mx-auto">
-            We understand that Toronto residents lead busy lives. That's why we offer comprehensive telehealth services that deliver the same high-quality psychiatric care through secure video consultations. Whether you're managing a hectic schedule, dealing with transportation challenges, or simply prefer the convenience of virtual care, our telehealth platform makes expert treatment accessible from anywhere in Toronto.
-          </p>
-          <p className="text-[var(--color-ink)] leading-relaxed text-center max-w-2xl mx-auto">
-            Most insurance plans cover telehealth visits just like in-person appointments. Our team will verify your coverage and help you understand your benefits before your first virtual session.
-          </p>
+        <div className="bg-[var(--color-light)] rounded-2xl p-8 md:p-12 max-w-5xl mx-auto border border-[var(--color-border)] animate-fade-up">
+          <div className="flex flex-col md:flex-row gap-10 items-center">
+            <div className="relative w-full md:w-2/5 h-64 rounded-xl overflow-hidden shadow-lg">
+              <Image
+                src="/images/Nav-grid-web-3-blue-cloudvoice.jpg"
+                alt="IPFINITY CloudVoice platform"
+                fill
+                quality={85}
+                sizes="(max-width: 768px) 100vw, 40vw"
+                className="object-cover"
+              />
+            </div>
+            <div className="w-full md:w-3/5">
+              <h2 className="font-[family-name:var(--font-cormorant)] text-3xl md:text-4xl text-[var(--color-ink)] mb-6">
+                Call centres and multi-site operations
+              </h2>
+              <p className="text-[var(--color-ink)] leading-relaxed mb-4">
+                Queuing is where most Toronto inbound operations lose callers, and it is usually invisible until someone complains. Because the queuing runs in our cloud and we are the carrier underneath it, the wait times, abandons and overflow behaviour are all measurable from one place rather than reconstructed from two vendors.
+              </p>
+              <p className="text-[var(--color-ink)] leading-relaxed">
+                Adding a site, opening a second queue or moving staff to work from home is a configuration change, not a new installation. Smartphone apps and mobility mean a distributed team still answers the same numbers, with the same routing rules, wherever they are working that week.
+              </p>
+              <div className="mt-8">
+                <Link
+                  href="/solutions"
+                  className="inline-block bg-[var(--color-accent)] hover:bg-[var(--color-accent-dark)] text-white font-semibold px-8 py-3 rounded-full transition-all duration-300"
+                >
+                  Explore solutions
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -162,44 +215,44 @@ export default function TorontoLocationPage() {
       <section className="bg-white py-20">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-[family-name:var(--font-cormorant)] text-4xl md:text-5xl text-[var(--color-ink)] mb-12 text-center">
-            Toronto Patient FAQ
+            Toronto Customer FAQ
           </h2>
-          
+
           <div className="space-y-6">
-            
+
             <div className="bg-[var(--color-cream)] rounded-xl p-8 border border-[var(--color-border)] animate-fade-up">
               <h3 className="font-[family-name:var(--font-cormorant)] text-2xl text-[var(--color-ink)] mb-4">
-                How far is ipfinity from Toronto?
+                Do you have a Toronto office we can visit?
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Our Rockwood office is conveniently located within comfortable driving distance of Toronto. Most patients find the commute straightforward via major highways, and the peaceful drive provides a nice transition away from the city. Exact travel time varies depending on your specific location in Toronto and traffic conditions, but many patients appreciate the easy access combined with our quieter, more personal setting.
+                No. IPFINITY is a carrier, not a storefront, and the company is registered in Rockwood, Ontario. Toronto customers are served over the network: hardware is couriered, cutovers and changes are done remotely, and you reach us on 416.900.1416 or 855-IPFINITY.
               </p>
             </div>
 
             <div className="bg-[var(--color-cream)] rounded-xl p-8 border border-[var(--color-border)] animate-fade-up">
               <h3 className="font-[family-name:var(--font-cormorant)] text-2xl text-[var(--color-ink)] mb-4">
-                What are the best directions from Toronto?
+                Can we keep our 416 and 647 numbers?
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                We're easily accessible from Toronto via major highway routes. Upon scheduling your appointment, our team will provide detailed directions tailored to your starting location. We recommend allowing extra time for your first visit to ensure a stress-free arrival. GPS navigation works reliably to our location, and we're happy to provide turn-by-turn guidance when you call our office.
+                Yes. Existing numbers port to us, including main lines, direct numbers, toll-free and fax. Porting is ordinary carrier work and we run it from our side. If you also want numbers in other cities or countries, those can sit on the same platform.
               </p>
             </div>
 
             <div className="bg-[var(--color-cream)] rounded-xl p-8 border border-[var(--color-border)] animate-fade-up">
               <h3 className="font-[family-name:var(--font-cormorant)] text-2xl text-[var(--color-ink)] mb-4">
-                Do you offer telehealth for Toronto residents?
+                We have several sites across the GTA. Do they have to move at once?
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Yes! We provide comprehensive telehealth services to Toronto patients through secure, HIPAA-compliant video platforms. Virtual visits offer the same quality care as in-person appointments and are ideal for follow-up medication management, ongoing therapy, and routine consultations. Many Toronto patients appreciate the flexibility of alternating between in-person and telehealth visits based on their schedule and needs.
+                No. Sites can be cut over one at a time, and a hybrid arrangement lets an existing PBX stay in service while the rest moves. Once sites are on the same cloud platform they behave as one system, which is usually the point of the exercise.
               </p>
             </div>
 
             <div className="bg-[var(--color-cream)] rounded-xl p-8 border border-[var(--color-border)] animate-fade-up">
               <h3 className="font-[family-name:var(--font-cormorant)] text-2xl text-[var(--color-ink)] mb-4">
-                Is parking available for Toronto patients visiting the office?
+                How is a larger Toronto deployment priced?
               </h3>
               <p className="text-[var(--color-muted)] leading-relaxed">
-                Absolutely. We provide ample free parking directly at our facility, which is a welcome change from Toronto's parking challenges. Our location is fully accessible with convenient entry, and our welcoming environment is designed to put you at ease from the moment you arrive. We've thoughtfully designed our space to ensure your visit is as comfortable and stress-free as possible.
+                We scope by SIP trunks, simultaneous channels, users, DID numbers, cloud IVR and redundancy rather than a flat per-seat rate. A SIP trunk is $30 CAD and cloud fax is included. We also right-size quarterly, which sometimes means telling a customer to drop channels they stopped using.
               </p>
             </div>
 
@@ -211,16 +264,16 @@ export default function TorontoLocationPage() {
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-[family-name:var(--font-cormorant)] text-4xl md:text-5xl font-light mb-8">
-            Get Expert Care from Toronto
+            Communicate without borders
           </h2>
           <p className="text-xl mb-10 opacity-95 max-w-2xl mx-auto">
-            Join the many Toronto patients who trust ipfinity for compassionate, evidence-based psychiatric care. Schedule your consultation today.
+            Tell us how many sites you run and how many calls you take at once. We will come back with a design and a number, from the carrier that will actually be carrying the calls.
           </p>
-          <Link 
-            href="/contact" 
+          <Link
+            href="/contact"
             className="inline-block bg-white text-[var(--color-primary)] hover:bg-[var(--color-cream)] font-semibold px-10 py-4 rounded-full transition-all duration-300 hover:scale-105 shadow-lg"
           >
-            Schedule Your Visit
+            Book a scoping call
           </Link>
         </div>
       </section>

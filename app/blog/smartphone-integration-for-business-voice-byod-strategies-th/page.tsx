@@ -36,7 +36,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>The ipfinity Team</span>
           </div>
         </div>
       </section>
@@ -46,11 +46,11 @@ export default function BlogPost() {
         <div className="max-w-3xl mx-auto px-6">
           {/* Opening Hook */}
           <p className="text-[var(--color-ink)] leading-loose text-lg mb-6">
-            The way we work has fundamentally changed. Employees expect to use their personal smartphones for business communications, and organizations are discovering that Bring Your Own Device (BYOD) strategies can deliver significant cost savings while boosting productivity. Yet many businesses in Rockwood and beyond struggle with implementing smartphone integration that balances convenience, security, and control.
+            The way we work has fundamentally changed. Employees expect to use their personal smartphones for business communications, and organizations are discovering that Bring Your Own Device (BYOD) strategies can deliver significant cost savings while boosting productivity. Yet many businesses struggle to implement smartphone integration that balances convenience, security, and control.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            When done right, smartphone integration for business voice systems creates a seamless experience where employees can make and receive business calls from anywhere, maintain professional presence, and separate work communications from personal use—all while IT maintains security and visibility. The challenge lies in developing a BYOD strategy that actually works in practice.
+            When done right, smartphone integration for business voice systems lets employees make and receive business calls from anywhere, keep a professional presence, and separate work communications from personal use—all while IT maintains security and visibility. The challenge lies in developing a BYOD strategy that actually works in practice.
           </p>
 
           {/* Section 1 */}
@@ -109,6 +109,10 @@ export default function BlogPost() {
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
             For organizations with strict compliance requirements, look for solutions that offer call recording, audit trails, and data retention policies that can be enforced within the business application. These features provide the documentation and oversight necessary for regulatory compliance while respecting employee privacy on their personal devices.
+          </p>
+
+          <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
+            Canadian employers have a further consideration. Personal information handled through business communications falls under PIPEDA, and recording a call or retaining message history on a device the employee owns raises questions about notice and consent that are better settled in writing before deployment than after a complaint. Decide in advance what is recorded, how long it is kept, who may listen to it, and tell employees plainly. If you serve customers in regulated sectors, ask whether their own obligations reach your records as well.
           </p>
 
           <div className="bg-[var(--color-cream)] rounded-xl p-6 my-8">
@@ -178,11 +182,11 @@ export default function BlogPost() {
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Prioritize solutions with intuitive mobile applications that feel native to the smartphone platform. The app should integrate with the device's standard phone interface, sync contacts seamlessly, and support features employees expect like voicemail transcription, call forwarding, and do-not-disturb modes.
+            Prioritize solutions with intuitive mobile applications that feel native to the smartphone platform. The app should integrate with the device&apos;s standard phone interface, keep contacts in sync, and support features employees expect like voicemail transcription, call forwarding, and do-not-disturb modes.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Consider how the system handles common scenarios: What happens when an employee is in an area with poor cellular coverage? Can they seamlessly transition calls between their smartphone and desktop? How easily can they access voicemail messages? Small friction points in daily use compound over time and drive employees to avoid the system.
+            Consider how the system handles common scenarios: What happens when an employee is in an area with poor cellular coverage? Can they move a live call between their smartphone and desk phone without hanging up? How easily can they access voicemail messages? Small friction points in daily use compound over time and drive employees to avoid the system.
           </p>
 
           {/* Section 6 */}
@@ -191,7 +195,7 @@ export default function BlogPost() {
           </h2>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
-            Organizations in Rockwood implementing BYOD strategies should establish clear metrics to evaluate success and demonstrate return on investment. Cost savings represent the most obvious benefit—eliminating the need to purchase, manage, and replace company-issued smartphones generates immediate savings.
+            Organizations implementing BYOD strategies should establish clear metrics to evaluate success and demonstrate return on investment. Cost savings represent the most obvious benefit—eliminating the need to purchase, manage, and replace company-issued smartphones generates immediate savings.
           </p>
 
           <p className="text-[var(--color-ink)] leading-loose text-base mb-6">
@@ -225,8 +229,8 @@ export default function BlogPost() {
               </svg>
             </div>
             <div>
-              <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-2">Written by the ipfinity Clinical Team</h3>
-              <p className="text-[var(--color-muted)] leading-relaxed">Board-certified providers specializing in Other Medical</p>
+              <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-2">Written by the ipfinity Team</h3>
+              <p className="text-[var(--color-muted)] leading-relaxed">Cloud voice specialists at ipfinity, an accredited Canadian telecommunications carrier serving business customers since 2002.</p>
             </div>
           </div>
         </div>

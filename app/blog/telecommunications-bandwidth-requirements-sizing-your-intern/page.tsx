@@ -37,7 +37,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>The IPFINITY Team</span>
           </div>
         </div>
       </section>
@@ -49,7 +49,7 @@ export default function BlogPost() {
           {/* Opening Hook */}
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              In today's interconnected world, a reliable internet connection isn't just a convenience—it's essential infrastructure for modern life and business. Whether you're streaming a critical video consultation, participating in a remote meeting, or managing cloud-based systems, inadequate bandwidth can mean the difference between seamless operation and frustrating disruption. Yet many organizations and individuals in Rockwood continue to struggle with connections that are either insufficient for their needs or unnecessarily expensive for their actual usage patterns.
+              A reliable internet connection is no longer a convenience for a business, it is the infrastructure everything else runs on. Whether you are carrying a customer call, joining a remote meeting, or working in cloud-based systems all day, inadequate bandwidth is the difference between a connection nobody thinks about and one that interrupts work several times a day. Yet plenty of organisations in Rockwood and elsewhere run connections that are either too small for what they now do or considerably more expensive than their actual usage warrants.
             </p>
             <p className="mb-6">
               Understanding telecommunications bandwidth requirements doesn't require a technical degree, but it does demand clarity about your actual needs, usage patterns, and future growth. Getting this calculation right ensures you're neither overpaying for capacity you don't use nor suffering from insufficient speed when it matters most.
@@ -127,7 +127,7 @@ export default function BlogPost() {
             </div>
 
             <p className="mb-6 mt-6">
-              The critical calculation isn't just adding these numbers—it's understanding how many simultaneous users and activities occur during peak usage periods. A medical practice with ten staff members doesn't need ten times the bandwidth of a single user because not everyone uses maximum bandwidth simultaneously. However, during peak hours, having adequate overhead prevents performance degradation when multiple high-bandwidth activities coincide.
+              The critical calculation isn&apos;t simply adding these numbers together, it is understanding how many users and activities genuinely coincide during your peak period. A business with ten staff does not need ten times the bandwidth of a single user, because they do not all hit maximum demand at the same moment. What matters is that during the busiest hour there is enough headroom that several high-bandwidth activities landing together does not degrade everything else.
             </p>
           </div>
 
@@ -138,20 +138,20 @@ export default function BlogPost() {
 
           {/* Section 3 */}
           <h2 className="text-3xl text-[var(--color-ink)] mt-12 mb-4" style={{fontFamily: 'Cormorant'}}>
-            Special Considerations for Healthcare and Professional Services
+            Special Considerations for Voice and Multi-Site Businesses
           </h2>
           <div className="text-[var(--color-ink)] leading-loose text-base mb-8">
             <p className="mb-6">
-              Healthcare facilities and professional services in Rockwood face unique bandwidth requirements that go beyond typical business needs. Telemedicine platforms, electronic health records (EHR) systems, medical imaging transfer, and secure patient portals all demand not just adequate bandwidth but also reliability and security.
+              Businesses that carry a lot of voice traffic face requirements a speed test will never show them. Voice is a small, constant and relentlessly time-sensitive stream: it needs very little bandwidth, but it needs that bandwidth continuously, in both directions, and with very little variation in delivery. A connection that streams video perfectly can still produce poor calls, because a video player buffers ahead and a conversation cannot.
             </p>
             <p className="mb-6">
-              Medical imaging presents particular challenges. A single high-resolution diagnostic image can range from several megabytes to over 100 MB, and DICOM (Digital Imaging and Communications in Medicine) file transfers require both sufficient bandwidth and low latency to maintain workflow efficiency. When radiologists or specialists need to access these images remotely, inadequate bandwidth translates directly to delayed patient care.
+              Sizing for voice therefore starts with concurrent calls rather than headcount. A business with forty staff may never have more than eight calls up at once, and it is those eight simultaneous channels that need capacity reserved in each direction. This is why IPFINITY scopes service by SIP trunks and simultaneous channels rather than per seat. A SIP trunk is $30 CAD, and the right number of them is the number your busiest hour genuinely uses, which is one of the things we review with customers quarterly rather than leaving it to accumulate.
             </p>
             <p className="mb-6">
-              Telemedicine consultations require symmetrical bandwidth—upload speeds matter as much as download speeds. A video consultation that appears clear to the patient but transmits poor-quality video of the patient to the provider compromises care quality. Most healthcare organizations find that 25-50 Mbps symmetrical connections represent a practical minimum for small practices, with larger facilities requiring substantially more capacity.
+              Upload capacity is where asymmetric connections fail first. A service advertising a large download figure often provides a small fraction of that upstream, and every call, screen share and outbound file transfer competes for it. For any business carrying voice, upstream headroom matters more than the headline download number, and a connection with balanced capacity in both directions will usually outperform a much faster asymmetric one.
             </p>
             <p className="mb-6">
-              HIPAA compliance adds another layer of consideration. While bandwidth itself doesn't directly address security, inadequate capacity can lead to timeout errors, connection drops, and incomplete transfers that compromise both security protocols and patient data integrity. Reliable, sufficient bandwidth supports the secure, encrypted connections that healthcare compliance demands.
+              Even a correctly sized connection produces poor calls when voice has to compete with everything else on the network. In practice almost no business segregates its network, so a backup job or a software update lands on the same pipe as a customer conversation. IPFINITY supplies Nightingale for precisely this problem: a small appliance that sits behind the modem and enforces voice priority on the connection. It ships pre-programmed and plug-and-play alongside the handsets, so the protection is in place from day one instead of being configured after the first complaint.
             </p>
           </div>
 
@@ -199,7 +199,7 @@ export default function BlogPost() {
               Fiber optic connections provide the highest bandwidth capacity, lowest latency, and most reliable service, making them ideal for organizations with substantial internet dependency. Cable internet offers good performance at moderate cost but shares bandwidth among multiple users in an area, potentially creating congestion during peak usage times. DSL provides adequate performance for lighter users but typically offers lower maximum speeds than cable or fiber.
             </p>
             <p className="mb-6">
-              For critical operations, consider redundant connections from different providers using different technologies. A primary fiber connection backed by a cable or fixed wireless failover connection ensures continuous operation even if the primary connection fails. While this increases cost, the investment may be justified where internet downtime directly impacts patient care or business operations.
+              For critical operations, consider redundant connections from different providers using different technologies. A primary fibre connection backed by cable or fixed wireless failover keeps the business running when the primary link fails, and a cloud voice platform can be configured to reroute automatically rather than waiting for someone to notice. It costs more, and the investment is straightforward to justify wherever an hour of downtime means customers cannot reach you at all.
             </p>
             
             <div className="my-8 space-y-3">
@@ -251,10 +251,10 @@ export default function BlogPost() {
           {/* Closing */}
           <div className="text-[var(--color-ink)] leading-loose text-base mt-12 mb-8">
             <p className="mb-6">
-              Properly sizing your telecommunications bandwidth ensures your internet connection serves as reliable infrastructure rather than a source of frustration and limitation. Whether you're supporting a growing practice in Rockwood or ensuring seamless patient care delivery, understanding and meeting your bandwidth requirements positions your organization for success.
+              Sizing your bandwidth properly is what turns an internet connection into infrastructure rather than a recurring source of complaints. Whether you are running a growing business in Rockwood or connecting several sites across the country, knowing what your peak hour actually demands lets you buy the connection you need instead of the one that sounded safest.
             </p>
             <p className="mb-6">
-              If you're uncertain about your current or future bandwidth needs, professional assessment can provide clarity and confidence. The right connection, properly sized and implemented, becomes invisible infrastructure that simply works—exactly what critical operations demand.
+              If you are unsure what your current or future requirements look like, we are happy to work through it with you. The right connection, correctly sized and properly prioritised, becomes invisible infrastructure that simply works, which is exactly what a business should expect of it.
             </p>
           </div>
 
@@ -271,8 +271,8 @@ export default function BlogPost() {
               </svg>
             </div>
             <div>
-              <div className="font-semibold text-[var(--color-ink)] mb-1">Written by the ipfinity Clinical Team</div>
-              <div className="text-[var(--color-muted)] text-sm">Board-certified providers specializing in Other Medical</div>
+              <div className="font-semibold text-[var(--color-ink)] mb-1">Written by the IPFINITY Team</div>
+              <div className="text-[var(--color-muted)] text-sm">An accredited Canadian telecommunications carrier, delivering cloud voice since 2002</div>
             </div>
           </div>
         </div>
@@ -293,8 +293,8 @@ export default function BlogPost() {
               </div>
               <div className="p-6">
                 <div className="text-xs uppercase tracking-wider text-[var(--color-accent)] mb-2">Technology</div>
-                <h4 className="text-xl font-light mb-2 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors" style={{fontFamily: 'Cormorant'}}>Understanding Network Latency in Healthcare Settings</h4>
-                <p className="text-[var(--color-muted)] text-sm">How connection delay impacts patient care delivery and communication quality.</p>
+                <h4 className="text-xl font-light mb-2 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors" style={{fontFamily: 'Cormorant'}}>Understanding Network Latency and Call Quality</h4>
+                <p className="text-[var(--color-muted)] text-sm">How delay and jitter change what your caller actually hears on the other end.</p>
               </div>
             </a>
 
@@ -307,8 +307,8 @@ export default function BlogPost() {
               </div>
               <div className="p-6">
                 <div className="text-xs uppercase tracking-wider text-[var(--color-accent)] mb-2">Security</div>
-                <h4 className="text-xl font-light mb-2 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors" style={{fontFamily: 'Cormorant'}}>Secure Internet Connectivity for Medical Practices</h4>
-                <p className="text-[var(--color-muted)] text-sm">Best practices for maintaining HIPAA compliance while ensuring reliable connectivity.</p>
+                <h4 className="text-xl font-light mb-2 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors" style={{fontFamily: 'Cormorant'}}>Secure Internet Connectivity for Business</h4>
+                <p className="text-[var(--color-muted)] text-sm">Protecting business traffic on connections your team does not fully control.</p>
               </div>
             </a>
 
@@ -320,9 +320,9 @@ export default function BlogPost() {
                 </svg>
               </div>
               <div className="p-6">
-                <div className="text-xs uppercase tracking-wider text-[var(--color-accent)] mb-2">Telemedicine</div>
-                <h4 className="text-xl font-light mb-2 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors" style={{fontFamily: 'Cormorant'}}>Optimizing Your Practice for Telemedicine Success</h4>
-                <p className="text-[var(--color-muted)] text-sm">Technical requirements and best practices for delivering quality virtual care.</p>
+                <div className="text-xs uppercase tracking-wider text-[var(--color-accent)] mb-2">Remote Work</div>
+                <h4 className="text-xl font-light mb-2 text-[var(--color-ink)] group-hover:text-[var(--color-primary)] transition-colors" style={{fontFamily: 'Cormorant'}}>Telecom Infrastructure for Remote-First Organizations</h4>
+                <p className="text-[var(--color-muted)] text-sm">Technical requirements for teams working away from a central office.</p>
               </div>
             </a>
 

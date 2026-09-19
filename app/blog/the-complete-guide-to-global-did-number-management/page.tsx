@@ -37,7 +37,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>By Dr. ipfinity Team</span>
+            <span>By the ipfinity Team</span>
           </div>
         </div>
       </section>
@@ -80,7 +80,7 @@ export default function BlogPost() {
               Effective DID number management delivers tangible business advantages that extend far beyond simple call routing. Organizations that implement comprehensive DID strategies consistently report improved customer engagement, reduced communication costs, and enhanced operational flexibility.
             </p>
             <p className="mb-6">
-              <strong>Local Presence, Global Reach:</strong> Customers overwhelmingly prefer calling local numbers over international ones. Studies show that local numbers receive response rates up to 400% higher than toll-free or international numbers. By maintaining local DID numbers in your target markets, you signal commitment to those regions while dramatically improving connection rates.
+              <strong>Local Presence, Global Reach:</strong> Customers prefer dialling a local number over an international one, and they are more likely to pick up when a local number calls them. An unfamiliar country code introduces hesitation and, increasingly, a suspicion of spam. By maintaining local DID numbers in your target markets, you remove that friction in both directions and signal a commitment to the region.
             </p>
             <p className="mb-6">
               <strong>Cost Optimization:</strong> Traditional international phone systems require expensive hardware, dedicated lines, and often physical office space in each location. DID numbers eliminate these capital expenses, converting fixed costs into flexible operational expenses that scale with your business needs.
@@ -155,7 +155,7 @@ export default function BlogPost() {
               <strong>Number Portability Rules:</strong> Regulations governing whether and how you can port existing numbers to new providers vary widely. Understanding these rules before committing to specific numbers can prevent costly complications during future platform migrations.
             </p>
             <p className="mb-6">
-              <strong>Emergency Services Obligations:</strong> Several countries require DID number providers to support emergency service calls (like 911 in the United States or 999 in the UK). Ensuring your provider and configuration support these requirements is both a legal obligation and a safety imperative.
+              <strong>Emergency Services Obligations:</strong> Most countries require DID number providers to support emergency calling (911 in Canada and the United States, 999 in the UK, 112 across much of Europe), and to register a service address against the number so responders are sent to the right place. Confirming that your carrier and your configuration meet these requirements is both a legal obligation and a safety one, and it matters most for staff who work away from the registered address.
             </p>
             <p>
               <strong>Data Residency and Privacy:</strong> With regulations like GDPR in Europe and similar frameworks emerging globally, understanding where call data is stored and processed becomes critical for compliance. Some jurisdictions require that telecommunications data remain within their borders.
@@ -174,7 +174,7 @@ export default function BlogPost() {
               <strong>Standardized Naming Conventions:</strong> Develop consistent naming systems that immediately communicate each number's purpose, geographic location, and assignment. This simple practice dramatically improves management efficiency as your inventory grows.
             </p>
             <p className="mb-6">
-              <strong>Regular Audits:</strong> Conduct quarterly reviews of your DID inventory to identify unused numbers, verify routing accuracy, and eliminate unnecessary costs. Many organizations discover they're paying for 20-30% more numbers than they actively use.
+              <strong>Regular Audits:</strong> Review your DID inventory every quarter to identify unused numbers, verify routing accuracy, and stop paying for capacity nobody is using. Numbers quietly outlive the campaign, the team or the office that justified them. A carrier worth keeping will raise this with you rather than wait to be asked, and will tell you when you can drop lines.
             </p>
             <p className="mb-6">
               <strong>Automation Where Possible:</strong> Leverage API integrations and automated workflows for number provisioning, routing updates, and usage reporting. Automation reduces manual errors and frees your team to focus on strategic decisions rather than administrative tasks.
@@ -193,7 +193,7 @@ export default function BlogPost() {
               The telecommunications landscape continues evolving rapidly, with emerging technologies and changing customer expectations reshaping how businesses approach communication infrastructure. Forward-thinking organizations are already preparing for these trends:
             </p>
             <p className="mb-6">
-              <strong>Omnichannel Integration:</strong> Modern customers expect seamless communication across voice, SMS, video, and messaging platforms. DID management strategies increasingly incorporate these channels, treating phone numbers as one component of comprehensive communication identities.
+              <strong>Omnichannel Integration:</strong> Customers increasingly expect to move between voice, SMS, video and messaging without having to repeat themselves. DID management strategies are absorbing those channels, treating a phone number as one component of a wider communication identity rather than a line on its own.
             </p>
             <p className="mb-6">
               <strong>AI-Enhanced Routing:</strong> Artificial intelligence is beginning to optimize call routing in real-time based on factors like caller history, agent expertise, current wait times, and predicted resolution probability. These systems learn and improve continuously, delivering better outcomes than static routing rules.
@@ -212,7 +212,7 @@ export default function BlogPost() {
               Global DID number management represents both a technical challenge and a strategic opportunity. Organizations that approach it systematically—with attention to compliance, efficiency, and customer experience—gain significant competitive advantages in their ability to serve international markets effectively.
             </p>
             <p>
-              If you're navigating the complexities of global communication infrastructure or looking to optimize your existing DID portfolio, professional guidance can help you avoid common pitfalls and implement best practices tailored to your specific needs. The ipfinity team brings extensive experience helping organizations in Rockwood and beyond build communication systems that scale efficiently while maintaining the quality and compliance your customers expect.
+              If you are working through the complexities of global communication infrastructure, or looking to tidy up a DID portfolio that has grown without a plan, it helps to talk to the carrier rather than a reseller. ipfinity has run cloud voice as an accredited Canadian carrier since 2002, with numbers and coverage across Canada and the United States and into Colombia, Mexico, parts of Europe, Australia and New Zealand. Because we own the lines, the features and the queuing end to end, the call records and routing behind your numbers are ours to explain rather than ours to ask about.
             </p>
           </div>
         </div>
@@ -229,10 +229,10 @@ export default function BlogPost() {
             </div>
             <div>
               <div className="text-[var(--color-ink)] font-semibold text-lg mb-1">
-                Written by the ipfinity Clinical Team
+                Written by the ipfinity Team
               </div>
               <div className="text-[var(--color-muted)] text-sm">
-                Board-certified providers specializing in Other Medical
+                Accredited Canadian telecommunications carrier. Cloud voice since 2002.
               </div>
             </div>
           </div>
@@ -307,10 +307,10 @@ export default function BlogPost() {
       <section className="bg-gradient-to-br from-[var(--color-dark)] to-[var(--color-primary)] py-20 text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-4xl font-light mb-4" style={{ fontFamily: 'Cormorant, serif' }}>
-            Ready to Take the Next Step?
+            Need Numbers in a New Market?
           </h2>
           <p className="text-xl text-white/90 mb-8">
-            Our team is here to help.
+            Tell us where your callers are and we will scope the DIDs, trunks and routing.
           </p>
           <a 
             href="/contact" 

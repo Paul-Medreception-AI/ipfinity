@@ -38,7 +38,7 @@ export default function BlogPost() {
             <span>•</span>
             <span>7 min read</span>
             <span>•</span>
-            <span>Dr. ipfinity Team</span>
+            <span>The ipfinity Team</span>
           </div>
         </div>
       </section>
@@ -75,11 +75,11 @@ export default function BlogPost() {
 
           {/* Section 2 */}
           <h2 className="text-3xl text-[var(--color-ink)] mt-12 mb-4" style={{fontFamily: 'var(--font-cormorant)'}}>
-            The SIP Trunking Revolution
+            How SIP Trunking Works
           </h2>
-          
+
           <p className="text-base text-[var(--color-ink)] leading-loose mb-6">
-            Session Initiation Protocol (SIP) trunking represents a paradigm shift in business communications. Instead of dedicated physical lines, SIP delivers voice services over your existing internet connection. Think of it as replacing a fleet of dedicated delivery trucks with flexible, on-demand transportation that uses your existing infrastructure.
+            Session Initiation Protocol (SIP) trunking takes a different route to the same destination. Instead of dedicated physical lines, SIP delivers voice services over your existing internet connection. Think of it as replacing a fleet of dedicated delivery trucks with flexible, on-demand transportation that uses your existing infrastructure.
           </p>
           
           <p className="text-base text-[var(--color-ink)] leading-loose mb-6">
@@ -87,7 +87,7 @@ export default function BlogPost() {
           </p>
           
           <p className="text-base text-[var(--color-ink)] leading-loose mb-6">
-            The technology enables advanced features that were impossible or prohibitively expensive with traditional systems: geographic flexibility with multiple locations sharing a single trunk, disaster recovery through automatic failover, seamless integration with unified communications platforms, and detailed analytics about call patterns and usage.
+            The technology enables features that were impossible or prohibitively expensive with traditional systems: geographic flexibility with multiple locations sharing a single trunk, disaster recovery through automatic failover, direct integration with unified communications platforms, and detailed analytics about call patterns and usage.
           </p>
 
           {/* Pull Quote */}
@@ -101,7 +101,7 @@ export default function BlogPost() {
           </h2>
           
           <p className="text-base text-[var(--color-ink)] leading-loose mb-6">
-            At first glance, the financial case for SIP trunking appears straightforward. Organizations typically see 30-50% reductions in monthly telecommunications costs by switching from PRI. A single PRI line might cost $400-600 monthly for 23 channels, while equivalent SIP capacity often runs $200-300.
+            At first glance, the financial case for SIP trunking appears straightforward. A PRI is sold as a fixed block of 23 channels and billed in full whether you use them or not. SIP trunks are sold one at a time &mdash; a trunk from ipfinity is $30 CAD &mdash; so your monthly bill reflects the number of simultaneous calls your business actually makes rather than the size of the circuit they arrived on.
           </p>
           
           <p className="text-base text-[var(--color-ink)] leading-loose mb-6">
@@ -113,7 +113,7 @@ export default function BlogPost() {
           </p>
           
           <p className="text-base text-[var(--color-ink)] leading-loose mb-6">
-            Consider also the cost of inflexibility. When PRI capacity proves insufficient during peak periods, you lose calls and customers. When you've overprovisioned, you're paying for unused capacity. SIP's elasticity means you're always appropriately resourced without overpaying.
+            Consider also the cost of inflexibility. When PRI capacity proves insufficient during peak periods, you lose calls and customers. When you&apos;ve overprovisioned, you&apos;re paying for unused capacity. SIP&apos;s elasticity means you can stay appropriately resourced without overpaying. It is worth asking a prospective carrier how often they review your channel counts with you; the useful ones will tell you when you are paying for trunks you no longer need.
           </p>
 
           {/* Section 4 */}
@@ -126,7 +126,7 @@ export default function BlogPost() {
           </p>
           
           <p className="text-base text-[var(--color-ink)] leading-loose mb-6">
-            However, modern SIP implementations have largely addressed these concerns through several technological advances. Quality of Service (QoS) protocols prioritize voice traffic on your network, ensuring clear calls even during high data usage. Redundant internet connections from multiple carriers provide failover protection that often exceeds single-provider PRI reliability. Geographic redundancy routes calls through multiple data centers, and many SIP providers guarantee 99.99% uptime.
+            However, modern SIP implementations have largely addressed these concerns through several technological advances. Quality of Service (QoS) protocols prioritize voice traffic on your network, ensuring clear calls even during high data usage. Redundant internet connections from multiple carriers provide failover protection that often exceeds single-provider PRI reliability. Geographic redundancy routes calls through multiple data centres, and most SIP providers back their availability with a written service level agreement.
           </p>
           
           <p className="text-base text-[var(--color-ink)] leading-loose mb-6">
@@ -175,7 +175,7 @@ export default function BlogPost() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
               <div>
-                <p className="text-[var(--color-ink)] leading-loose"><strong>Integration Requirements:</strong> If you're implementing or already use CRM systems, unified communications platforms, or collaboration tools, SIP's native integration capabilities provide seamless connectivity that PRI cannot match without expensive middleware.</p>
+                <p className="text-[var(--color-ink)] leading-loose"><strong>Integration Requirements:</strong> If you're implementing or already use CRM systems, unified communications platforms, or collaboration tools, SIP&apos;s native integration capabilities provide direct connectivity that PRI cannot match without expensive middleware.</p>
               </div>
             </div>
             
@@ -250,10 +250,10 @@ export default function BlogPost() {
             </div>
             <div>
               <h3 className="text-xl font-semibold text-[var(--color-ink)] mb-2" style={{fontFamily: 'var(--font-cormorant)'}}>
-                Written by the ipfinity Clinical Team
+                Written by the ipfinity Team
               </h3>
               <p className="text-[var(--color-muted)] text-sm leading-relaxed">
-                Board-certified providers specializing in Other Medical, committed to delivering evidence-based insights and compassionate care guidance.
+                Cloud voice specialists at ipfinity, an accredited Canadian telecommunications carrier serving business customers since 2002.
               </p>
             </div>
           </div>
