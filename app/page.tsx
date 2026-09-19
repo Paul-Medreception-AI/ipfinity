@@ -1,38 +1,60 @@
-import Image from 'next/image'
-
 export default function Home() {
   return (
     <main>
-      {/* Hero */}
-      <section className="relative min-h-[90vh] flex items-center text-white overflow-hidden">
-        <Image
-          src="/images/stock/hero-network.jpg"
-          alt="Network infrastructure carrying business voice traffic"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover object-center"
+      {/* Hero.
+          The background is a generated map of the markets IPfinity actually carries
+          traffic to, not stock photography: it shows something they own. The headline
+          is set in the sans rather than Cormorant — the serif is kept as the editorial
+          voice for section headings further down the page. */}
+      <section className="relative min-h-[88vh] flex items-center text-white overflow-hidden bg-[#101526]">
+        <img
+          src="/images/stock/network-map.svg"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover"
         />
-        {/* Scrim so the headline stays legible over the photograph. */}
+        {/* Scrim: darkest through the centre column where the copy sits. */}
         <div
           className="absolute inset-0"
-          style={{ background: 'linear-gradient(135deg, rgba(26,32,48,0.94) 0%, rgba(26,32,48,0.80) 45%, rgba(241,103,33,0.48) 100%)' }}
+          style={{ background: 'radial-gradient(ellipse 58% 52% at 50% 48%, rgba(13,18,32,0.82) 0%, rgba(13,18,32,0.55) 55%, rgba(13,18,32,0.10) 100%)' }}
         />
-        <div className="relative max-w-5xl mx-auto px-6 text-center py-20">
-          <h1 className="text-6xl sm:text-7xl font-light tracking-tight leading-tight" style={{fontFamily: 'var(--font-cormorant)'}}>
-            Enterprise Voice and Messaging Solutions That Scale With You
-          </h1>
-          <p className="text-xl text-white/90 max-w-2xl mx-auto mt-6 leading-relaxed">
-            An accredited carrier since 2002, IPfinity owns its cloud voice network end to end. Numbers in over 100 countries, call delivery into more than 150, and SIP trunking, messaging, fax and custom voice applications built around how your business actually works.
+        <div className="relative max-w-4xl mx-auto px-6 text-center py-24">
+          <p className="text-[11px] sm:text-xs font-semibold tracking-[0.28em] uppercase text-[var(--color-primary)] mb-7">
+            Enterprise Cloud Communications
           </p>
+
+          <h1 className="text-4xl sm:text-5xl lg:text-[3.4rem] font-semibold tracking-[-0.02em] leading-[1.12]">
+            Global Voice &amp; Messaging.
+            <span className="block mt-2 text-white/95">Built on a Network We Control.</span>
+          </h1>
+
+          <p className="text-lg sm:text-xl text-white/75 max-w-xl mx-auto mt-7 leading-relaxed">
+            Enterprise voice, SIP, messaging, numbers and custom communications, powered by
+            IPfinity&rsquo;s carrier-operated network across the globe.
+          </p>
+
           <div className="flex flex-wrap gap-4 justify-center mt-10">
-            <a href="/contact" className="bg-white text-[var(--color-dark)] px-8 py-4 rounded-xl font-bold shadow-xl hover:-translate-y-0.5 transition-all">
-              Request a Quote
+            <a
+              href="/contact"
+              className="bg-[var(--color-primary)] hover:bg-[var(--color-dark)] text-white px-8 py-4 rounded-xl font-bold shadow-xl hover:-translate-y-0.5 transition-all"
+            >
+              Talk to an Expert
             </a>
-            <a href="/services" className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all">
+            <a
+              href="/solutions"
+              className="border border-white/35 hover:border-white/70 text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all"
+            >
               Explore Solutions
             </a>
           </div>
+
+          <p className="mt-12 text-[13px] sm:text-sm text-white/55 tracking-wide">
+            Carrier since 2002
+            <span className="mx-2.5 text-white/25" aria-hidden="true">&middot;</span>
+            Numbers in 100+ countries
+            <span className="mx-2.5 text-white/25" aria-hidden="true">&middot;</span>
+            Call delivery to 150+ countries
+          </p>
         </div>
       </section>
 
@@ -73,48 +95,66 @@ export default function Home() {
       <section className="bg-[var(--color-cream)] py-20 border-b border-[var(--color-border)]">
         <div className="max-w-7xl mx-auto px-6">
           <p className="text-center text-xs font-semibold tracking-[0.2em] uppercase text-[var(--color-muted)] mb-12">
-            Trusted by business across Canada
+            Trusted by businesses worldwide
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-            {[
-              ['Bluesun-320x202.jpg', 'Bluesun'],
-              ['danby-logo-320x202.jpg', 'Danby'],
-              ['mazda-logo-large2-320x202.jpg', 'Mazda'],
-              ['mitsubishi-logo-320x202.jpg', 'Mitsubishi'],
-              ['Shipperbee-320x202.jpg', 'ShipperBee'],
-              ['MCC-320x202.jpg', 'Mobile Climate Control'],
-              ['New-Roads-Logo-320x202.jpg', 'New Roads Automotive Group'],
-              ['Service-Pro-320x202.jpg', 'Service Pro Truck Lines'],
-              ['TSI-group-320x202.jpg', 'TSI Group Inc.'],
-              ['Pinnacle-320x202.jpg', 'Pinnacle International'],
-              ['CHATS-320x202.jpg', 'CHATS Community & Home Assistance to Seniors'],
-              ['Labticians-320x202.jpg', 'Labtician Ophthalmics'],
-              ['carrotlogo-320x202.jpg', 'Carrot Eye Surgery Clinic'],
-              ['wordmark_york-320x202.jpg', 'Alzheimer Society York Region'],
-              ['Newmarket-logo-320x202.jpg', 'Newmarket Chamber of Commerce'],
-              ['INC-Fairweather-320x202.jpg', 'International Clothiers and Fairweather'],
-              ['maxresdefault-320x202.jpeg', 'Qualifirst'],
-              ['rice-logo-320x202.jpg', 'Rice Group'],
-              ['sweeny-320x202.jpg', 'Sweeny & Co Architects'],
-              ['boltsplus-320x202.jpg', 'Bolts Plus'],
-              ['global_ifs_logo-1280x243-1-320x202.jpg', 'Global IFS'],
-              ['First-Ascent-Full-Mark-01-1-320x202.jpg', 'First Ascent Ventures'],
-              ['RGB_PROFOUND_For-Website-01-01-320x202.jpg', 'Profound'],
-              ['netoptiks-320x202.jpg', 'NetOptiks'],
-              ['huge-logo-320x202.jpg', 'Huge'],
-            ].map(([file, name]) => (
-              <div
-                key={file}
-                className="bg-white rounded-xl border border-[var(--color-border)] h-24 flex items-center justify-center p-4"
-              >
+            {([
+              // [file, name, url|null]  — url is null where we could not verify the
+              // company's real site. Unverified is left unlinked on purpose rather
+              // than guessed: shipperbee.com now serves an unrelated gambling site
+              // and bluesun.ca redirects to a different company entirely.
+              ['Bluesun-320x202.jpg', 'Bluesun', null],
+              ['danby-logo-320x202.jpg', 'Danby', 'https://www.danby.com'],
+              ['mazda-logo-large2-320x202.jpg', 'Mazda', 'https://www.mazda.ca'],
+              ['mitsubishi-logo-320x202.jpg', 'Mitsubishi', 'https://www.mitsubishi-motors.ca'],
+              ['Shipperbee-320x202.jpg', 'ShipperBee', null],
+              ['MCC-320x202.jpg', 'Mobile Climate Control', 'https://www.mcc-hvac.com'],
+              ['New-Roads-Logo-320x202.jpg', 'New Roads Automotive Group', 'https://www.newroads.ca'],
+              ['Service-Pro-320x202.jpg', 'Service Pro Truck Lines', null],
+              ['TSI-group-320x202.jpg', 'TSI Group Inc.', null],
+              ['Pinnacle-320x202.jpg', 'Pinnacle International', 'https://pinnacleinternational.ca'],
+              ['CHATS-320x202.jpg', 'CHATS Community & Home Assistance to Seniors', 'https://www.chats.on.ca'],
+              ['Labticians-320x202.jpg', 'Labtician Ophthalmics', 'https://www.labtician.com'],
+              ['carrotlogo-320x202.jpg', 'Carrot Eye Surgery Clinic', null],
+              ['wordmark_york-320x202.jpg', 'Alzheimer Society York Region', null],
+              ['Newmarket-logo-320x202.jpg', 'Newmarket Chamber of Commerce', 'https://www.newmarketchamber.ca'],
+              ['INC-Fairweather-320x202.jpg', 'International Clothiers and Fairweather', 'https://www.internationalclothiers.com'],
+              ['maxresdefault-320x202.jpeg', 'Qualifirst', 'https://www.qualifirst.com'],
+              ['rice-logo-320x202.jpg', 'Rice Group', null],
+              ['sweeny-320x202.jpg', 'Sweeny & Co Architects', 'https://www.sweenyandco.com'],
+              ['boltsplus-320x202.jpg', 'Bolts Plus', 'https://www.boltsplus.ca'],
+              ['global_ifs_logo-1280x243-1-320x202.jpg', 'Global IFS', 'https://www.globalifs.com'],
+              ['First-Ascent-Full-Mark-01-1-320x202.jpg', 'First Ascent Ventures', 'https://firstascent.ventures'],
+              ['RGB_PROFOUND_For-Website-01-01-320x202.jpg', 'Profound', null],
+              ['netoptiks-320x202.jpg', 'NetOptiks', 'https://www.netoptiks.com'],
+              ['huge-logo-320x202.jpg', 'Huge', 'https://www.hugeinc.com'],
+            ] as [string, string, string | null][]).map(([file, name, url]) => {
+              const logo = (
                 <img
                   src={`/images/${file}`}
                   alt={name}
                   loading="lazy"
-                  className="max-h-14 w-auto max-w-full object-contain opacity-70 hover:opacity-100 transition-opacity"
+                  className="max-h-14 w-auto max-w-full object-contain opacity-70 group-hover:opacity-100 transition-opacity"
                 />
-              </div>
-            ))}
+              )
+              const box = 'bg-white rounded-xl border border-[var(--color-border)] h-24 flex items-center justify-center p-4 group'
+              return url ? (
+                <a
+                  key={file}
+                  href={url}
+                  target="_blank"
+                  rel="noopener"
+                  title={`Visit ${name}`}
+                  className={`${box} hover:border-[var(--color-primary)] hover:shadow-md transition-all`}
+                >
+                  {logo}
+                </a>
+              ) : (
+                <div key={file} className={box}>
+                  {logo}
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -200,10 +240,73 @@ export default function Home() {
             </div>
             <div className="lg:col-span-2">
               <img
+                src="/images/Nav-grid-web-9-image-tech-guy.jpg"
+                alt="An engineer working on network equipment"
+                loading="lazy"
+                className="rounded-2xl h-80 w-full object-cover shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Network Behind Every Connection.
+          This is where the server photography belongs: once the hero has said what
+          IPfinity sells, infrastructure imagery becomes proof rather than decoration. */}
+      <section className="relative bg-[var(--color-ink)] text-white py-28 overflow-hidden">
+        <img
+          src="/images/stock/hero-network.jpg"
+          alt="Carrier network equipment"
+          loading="lazy"
+          className="absolute inset-0 w-full h-full object-cover opacity-25"
+        />
+        <div
+          className="absolute inset-0"
+          style={{ background: 'linear-gradient(90deg, rgba(26,32,48,0.96) 0%, rgba(26,32,48,0.86) 55%, rgba(26,32,48,0.66) 100%)' }}
+        />
+        <div className="relative max-w-7xl mx-auto px-6">
+          <div className="grid lg:grid-cols-12 gap-14 items-center">
+            <div className="lg:col-span-7">
+              <p className="text-xs font-semibold tracking-[0.2em] uppercase text-[var(--color-primary)] mb-5">
+                The network behind every connection
+              </p>
+              <h2 className="text-4xl sm:text-5xl font-light leading-tight mb-7" style={{fontFamily: 'var(--font-cormorant)'}}>
+                We are the carrier, not a reseller
+              </h2>
+              <p className="text-white/75 leading-relaxed mb-5">
+                Most cloud phone providers buy their minutes from somebody else. IPfinity is an
+                accredited telecommunications carrier: the lines, the phones, the features and the
+                cloud queuing are all ours, cradle to grave.
+              </p>
+              <p className="text-white/75 leading-relaxed mb-10">
+                That is not a technicality. It means the call detail records and queue analytics are
+                ours to give you, there are fewer hands between your caller and your phone, and when
+                something needs changing we change it rather than opening a ticket with a supplier.
+              </p>
+              <div className="grid sm:grid-cols-3 gap-6">
+                <div>
+                  <p className="text-3xl text-[var(--color-primary)]" style={{fontFamily: 'var(--font-cormorant)'}}>Own</p>
+                  <p className="text-sm text-white/60 mt-1.5 leading-relaxed">the lines, handsets, features and cloud queuing</p>
+                </div>
+                <div>
+                  <p className="text-3xl text-[var(--color-primary)]" style={{fontFamily: 'var(--font-cormorant)'}}>Hold</p>
+                  <p className="text-sm text-white/60 mt-1.5 leading-relaxed">our own CDRs and queue data, end to end</p>
+                </div>
+                <div>
+                  <p className="text-3xl text-[var(--color-primary)]" style={{fontFamily: 'var(--font-cormorant)'}}>Build</p>
+                  <p className="text-sm text-white/60 mt-1.5 leading-relaxed">the QoS appliance that protects your call quality</p>
+                </div>
+              </div>
+              <a href="/technology" className="inline-block mt-10 text-[var(--color-primary)] font-semibold hover:underline">
+                See how the network works &rarr;
+              </a>
+            </div>
+            <div className="lg:col-span-5">
+              <img
                 src="/images/stock/fiber-optic.jpg"
                 alt="Fibre optic cabling patched into a carrier network switch"
                 loading="lazy"
-                className="rounded-2xl h-80 w-full object-cover shadow-lg"
+                className="rounded-2xl w-full h-96 object-cover shadow-2xl"
               />
             </div>
           </div>
@@ -266,7 +369,7 @@ export default function Home() {
             Global Cloud Telecommunications Built for Business
           </h2>
           <a href="/contact" className="inline-block bg-white text-[var(--color-dark)] font-bold px-12 py-5 rounded-2xl shadow-2xl hover:-translate-y-1 transition-all text-lg">
-            Request a Quote
+            Talk to an Expert
           </a>
         </div>
       </section>

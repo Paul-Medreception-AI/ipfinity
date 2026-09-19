@@ -98,6 +98,7 @@ const NAV: { label: string; href: string; items: { label: string; href: string; 
       { label: 'Case Studies',    href: '/case-studies', blurb: 'BouMatic, Swatch Canada and MSC' },
       { label: 'Where We Serve',  href: '/locations',    blurb: 'Business telecom across Ontario and beyond' },
       { label: 'Contact Us',      href: '/contact',      blurb: 'Talk to sales about your requirement' },
+      { label: 'Accessibility',   href: '/accessibility', blurb: 'Our feedback process and this site' },
     ],
   },
 ]
@@ -268,6 +269,8 @@ export default function RootLayout({
                   <a href="/privacy-sms" className="hover:text-[var(--color-primary)] transition-colors">Privacy Policy</a>
                   <span aria-hidden="true">|</span>
                   <a href="/terms-sms" className="hover:text-[var(--color-primary)] transition-colors">Terms of Service</a>
+                  <span aria-hidden="true">|</span>
+                  <a href="/accessibility" className="hover:text-[var(--color-primary)] transition-colors">Accessibility</a>
                 </div>
               </div>
             </div>

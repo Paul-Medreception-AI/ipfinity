@@ -46,7 +46,6 @@ const LEGACY = {
   '/covid-19': '/',
   '/sitemap': '/',
   '/test-page': '/',
-  '/accessibility': '/about',
 }
 
 const nextConfig = {

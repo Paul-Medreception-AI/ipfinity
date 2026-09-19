@@ -17,6 +17,7 @@ const CORE: [string, number, 'daily' | 'weekly' | 'monthly'][] = [
   ['/about', 0.8, 'monthly'],
   ['/contact', 0.8, 'monthly'],
   ['/faq', 0.7, 'monthly'],
+  ['/accessibility', 0.5, 'monthly'],
   ['/blog', 0.7, 'weekly'],
 ]
 
